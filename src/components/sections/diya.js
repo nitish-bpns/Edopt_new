@@ -65,15 +65,16 @@ export default function Contact() {
   };
 
   return (
-    <div
+    <div className="bodyColorstd"
       style={{
         marginTop: "100px",
-        width: "90%",
+        width: "100%",
         marginLeft: "auto",
         marginRight: "auto",
       }}
     >
       <div id="blur">
+        <br />
         <div className="stud-video">
           <video
             id="stu-video"
@@ -92,93 +93,116 @@ export default function Contact() {
           </video>
         </div>
 
-        <div id="fix-btn" onClick={openForm}>
-          Contact Now
-        </div>
-
-        <div className="brief" style={{ width: "90%", margin: "auto" }}>
-          <h3>Brief</h3>
-          <p
-            style={{
-              color: "#484444",
-              fontWeight: "500",
-            }}
-          >
-            I am Diya. I am a student of class 11th. I want to pursue
-            Non-medical. I love dancing. I am very bright in studies and very
-            much interested in studies. My father runs a small business.
-          </p>
-          <p
-            style={{
-              color: "#484444",
-              fontWeight: "500",
-            }}
-          >
-            COVID-19 makes our life miserable as one of our family member got
-            infected to COVID and later to black fungus. Our family suffered
-            alot in this phase. This phase makes us financially weak that we
-            can't able to pay our educational expenses. This is tough time for
-            us, so i request you to please support us financially in this phase.
-            I want to do engineering and achieve my goals. I will be grateful to
-            the one who supports me incessantly.
-          </p>
-        </div>
-        <div className="detail" style={{ width: "90%", margin: "auto" }}>
-          <h3>Details</h3>
-          <p
-            style={{
-              color: "#484444",
-              fontWeight: "500",
-            }}
-          >
-            <ul>
-              <li>Name: Diya Gosain</li>
-              <li>Location: Sonipat</li>
-
-              <li>Age: 15</li>
-              <li>School: Holy Child Senior Secondary School</li>
-            </ul>
-          </p>
-        </div>
-        <div className="achievement" style={{ width: "90%", margin: "auto" }}>
-          <h3>Achievements</h3>
-          <p
-            style={{
-              color: "#484444",
-              fontWeight: "500",
-            }}
-          >
-            <ul>
-              <li>93% in informatic Tech</li>
-            </ul>
-          </p>
-        </div>
-        <div className="certificate" style={{ width: "90%", margin: "auto" }}>
-          <h3>Certificates</h3>
-          <img
-            src={require("./../../assets/images/diya-mark.jpg")}
-            alt=""
-            onClick={openImage}
-            className="prsnl-photo"
-          />
-        </div>
-
-        <div className="amount" style={{ width: "90%", margin: "auto" }}>
-          <h3>Amount</h3>
-
-          <p
-            style={{
-              color: "#484444",
-              fontWeight: "500",
-            }}
-          >
-            ₹90,000/Year
-          </p>
-        </div>
         <br />
         <br />
-      </div>
-      <div>
+
+        <div className="stdtcard" style={{
+          // backgroundColor: "white",
+          backgroundImage: "./../../assets/images/profilebg.jpg",
+          width: "80%",
+          paddingLeft: "15px",
+          paddingRight: "15px",
+          borderRadius: "20px",
+          margin: "auto",
+          paddingTop: "5px",
+          paddingLeft: "25px",
+          paddingRight: "25px",
+          zIndex: "3",
+          boxShadow: "0px 0px 20px"
+        }} >
+
+          <div className="brief" style={{ width: "100%", margin: "auto" }}>
+            <h3>Brief</h3>
+            <p
+              style={{
+                color: "#484444",
+                fontWeight: "500",
+              }}
+            >
+              I am Diya. I am a student of class 11th. I want to pursue
+              Non-medical. I love dancing. I am very bright in studies and very
+              much interested in studies. My father runs a small business.
+            </p>
+            <p
+              style={{
+                color: "#484444",
+                fontWeight: "500",
+              }}
+            >
+              COVID-19 makes our life miserable as one of our family member got
+              infected to COVID and later to black fungus. Our family suffered
+              alot in this phase. This phase makes us financially weak that we
+              can't able to pay our educational expenses. This is tough time for
+              us, so i request you to please support us financially in this phase.
+              I want to do engineering and achieve my goals. I will be grateful to
+              the one who supports me incessantly.
+            </p>
+          </div>
+          <div className="detail" style={{ width: "100%", margin: "auto" }}>
+            <h3>Details</h3>
+            <p
+              style={{
+                color: "#484444",
+                fontWeight: "500",
+              }}
+            >
+              <ul>
+                <li>Name: Diya Gosain</li>
+                <li>Location: Sonipat</li>
+
+                <li>Age: 15</li>
+                <li>School: Holy Child Senior Secondary School</li>
+              </ul>
+            </p>
+          </div>
+          <div className="achievement" style={{ width: "100%", margin: "auto" }}>
+            <h3>Achievements</h3>
+            <p
+              style={{
+                color: "#484444",
+                fontWeight: "500",
+              }}
+            >
+              <ul>
+                <li>93% in informatic Tech</li>
+              </ul>
+            </p>
+
+          </div>
+          <div className="certificate" style={{ width: "100%", margin: "auto" }}>
+            <h3>Certificates</h3>
+            <img
+              src={require("./../../assets/images/diya-mark.jpg")}
+              alt=""
+              onClick={openImage}
+              className="prsnl-photo"
+            />
+          </div>
+
+          <div className="amount" style={{ width: "100%", margin: "auto" }}>
+            <h3>Amount</h3>
+
+            <p
+              style={{
+                color: "#484444",
+                fontWeight: "500",
+              }}
+            >
+              ₹90,000/Year
+            </p>
+
+          </div>
+          <br />
+          <br />
+
+
+          <br />
+        </div>
+        <div>
+          <div id="fix-btn" onClick={openForm}>
+            Contact Now
+          </div>
+        </div>
         {/* image popup */}
         <div id="img-popup">
           <img

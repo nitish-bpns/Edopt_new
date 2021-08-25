@@ -65,20 +65,21 @@ export default function Contact() {
   };
 
   return (
-    <div
+    <div className="bodyColorstd"
       style={{
         marginTop: "100px",
-        width: "90%",
+        width: "100%",
         marginLeft: "auto",
         marginRight: "auto",
       }}
     >
       <div id="blur">
+        <br />
         <div className="stud-video">
           <video
             id="stu-video"
             style={{ margin: "auto" }}
-            poster={require("./../../assets/images/jatin-img.jpg")}
+            poster={require("./../../assets/images/jatin-pos.png")}
             width="45%"
             autoPlay
             controls
@@ -91,97 +92,111 @@ export default function Contact() {
             Your browser does not support the video tag.
           </video>
         </div>
+        <br />
+        <br />
+        <div className="stdtcard" style={{
+          backgroundColor: "white",
+          width: "80%",
+          paddingLeft: "15px",
+          paddingRight: "15px",
+          borderRadius: "20px",
+          margin: "auto",
+          paddingTop: "5px",
+          paddingLeft: "25px",
+          paddingRight: "25px",
 
+          boxShadow: "0px 0px 20px"
+        }} >
+          <div className="brief" style={{ width: "100%", margin: "auto" }}>
+            <h3>Brief</h3>
+            <p
+              style={{
+                color: "#484444",
+                fontWeight: "500",
+              }}
+            >
+              I am Jatin. I am a student of class 9th. I want to pursue
+              Non-medical. I love dancing. I am very bright in studies and very
+              much interested in studies. My mother is a single parent.
+            </p>
+            <p
+              style={{
+                color: "#484444",
+                fontWeight: "500",
+              }}
+            >
+              I hereby bring to your notice that there is a legal dispute going on
+              in between my parents which affects my studies emotionally as well
+              as financially. My mother take care of me and my sister. This is a
+              tough time for us, as my mother work due to her health issues.
+              Financial condition of my family is not good as there is no source
+              of income because of this it is difficult for me to complete my
+              education and achieve my goals. I have no resources for my studies.
+              I need guidance and financial support to complete my studies. I
+              assure you to work very hard for my goals. I am grateful to one who
+              help me to reach my goals.
+            </p>
+          </div>
+          <div className="detail" style={{ width: "100%", margin: "auto" }}>
+            <h3>Details</h3>
+            <p
+              style={{
+                color: "#484444",
+                fontWeight: "500",
+              }}
+            >
+              <ul>
+                <li>Name: Jatin Arora</li>
+                <li>Location: Karnal</li>
+                <li>Age: 15</li>
+                <li>School: Gyan Ganga Montessori & Model School</li>
+              </ul>
+            </p>
+          </div>
+          <div className="achievement" style={{ width: "100%", margin: "auto" }}>
+            <h3>Achievements</h3>
+            <p
+              style={{
+                color: "#484444",
+                fontWeight: "500",
+              }}
+            >
+              <ul>
+                <li> 96% in 8th class</li>
+                <li>Class Topper</li>
+              </ul>
+            </p>
+          </div>
+          <div className="certificate" style={{ width: "100%", margin: "auto" }}>
+            <h3>Certificates</h3>
+            <img
+              src={require("./../../assets/images/jatin-mark.jpg")}
+              alt=""
+              onClick={openImage}
+              className="prsnl-photo"
+            />
+          </div>
+
+          <div className="amount" style={{ width: "100%", margin: "auto" }}>
+            <h3>Amount</h3>
+
+            <p
+              style={{
+                color: "#484444",
+                fontWeight: "500",
+              }}
+            >
+              ₹90,000/Year
+            </p>
+          </div>
+          <br />
+          <br />
+
+          <br />
+        </div>
         <div id="fix-btn" onClick={openForm}>
           Contact Now
         </div>
-
-        <div className="brief" style={{ width: "90%", margin: "auto" }}>
-          <h3>Brief</h3>
-          <p
-            style={{
-              color: "#484444",
-              fontWeight: "500",
-            }}
-          >
-            I am Jatin. I am a student of class 9th. I want to pursue
-            Non-medical. I love dancing. I am very bright in studies and very
-            much interested in studies. My mother is a single parent.
-          </p>
-          <p
-            style={{
-              color: "#484444",
-              fontWeight: "500",
-            }}
-          >
-            I hereby bring to your notice that there is a legal dispute going on
-            in between my parents which affects my studies emotionally as well
-            as financially. My mother take care of me and my sister. This is a
-            tough time for us, as my mother work due to her health issues.
-            Financial condition of my family is not good as there is no source
-            of income because of this it is difficult for me to complete my
-            education and achieve my goals. I have no resources for my studies.
-            I need guidance and financial support to complete my studies. I
-            assure you to work very hard for my goals. I am grateful to one who
-            help me to reach my goals.
-          </p>
-        </div>
-        <div className="detail" style={{ width: "90%", margin: "auto" }}>
-          <h3>Details</h3>
-          <p
-            style={{
-              color: "#484444",
-              fontWeight: "500",
-            }}
-          >
-            <ul>
-              <li>Name: Jatin Arora</li>
-              <li>Location: Karnal</li>
-              <li>Age: 15</li>
-              <li>School: Gyan Ganga Montessori & Model School</li>
-            </ul>
-          </p>
-        </div>
-        <div className="achievement" style={{ width: "90%", margin: "auto" }}>
-          <h3>Achievements</h3>
-          <p
-            style={{
-              color: "#484444",
-              fontWeight: "500",
-            }}
-          >
-            <ul>
-              <li> 96% in 8th class</li>
-              <li>Class Topper</li>
-            </ul>
-          </p>
-        </div>
-        <div className="certificate" style={{ width: "90%", margin: "auto" }}>
-          <h3>Certificates</h3>
-          <img
-            src={require("./../../assets/images/jatin-mark.jpg")}
-            alt=""
-            onClick={openImage}
-            className="prsnl-photo"
-          />
-        </div>
-
-        <div className="amount" style={{ width: "90%", margin: "auto" }}>
-          <h3>Amount</h3>
-
-          <p
-            style={{
-              color: "#484444",
-              fontWeight: "500",
-            }}
-          >
-            ₹90,000/Year
-          </p>
-        </div>
-        <br />
-        <br />
-      </div>
-      <div>
         {/* image popup */}
         <div id="img-popup">
           <img
