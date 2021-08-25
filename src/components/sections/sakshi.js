@@ -65,10 +65,10 @@ export default function Contact() {
   };
 
   return (
-    <div className="bodyColorstd"
+    <div
       style={{
         marginTop: "100px",
-        width: "100%",
+        width: "90%",
         marginLeft: "auto",
         marginRight: "auto",
       }}
@@ -78,7 +78,7 @@ export default function Contact() {
           <video
             id="stu-video"
             style={{ margin: "auto" }}
-            poster={require("./../../assets/images/sakshi-img.png")}
+            poster={require("./../../assets/images/sakshi-img.jpg")}
             width="45%"
             autoPlay
             controls
@@ -91,114 +91,95 @@ export default function Contact() {
             Your browser does not support the video tag.
           </video>
         </div>
-        <br />
-        <br />
 
-        <div className="stdtcard" style={{
-          backgroundColor: "white",
-          width: "80%",
-          paddingLeft: "15px",
-          paddingRight: "15px",
-          borderRadius: "20px",
-          margin: "auto",
-          paddingTop: "5px",
-          paddingLeft: "25px",
-          paddingRight: "25px",
-          boxShadow: "0px 0px 20px"
-        }} >
-
-          <div className="brief" style={{ width: "100%", margin: "auto" }}>
-            <h3>Brief</h3>
-            <p
-              style={{
-                color: "#484444",
-                fontWeight: "500",
-              }}
-            >
-              I am Sakshi. I am a student of class 1st. I want to become a
-              teacher. l love dancing but my father lost his work due to COVID and
-              I have to hold my studies. Now he is working as a salesman in the
-              Sadar market of Delhi and earns only INR 7000.
-            </p>
-            <p
-              style={{
-                color: "#484444",
-                fontWeight: "500",
-              }}
-            >
-              I hereby bring your notice that from the previous job of my father,
-              he earns decent amount but due this COVID he lost his job and have
-              to work at a diminutive amount to make ends meet. Unfortunately,
-              this costs my education. I want to become a teacher in future and
-              prove myself and This not possible without the proper guidance and
-              financial assistance. I am very sure about my efforts to achieve my
-              dream and I will be very thankful to the one who help me in my tough
-              times to continue my studies and achieve my goal.
-            </p>
-          </div>
-          <div className="detail" style={{ width: "100%", margin: "auto" }}>
-            <h3>Details</h3>
-            <p
-              style={{
-                color: "#484444",
-                fontWeight: "500",
-              }}
-            >
-              <ul>
-                <li>Name: Sakshi Sharma</li>
-                <li>Location: Delhi</li>
-
-                <li>Age: 6</li>
-                <li>School: Vidyadeep Public School</li>
-              </ul>
-            </p>
-          </div>
-          <div className="achievement" style={{ width: "100%", margin: "auto" }}>
-            <h3>Achievements</h3>
-            <p
-              style={{
-                color: "#484444",
-                fontWeight: "500",
-              }}
-            >
-              <ul>
-                <li>98.6% in first class</li>
-                <li>Class Topper</li>
-              </ul>
-            </p>
-          </div>
-          <div className="certificate" style={{ width: "100%", margin: "auto" }}>
-            <h3>Certificates</h3>
-            <img
-              src={require("./../../assets/images/sakshi-mark.jpg")}
-              alt=""
-              onClick={openImage}
-              className="prsnl-photo"
-            />
-          </div>
-
-          <div className="amount" style={{ width: "100%", margin: "auto" }}>
-            <h3>Amount</h3>
-
-            <p
-              style={{
-                color: "#484444",
-                fontWeight: "500",
-              }}
-            >
-              ₹50,000/Year
-            </p>
-
-
-          </div>
-
-          <br />
-          <br />
-
-        </div>
         <div id="fix-btn" onClick={openForm}>
           Contact Now
         </div>
+
+        <div className="brief" style={{ width: "90%", margin: "auto" }}>
+          <h3>Brief</h3>
+          <p
+            style={{
+              color: "#484444",
+              fontWeight: "500",
+            }}
+          >
+            I am Sakshi. I am a student of class 1st. I want to become a
+            teacher. l love dancing but my father lost his work due to COVID and
+            I have to hold my studies. Now he is working as a salesman in the
+            Sadar market of Delhi and earns only INR 7000.
+          </p>
+          <p
+            style={{
+              color: "#484444",
+              fontWeight: "500",
+            }}
+          >
+            I hereby bring your notice that from the previous job of my father,
+            he earns decent amount but due this COVID he lost his job and have
+            to work at a diminutive amount to make ends meet. Unfortunately,
+            this costs my education. I want to become a teacher in future and
+            prove myself and This not possible without the proper guidance and
+            financial assistance. I am very sure about my efforts to achieve my
+            dream and I will be very thankful to the one who help me in my tough
+            times to continue my studies and achieve my goal.
+          </p>
+        </div>
+        <div className="detail" style={{ width: "90%", margin: "auto" }}>
+          <h3>Details</h3>
+          <p
+            style={{
+              color: "#484444",
+              fontWeight: "500",
+            }}
+          >
+            <ul>
+              <li>Name: Sakshi Sharma</li>
+              <li>Location: Delhi</li>
+
+              <li>Age: 6</li>
+              <li>School: Vidyadeep Public School</li>
+            </ul>
+          </p>
+        </div>
+        <div className="achievement" style={{ width: "90%", margin: "auto" }}>
+          <h3>Achievements</h3>
+          <p
+            style={{
+              color: "#484444",
+              fontWeight: "500",
+            }}
+          >
+            <ul>
+              <li>98.6% in first class</li>
+              <li>Class Topper</li>
+            </ul>
+          </p>
+        </div>
+        <div className="certificate" style={{ width: "90%", margin: "auto" }}>
+          <h3>Certificates</h3>
+          <img
+            src={require("./../../assets/images/sakshi-mark.jpg")}
+            alt=""
+            onClick={openImage}
+            className="prsnl-photo"
+          />
+        </div>
+
+        <div className="amount" style={{ width: "90%", margin: "auto" }}>
+          <h3>Amount</h3>
+
+          <p
+            style={{
+              color: "#484444",
+              fontWeight: "500",
+            }}
+          >
+            ₹50,000/Year
+          </p>
+        </div>
+        <br />
+        <br />
       </div>
       <div>
         {/* image popup */}
@@ -276,12 +257,9 @@ export default function Contact() {
               <div>{message}</div>
             </form>
           </div>
-
-
         </div>
         {/* form */}
-
       </div>
-    </div >
+    </div>
   );
 }

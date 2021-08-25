@@ -8,16 +8,6 @@
   box-shadow: inset 0px 10px 10px -10px #617264;
   margin-top: 45px;
 }
-.bodyColorstd {
-  background: linear-gradient(
-      180deg,
-      rgba(0, 151, 19, 0.1) 100%,
-      rgba(0, 151, 19, 0) 0%
-    ),
-    #ffffff;
-  box-shadow: inset 0px 10px 10px -10px #617264;
-  margin-top: -35px;
-}
 
 /* .form-sub {
   position: relative;
@@ -55,16 +45,6 @@
   background-color: white;
   height: 450px;
   width: 540px;
-}
-
-.stdtcard{
-  background-color: #fff;
-  background-image: url("profilebg.jpg");
-  background-repeat: no-repeat;
-  background-position-y: bottom;
-  background-position-x: right;
-  padding: "15px"
-  
 }
 
 .prsnl-photo-popup {
@@ -404,12 +384,11 @@
 .stud-video {
   height: 300px;
   width: 100%;
-  padding-top: 15px;
 }
 
 #fix-btn {
   height: 50px;
-  position:fixed;
+  position: fixed;
   bottom: 5px;
   right: 0;
   width: 100%;
@@ -648,12 +627,7 @@ p {
     padding-left: 75px;
     padding-right: 75px;
   }
-  .stdtcard{
-    
-    background-image: none!important;
-    background-color: #fff !important;
-    
-  }
+
   /* Clearfix (clear floats) */
   .rowIcon::after {
     content: "";
@@ -711,20 +685,14 @@ p {
 
 @media screen and (max-width: 464px) {
   #fix-btn {
-    position: static;
+    position: fixed;
     bottom: 0px;
     right: 0;
     width: 100%;
-    background-color: #4caf50;
+    background-color: #cae8ca;
     border: 2px solid #4caf50;
     text-align: center;
   }
-
-.stdtcard{
- 
-  background-image: none !important;
-  
-}
 
   .whatwedo-video {
     margin: auto;
