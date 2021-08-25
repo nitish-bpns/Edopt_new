@@ -92,7 +92,7 @@ export default function myfeeds() {
             <br />
             <p className="stud-brief">
               I am Sakshi. I am a student of class 1st. I want to become a
-              teacher. l love dancing but my father lost his work due to COVID
+              teacher. My father lost his work due to COVID
               and I have to hold my studies. Now he is working as a salesman in
               the Sadar market of Delhi and earns only INR 7000.
             </p>

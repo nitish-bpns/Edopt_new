@@ -76,7 +76,7 @@
   margin-bottom: 10px;
   margin-top: -436px;
   background-color: #6cbf6c69;
-  width: 25%;
+  width: 25.2%;
   height: 431px;
 }
 
@@ -732,6 +732,8 @@ p {
   display: inline-block;
 }
 
+
+
 @media screen and (max-width: 768px) {
   .columnIcon {
     float: left;
@@ -824,6 +826,30 @@ p {
   background-image: none !important;
   
 }
+
+
+.mycard2:hover .sd {
+  display: block;
+  position: absolute;
+  padding: 10px 25px;
+  margin-bottom: 10px;
+  margin-top: -436px;
+  background-color: #6cbf6c69;
+  width: 67.5%;
+  height: 431px;
+}
+
+.mycard2:hover .stud-name,
+  .stud-age,
+  .stud-location,
+  .stud-goal,
+  .stud-brief {
+    margin-bottom: -5px;
+    color: #313131;
+    font-weight: 500;
+    margin-top: 0px;
+  }
+
 
   .whatwedo-video {
     margin: auto;
@@ -994,6 +1020,9 @@ p {
   margin-bottom: 8px;
   background-color: #ccc;
 }
+
+
+
 
 .cardGradient {
   background: rgb(89, 171, 99);
