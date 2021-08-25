@@ -103,13 +103,13 @@ export default function Contact() {
           paddingLeft: "15px",
           paddingRight: "15px",
           borderRadius: "20px",
-          margin: "auto",
+
           paddingTop: "5px",
           paddingLeft: "25px",
           paddingRight: "25px",
           zIndex: "3",
           boxShadow: "0px 0px 20px",
-          marginTop: "10%",
+
         }} >
 
           <div className="brief" style={{ width: "100%", margin: "auto" }}>
