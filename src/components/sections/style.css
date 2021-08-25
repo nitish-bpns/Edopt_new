@@ -19,6 +19,93 @@
   margin-top: -35px;
 }
 
+
+
+
+
+/* testing new feeds */
+
+.my-card2 {
+  padding: 10px 15px;
+  width: 25%;
+  margin: 10px 48px;
+}
+
+.card-name {
+  background-color: white;
+  position: relative;
+  width: fit-content;
+  padding: 0 7px;
+  border-radius: 10px 10px 0 0px;
+  margin-left: 10px;
+}
+
+.card-name2 {
+  margin-top: -31px;
+  margin-bottom: 4px;
+}
+
+.mycard2:hover .ph2 {
+  opacity: 0.1;
+}
+
+.mycard2:hover .card-name {
+  display: none;
+}
+
+.st2 {
+  margin-bottom: 2px;
+  height: 90%;
+}
+
+.sd {
+  display: none;
+  position: absolute;
+  padding: 20px 11px;
+  margin-bottom: 10px;
+  margin-top: -436px;
+  background-color: #6cbf6c69;
+  width: 25%;
+  height: 431px;
+}
+
+.mycard2:hover .sd {
+  display: block;
+  position: absolute;
+  padding: 10px 25px;
+  margin-bottom: 10px;
+  margin-top: -436px;
+  background-color: #6cbf6c69;
+  width: 25%;
+  height: 431px;
+}
+
+.mycard2:hover .edoptbtn {
+  background-color: #75c343bd;
+  border-radius: 0px 0px 17px 17px;
+  padding: 6px 139px;
+  color: white;
+  font-weight: 500;
+  width: 25%;
+}
+
+.mycard2:hover .stud-name,
+.stud-age,
+.stud-location,
+.stud-goal,
+.stud-brief {
+  margin-bottom: 3px;
+  color: #313131;
+  font-weight: 500;
+  margin-top: 0px;
+}
+
+.stud-brief {
+  font-size: small;
+}
+
+
+
 /* .form-sub {
   position: relative;
   text-align: center;
@@ -63,7 +150,10 @@
   background-repeat: no-repeat;
   background-position-y: bottom;
   background-position-x: right;
-  padding: "15px"
+  padding: 15px;
+  margin-top: 1%;
+  margin-left: 10%;
+
   
 }
 
@@ -400,6 +490,8 @@
 
 #stu-video {
   height: 300px;
+  width: auto;
+  border-radius: 20px;
 }
 .stud-video {
   height: 300px;
@@ -652,7 +744,8 @@ p {
     
     background-image: none!important;
     background-color: #fff !important;
-    
+    margin-top: 10%;  
+    margin-left: 10%;
   }
   /* Clearfix (clear floats) */
   .rowIcon::after {
@@ -677,6 +770,12 @@ p {
     margin: 0%;
 
     border-radius: 15px;
+  }
+
+  .stud-video {
+    height: 300px;
+    width: auto;
+    padding-top: 15px;
   }
 
   .column {
@@ -812,7 +911,9 @@ p {
     margin: 5px 12px;
   }
   #stu-video {
-    height: 125px;
+    height: 195px;
+    border-radius: 20px;
+    width: auto;
   }
   .stud-video {
     height: 135px;

@@ -71,20 +71,31 @@ export default function myfeeds() {
       <hr />
       <br />
       <div className="feed-content">
-        <div className="myCard">
-          <div className="student-img">
+        <div className="myCard mycard2">
+          <div className="student-img st2" style={{ height: "90%" }}>
             <img
               src={require("./../../assets/images/sakshi-img.jpg")}
               alt=""
-              className="photo"
+              style={{ height: "100%", width: "100%" }}
+              className="photo ph2"
             /* style={{ height: "140px" }} */
             />
           </div>
-          <div className="student-details">
+          <div className="card-name">
+            <p className="card-name2">Sakshi</p>
+          </div>
+          <div className="student-details sd">
             <p className="stud-name">Sakshi</p>
             <p className="stud-age">Age: 6</p>
             <p className="stud-location">Delhi</p>
-            <p className="stud-goal">Delhi Vidyadeep<br /> Public School </p>
+            <p className="stud-goal">Vidyadeep Public School </p>
+            <br />
+            <p className="stud-brief">
+              I am Sakshi. I am a student of class 1st. I want to become a
+              teacher. l love dancing but my father lost his work due to COVID
+              and I have to hold my studies. Now he is working as a salesman in
+              the Sadar market of Delhi and earns only INR 7000.
+            </p>
           </div>
           <center>
             <a
@@ -92,26 +103,41 @@ export default function myfeeds() {
               color="primary" */
               href="/sakshi"
               className="edoptbtn"
-              style={{ backgroundColor: "#4b5c6b", borderRadius: "5px" }}
+              style={{
+                backgroundColor: "white",
+                borderRadius: "0 0 10px 10px",
+                color: "black",
+                padding: "6px 108px",
+              }}
             >
               eDOPT
             </a>
           </center>
         </div>
-        <div className="myCard">
-          <div className="student-img">
+        <div className="myCard mycard2">
+          <div className="student-img st2" style={{ height: "90%" }}>
             <img
               src={require("./../../assets/images/jatin-img.jpg")}
               alt=""
-              className="photo"
+              style={{ height: "100%", width: "100%" }}
+              className="photo ph2"
             /* style={{ height: "140px" }} */
             />
           </div>
-          <div className="student-details">
-            <p className="stud-name">Jatin</p>
+          <div className="card-name">
+            <p className="card-name2">Jatin</p>
+          </div>
+          <div className="student-details sd">
+            <p className="stud-name">Jatin Arora</p>
             <p className="stud-age">Age: 15</p>
             <p className="stud-location">Karnal</p>
-            <p className="stud-goal">Gyan Ganga<br /> Montessori School</p>
+            <p className="stud-goal">Gyan Ganga Montessori & Model School</p>
+            <br />
+            <p className="stud-brief">
+              I am Jatin. I am a student of class 9th. I want to pursue
+              Non-medical. I love dancing. I am very bright in studies and very
+              much interested in studies. My mother is a single parent.
+            </p>
           </div>
           <center>
             <a
@@ -119,42 +145,58 @@ export default function myfeeds() {
               color="primary" */
               href="/jatin"
               className="edoptbtn"
-              style={{ backgroundColor: "#4b5c6b", borderRadius: "5px" }}
+              style={{
+                backgroundColor: "white",
+                borderRadius: "0 0 10px 10px",
+                color: "black",
+                padding: "6px 108px",
+              }}
             >
               eDOPT
             </a>
           </center>
         </div>
-        <div className="myCard">
-          <div className="student-img">
+        <div className="myCard mycard2">
+          <div className="student-img st2" style={{ height: "90%" }}>
             <img
               src={require("./../../assets/images/diya-img.jpg")}
               alt=""
-              className="photo"
+              style={{ height: "100%", width: "100%" }}
+              className="photo ph2"
             /* style={{ height: "140px" }} */
             />
           </div>
-          <div className="student-details">
-            <p className="stud-name">Diya</p>
+          <div className="card-name">
+            <p className="card-name2">Diya</p>
+          </div>
+          <div className="student-details sd">
+            <p className="stud-name">Diya Gosain</p>
             <p className="stud-age">Age: 15</p>
             <p className="stud-location">Sonipat</p>
-            <p className="stud-goal">Holy Child Senior <br />Secondary School</p>
+            <p className="stud-goal">Holy Child Senior Secondary School</p>
+            <br />
+            <p className="stud-brief">
+              I am Diya. I am a student of class 11th. I want to pursue
+              Non-medical. I love dancing. I am very bright in studies and very
+              much interested in studies. My father runs a small business.
+            </p>
           </div>
-          <div>
-            <center>
-
-
-              <a
-                /* tag="a"
+          <center>
+            <a
+              /* tag="a"
               color="primary" */
-                href="/diya"
-                className="edoptbtn"
-                style={{ backgroundColor: "#4b5c6b", borderRadius: "5px" }}
-              >
-                eDOPT
-              </a>
-            </center>
-          </div>
+              href="/diya"
+              className="edoptbtn"
+              style={{
+                backgroundColor: "white",
+                borderRadius: "0 0 10px 10px",
+                color: "black",
+                padding: "6px 108px",
+              }}
+            >
+              eDOPT
+            </a>
+          </center>
         </div>
       </div>
       <br />
