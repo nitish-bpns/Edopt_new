@@ -74,7 +74,6 @@ export default function Contact() {
       }}
     >
       <div id="blur">
-        <br />
         <div className="stud-video">
           <video
             id="stu-video"
@@ -92,13 +91,11 @@ export default function Contact() {
             Your browser does not support the video tag.
           </video>
         </div>
-
         <br />
         <br />
 
         <div className="stdtcard" style={{
-          // backgroundColor: "white",
-          backgroundImage: "./../../assets/images/profilebg.jpg",
+          backgroundColor: "white",
           width: "80%",
           paddingLeft: "15px",
           paddingRight: "15px",
@@ -107,7 +104,6 @@ export default function Contact() {
           paddingTop: "5px",
           paddingLeft: "25px",
           paddingRight: "25px",
-          zIndex: "3",
           boxShadow: "0px 0px 20px",
 
         }} >
@@ -168,7 +164,6 @@ export default function Contact() {
                 <li>93% in informatic Tech</li>
               </ul>
             </p>
-
           </div>
           <div className="certificate" style={{ width: "100%", margin: "auto" }}>
             <h3>Certificates</h3>
@@ -189,21 +184,21 @@ export default function Contact() {
                 fontWeight: "500",
               }}
             >
-              ₹90,000/Year
+              ₹50,000/Year
             </p>
 
+
           </div>
+
           <br />
           <br />
 
-
-          <br />
         </div>
-        <div>
-          <div id="fix-btn" onClick={openForm}>
-            Contact Now
-          </div>
+        <div id="fix-btn" onClick={openForm}>
+          Contact Now
         </div>
+      </div>
+      <div>
         {/* image popup */}
         <div id="img-popup">
           <img
@@ -279,9 +274,12 @@ export default function Contact() {
               <div>{message}</div>
             </form>
           </div>
+
+
         </div>
         {/* form */}
+
       </div>
-    </div>
+    </div >
   );
 }

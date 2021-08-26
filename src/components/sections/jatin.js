@@ -74,7 +74,6 @@ export default function Contact() {
       }}
     >
       <div id="blur">
-        <br />
         <div className="stud-video">
           <video
             id="stu-video"
@@ -94,6 +93,7 @@ export default function Contact() {
         </div>
         <br />
         <br />
+
         <div className="stdtcard" style={{
           backgroundColor: "white",
           width: "80%",
@@ -104,10 +104,10 @@ export default function Contact() {
           paddingTop: "5px",
           paddingLeft: "25px",
           paddingRight: "25px",
-
           boxShadow: "0px 0px 20px",
 
         }} >
+
           <div className="brief" style={{ width: "100%", margin: "auto" }}>
             <h3>Brief</h3>
             <p
@@ -189,15 +189,19 @@ export default function Contact() {
             >
               ₹90,000/Year
             </p>
+
+
           </div>
+
           <br />
           <br />
 
-          <br />
         </div>
         <div id="fix-btn" onClick={openForm}>
           Contact Now
         </div>
+      </div>
+      <div>
         {/* image popup */}
         <div id="img-popup">
           <img
@@ -273,9 +277,12 @@ export default function Contact() {
               <div>{message}</div>
             </form>
           </div>
+
+
         </div>
         {/* form */}
+
       </div>
-    </div>
+    </div >
   );
 }

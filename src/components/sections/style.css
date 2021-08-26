@@ -828,6 +828,15 @@ p {
 }
 
 
+.prsnl-photo-popup {
+  display: none;
+  position: fixed;
+  width: 65%;
+  margin: 10% 20% 20% 20%;
+ 
+}
+
+
 .mycard2:hover .sd {
   display: block;
   position: absolute;
