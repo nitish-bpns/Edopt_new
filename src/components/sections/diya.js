@@ -77,7 +77,7 @@ export default function Contact() {
 
         <center>
           <div className="iframeContainer">
-            <iframe style={{ marginTop: "3%", borderRadius: "20px", marginBottom: "-3%" }} width="560" height="315" src="https://www.youtube.com/embed/sw7AfIjJ0lU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe style={{ marginTop: "3%", borderRadius: "20px", marginBottom: "-3%" }} width="560" height="315" src="https://www.youtube.com/embed/sw7AfIjJ0lU?playlist=sw7AfIjJ0lU&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </center>
 
@@ -124,9 +124,7 @@ export default function Contact() {
                 fontWeight: "500",
               }}
             >
-              I am Diya. I am a student of class 11th. I want to pursue
-              Non-medical. I love dancing. I am very bright in studies and very
-              much interested in studies. My father runs a small business.
+              I am Diya Gosain. I am a student of class 11th. My father runs a small business. COVID-19 makes our life miserable as one of our family members got infected to COVID and later to black fungus.
             </p>
             <p
               style={{
@@ -134,13 +132,7 @@ export default function Contact() {
                 fontWeight: "500",
               }}
             >
-              COVID-19 makes our life miserable as one of our family member got
-              infected to COVID and later to black fungus. Our family suffered
-              alot in this phase. This phase makes us financially weak that we
-              can't able to pay our educational expenses. This is tough time for
-              us, so i request you to please support us financially in this phase.
-              I want to do engineering and achieve my goals. I will be grateful to
-              the one who supports me incessantly.
+              Our family suffered a lot in this phase. This phase makes us financially weak and we aren't able to pay our educational expenses. This is a tough time for us, so I request you to please support us financially in this phase. I want to do engineering and achieve my goals. I will be grateful to the one who supports me incessantly. Kindly sponsor me.
             </p>
           </div>
           <div className="detail" style={{ width: "100%", margin: "auto" }}>

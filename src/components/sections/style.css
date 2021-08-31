@@ -846,7 +846,7 @@ p {
 .iframeContainer{
   position: relative;
   width: 95%;
-  padding-bottom: 56.25%; 
+  padding-bottom: 53.25%; 
   height: 0;
   margin-left: 5%;
   margin-bottom: -15%;
@@ -858,6 +858,25 @@ p {
   width: 95%;
   height: 95%;
 }
+
+
+.iframewContainer{
+  position: relative;
+  width: 95%;
+  padding-bottom: 53.25%; 
+  height: 0;
+  margin-left: 5%;
+  margin-bottom: -15%;
+}
+.iframewContainer iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 95%;
+  height: 95%;
+}
+
+
 
 .mycard2:hover .sd {
   display: block;

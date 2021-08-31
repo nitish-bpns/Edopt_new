@@ -474,8 +474,14 @@ const Hero = ({
                 <center>
 
 
+                  <center>
+                    <div className="iframewContainer">
+                      <iframe style={{ marginTop: "1%", borderRadius: "20px", marginBottom: "-3%" }} width="1040" height="585" src="https://www.youtube.com/embed/AL0-g5R9ARA?playlist=AL0-g5R9ARA&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                  </center>
 
-                  <div className="whatwedo-video">
+
+                  {/* <div className="whatwedo-video">
                     <video
                       id="whatwedo-video"
                       style={{ marginTop: "0px", marginRight: "0px", marginLeft: "10px" }}
@@ -490,7 +496,7 @@ const Hero = ({
                       />
                       Your browser does not support the video tag.
                     </video>
-                  </div>
+                  </div> */}
                 </center>
 
                 {/* </CardBody> */}

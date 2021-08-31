@@ -78,7 +78,7 @@ export default function Contact() {
 
         <center>
           <div className="iframeContainer">
-            <iframe style={{ marginTop: "3%", borderRadius: "20px", marginBottom: "-3%" }} width="560" height="315" src="https://www.youtube.com/embed/b8oiN36cA4o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe style={{ marginTop: "3%", borderRadius: "20px", marginBottom: "-3%" }} width="560" height="315" src="https://www.youtube.com/embed/b8oiN36cA4o?playlist=b8oiN36cA4o&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </center>
 
@@ -124,10 +124,7 @@ export default function Contact() {
                 fontWeight: "500",
               }}
             >
-              I am Sakshi. I am a student of class 1st. I want to become a
-              teacher. l love dancing but my father lost his work due to COVID and
-              I have to hold my studies. Now he is working as a salesman in the
-              Sadar market of Delhi and earns only INR 7000.
+              I am Sakshi Sharma. I am a student of class 1st. My father lost his job due to COVID and I have to hold back my studies. Now he is working as a salesman in the Sadar market of Delhi and earns only INR 7000.
             </p>
             <p
               style={{
@@ -135,14 +132,7 @@ export default function Contact() {
                 fontWeight: "500",
               }}
             >
-              I hereby bring your notice that from the previous job of my father,
-              he earns decent amount but due this COVID he lost his job and have
-              to work at a diminutive amount to make ends meet. Unfortunately,
-              this costs my education. I want to become a teacher in future and
-              prove myself and This not possible without the proper guidance and
-              financial assistance. I am very sure about my efforts to achieve my
-              dream and I will be very thankful to the one who help me in my tough
-              times to continue my studies and achieve my goal.
+              I hereby bring your notice that from the previous job of my father, he earns a decent amount but due this COVID he lost his job and has to work at a diminutive amount to make ends meet. Unfortunately, this costs my education. I wish to be a teacher in future and prove myself and This not possible without the proper guidance and financial assistance. I will be very thankful to the one who will help me in my tough times to continue my studies and achieve my goal. I will be forever grateful to them. Kindly sponsor me.
             </p>
           </div>
           <div className="detail" style={{ width: "100%", margin: "auto" }}>

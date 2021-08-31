@@ -77,7 +77,7 @@ export default function Contact() {
 
         <center>
           <div className="iframeContainer">
-            <iframe style={{ marginTop: "3%", borderRadius: "20px", marginBottom: "-3%" }} width="560" height="315" src="https://www.youtube.com/embed/LQF24B69dTs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe style={{ marginTop: "3%", borderRadius: "20px", marginBottom: "-3%" }} width="560" height="315" src="https://www.youtube.com/embed/LQF24B69dTs?playlist=LQF24B69dTs&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </center>
 
@@ -124,9 +124,7 @@ export default function Contact() {
                 fontWeight: "500",
               }}
             >
-              I am Jatin. I am a student of class 9th. I want to pursue
-              Non-medical. I love dancing. I am very bright in studies and very
-              much interested in studies. My mother is a single parent.
+              My name is Jatin Arora. I am a student of class 9th. I am very bright in studies and very much interested in studies. My mother is a single parent.
             </p>
             <p
               style={{
@@ -134,16 +132,7 @@ export default function Contact() {
                 fontWeight: "500",
               }}
             >
-              I hereby bring to your notice that there is a legal dispute going on
-              in between my parents which affects my studies emotionally as well
-              as financially. My mother take care of me and my sister. This is a
-              tough time for us, as my mother work due to her health issues.
-              Financial condition of my family is not good as there is no source
-              of income because of this it is difficult for me to complete my
-              education and achieve my goals. I have no resources for my studies.
-              I need guidance and financial support to complete my studies. I
-              assure you to work very hard for my goals. I am grateful to one who
-              help me to reach my goals.
+              I hereby bring to your notice that there is a legal dispute going on between my parents which affects my studies emotionally as well as financially. My mother takes care of me and my sister. This is a tough time for us, as my mother works due to her health issues. Financial condition of my family is not good as there is no source of income because of this it is difficult for me to complete my education and achieve my goals. I have no resources for my studies. I need guidance and financial support to complete my studies. I assure you to work very hard for my goals. I am grateful to one who will help me to reach my goals. Kindly sponsor me, I will be forever grateful to you.
             </p>
           </div>
           <div className="detail" style={{ width: "100%", margin: "auto" }}>
