@@ -74,7 +74,15 @@ export default function Contact() {
       }}
     >
       <div id="blur">
-        <div className="stud-video">
+
+        <center>
+          <div className="iframeContainer">
+            <iframe style={{ marginTop: "3%", borderRadius: "20px", marginBottom: "-3%" }} width="560" height="315" src="https://www.youtube.com/embed/LQF24B69dTs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </center>
+
+
+        {/* <div className="stud-video">
           <video
             id="stu-video"
             style={{ margin: "auto" }}
@@ -90,7 +98,7 @@ export default function Contact() {
             />
             Your browser does not support the video tag.
           </video>
-        </div>
+        </div> */}
         <br />
         <br />
 
