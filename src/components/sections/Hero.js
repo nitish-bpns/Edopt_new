@@ -222,7 +222,7 @@ const Hero = ({
                         fontSize: "20px",
                         fontWeight: "inherit"
                       }}>
-                      Empowering Life one at a time, Virtually edopt one mertitious students who lack means.
+                      Empowering Life one at a time, Virtually edopt one meritorious students who lack means.
                     </p>
                   </div>
                   <left>
@@ -443,33 +443,16 @@ const Hero = ({
             <br />
             <br />
             <br />
-            {/* <button href="/myfeeds"
-                className="button button-primary button-wide-mobile button-sm"
 
-                style={{
-                  backgroundColor: "#3a936c",
-                  borderRadius: "5px",
-                }} > */}
             <center>
               <Card style={{ padding: "4px", border: "None", width: "100%", borderRadius: "15px" }} >
 
-                {/* <CardBody
-                  // style={{
 
-                  //   // boxShadow: "0px 0px 5px #617264",
-                  //   // backgroundColor: "",
-                  //   // margin: "0%",
-                  //   // height: "650px",
-                  //   // borderRadius: "15px",
-
-                  // }}
-                  className="videoCard"
-                > */}
                 <br />
                 <b style={{ textAlign: "Center", fontSize: "30px" }}>What we do?</b>
                 <br />
 
-                <regular> <div style={{ textAlign: "center", fontSize: "20px" }}>We find meritious students who lack means and sponsor "one to one" in a transparent manner.</div></regular>
+                <regular> <div style={{ textAlign: "center", fontSize: "20px" }}>We find meritorious students who lack means and sponsor "one to one" in a transparent manner.</div></regular>
                 <br />
                 <center>
 
@@ -480,26 +463,9 @@ const Hero = ({
                     </div>
                   </center>
 
-
-                  {/* <div className="whatwedo-video">
-                    <video
-                      id="whatwedo-video"
-                      style={{ marginTop: "0px", marginRight: "0px", marginLeft: "10px" }}
-                      poster={require("./../../assets/images/homevid.png")}
-                      width="100%"
-                      controls
-                      preload="none"
-                    >
-                      <source
-                        src={require("./../../assets/images/whatwedo.mp4")}
-                        type="video/mp4"
-                      />
-                      Your browser does not support the video tag.
-                    </video>
-                  </div> */}
                 </center>
 
-                {/* </CardBody> */}
+
               </Card>
             </center>
 
@@ -625,59 +591,7 @@ const Hero = ({
                 </div>
               </div>
             </div>
-            {/* <div>
-              <card>
-                <row style={{ width: "100%", height: "100px" }}>
-                  <column>
-                    <card style={{ width: "10px", height: "10px" }}>
-                      <img src="money.png" />10k-100k/year
-                    </card>
-                  </column>
-                  <column>
-                    <card style={{ width: "10px", height: "10px" }}>
-                      <img src="videocall.png" />
-                      Video Call</card>
-                  </column>
-                  <column>
-                    <card style={{ width: "10px", height: "10px" }}>
-                      <img src="certi.jpg" />
 
-                      abc1</card>
-                  </column>
-                  <column>
-                    <card style={{ width: "10px", height: "10px" }}>
-                      <img src="Pay.png" />
-                      Payment to institution</card>
-                  </column>
-                </row>
-              </card>
-              <br />
-              <br />
-              <br />
-              <row style={{ width: "100%", height: "100px" }}>
-                <column>
-                  <card style={{ margin: "80px", width: "250px", height: "100px" }}>
-                    <img src="report.png" />10k-100k/year
-                  </card>
-                </column>
-                <column>
-                  <card style={{ margin: "80px", width: "250px", height: "100px" }}>
-                    <img src="events.png" />
-                    Video Call</card>
-                </column>
-                <column>
-                  <card style={{ margin: "80px", width: "250px", height: "100px" }}>
-                    <img src="greet.png" />
-
-                    abc1</card>
-                </column>
-                <column>
-                  <card style={{ margin: "80px", width: "250px", height: "100px" }}>
-                    <img src="recent.png" />
-                    abc1</card>
-                </column>
-              </row>
-            </div> */}
             <br />
             <br />
             <br />
