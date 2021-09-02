@@ -459,7 +459,7 @@ const Hero = ({
 
                   <center>
                     <div className="iframewContainer">
-                      <iframe style={{ marginTop: "1%", borderRadius: "20px", marginBottom: "-3%" }} width="1040" height="585" src="https://www.youtube.com/embed/AL0-g5R9ARA?playlist=AL0-g5R9ARA&loop=1" title="YouTube video player" rel="0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      <iframe style={{ marginTop: "1%", borderRadius: "20px", marginBottom: "-3%" }} width="1040" height="585" src="https://www.youtube.com/embed/AL0-g5R9ARA?playlist=AL0-g5R9ARA&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                   </center>
 
