@@ -44,6 +44,7 @@ import StudentUpdate from "./components/sections/studentUpdate";
 import Sakshi from "./components/sections/sakshi";
 import Diya from "./components/sections/diya";
 import Jatin from "./components/sections/jatin";
+import anshu from "./components/sections/anshu";
 import MyFeeds from "./components/sections/myfeeds";
 
 
@@ -295,6 +296,14 @@ const App = () => {
             component={Jatin}
             layout={LayoutDefault}
           />
+
+          <AppRoute
+            exact
+            path="/anshu"
+            component={anshu}
+            layout={LayoutDefault}
+          />
+
 
           <AppRoute
             exact

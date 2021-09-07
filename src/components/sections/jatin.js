@@ -67,7 +67,7 @@ export default function Contact() {
   return (
     <div className="bodyColorstd"
       style={{
-        marginTop: "100px",
+        marginTop: "80px",
         width: "100%",
         marginLeft: "auto",
         marginRight: "auto",
@@ -77,7 +77,7 @@ export default function Contact() {
 
         <center>
           <div className="iframeContainer">
-            <iframe style={{ marginTop: "3%", borderRadius: "20px", marginBottom: "-3%" }} width="560" height="315" src="https://www.youtube.com/embed/LQF24B69dTs?playlist=LQF24B69dTs&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe style={{ marginTop: "3%", borderRadius: "20px", marginBottom: "-3%" }} width="560" height="308" src="https://www.youtube.com/embed/LQF24B69dTs?playlist=LQF24B69dTs&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </center>
 

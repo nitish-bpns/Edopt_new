@@ -425,6 +425,59 @@ const Hero = ({
                   </Card>
                 </center>
               </div>
+
+              <div className="stdCard">
+                <center>
+                  <Card style={{
+                    padding: "4px",
+                    borderRadius: "15px",
+                    border: "none",
+                    margin: "10px",
+                    boxShadow: "0px 0px 20px #617264",
+                  }}>
+                    <CardHeader style={{
+                      padding: "20px 20px 20px", marginTop: "0%"
+                    }}>
+                      <img
+                        className="feature-img"
+                        src="anshu.jpg"
+                        alt=""
+                      />
+                    </CardHeader>
+                    <CardBody
+                      style={{
+                        textAlign: "left",
+                        fontSize: "15px",
+
+                        margin: "0%",
+                        height: "230px",
+                        color: "rgba(0, 0, 0, 0.7)",
+                        paddingLeft: "40px",
+                      }}
+                    >
+                      <b style={{ fontSize: "18px" }}>Anshu</b>
+                      <br />
+                      Location: Sonipat<br />
+                      Age: 14 years<br />
+                      Saraswati Vidya mandir Sr. Sec. School
+                      <br className="remove-in-mobile" />
+                      <br className="remove-in-mobile" />
+                      <center>
+                        <Button
+                          tag="a"
+                          color="primary"
+                          wideMobile
+                          href="/anshu"
+                          style={{ backgroundColor: "#4b5c6b", marginTop: "18px", borderRadius: "5px" }}
+                        >
+                          Profile of Anshu
+                        </Button>
+                      </center>
+                    </CardBody>
+                  </Card>
+                </center>
+              </div>
+
             </Carousel>
             <center>
               <Button

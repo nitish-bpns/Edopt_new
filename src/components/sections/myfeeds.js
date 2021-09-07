@@ -198,6 +198,49 @@ export default function myfeeds() {
             </a>
           </center>
         </div>
+
+        <div className="myCard mycard2">
+          <div className="student-img st2" style={{ height: "90%" }}>
+            <img
+              src={require("./../../assets/images/anshu-img.jpg")}
+              alt=""
+              style={{ height: "100%", width: "100%" }}
+              className="photo ph2"
+            /* style={{ height: "140px" }} */
+            />
+          </div>
+          <div className="card-name">
+            <p className="card-name2">Anshu</p>
+          </div>
+          <div className="student-details sd">
+            <p className="stud-name">Anshu</p>
+            <p className="stud-age">Age: 15</p>
+            <p className="stud-location">Karnal</p>
+            <p className="stud-goal">Gyan Ganga Montessori & Model School</p>
+            <br />
+            <p className="stud-brief">
+              I am Anshu. I am a student of class 10th. I am a topper of my school. I want to become a doctor so one day I can save millions of lifes and treat my father.
+            </p>
+          </div>
+          <center>
+            <a
+              /* tag="a"
+              color="primary" */
+              href="/anshu"
+              className="edoptbtn"
+              style={{
+                backgroundColor: "white",
+                borderRadius: "0 0 10px 10px",
+                color: "black",
+                padding: "6px 108px",
+              }}
+            >
+              eDOPT
+            </a>
+          </center>
+        </div>
+
+
       </div>
       <br />
     </div>
