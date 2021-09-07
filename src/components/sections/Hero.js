@@ -14,6 +14,7 @@ import i18n from "i18next";
 import photo from "./../../assets/images/ss2.png";
 import { useTranslation, initReactI18next } from "react-i18next";
 import axios from "../../api/axios";
+import ReactGA from 'react-ga';
 
 
 const URL = "./../../assets/images/ss2.png";

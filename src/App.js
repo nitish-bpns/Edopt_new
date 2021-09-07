@@ -46,17 +46,41 @@ import Diya from "./components/sections/diya";
 import Jatin from "./components/sections/jatin";
 import MyFeeds from "./components/sections/myfeeds";
 
+
+
+import { createBrowserHistory } from 'history';
+import { Router } from 'react-router-dom';
+
+
+const history = createBrowserHistory();
+
+
+
 // Initialize Google Analytics
-ReactGA.initialize(process.env.REACT_APP_GA_CODE);
+// ReactGA.initialize(process.env.REACT_APP_GA_CODE);
+
+const trackingId = "G-PLRQKL2CP8"; // Replace with your Google Analytics tracking ID
+ReactGA.initialize(trackingId);
+
+// any data that is relevant to the user session
+// that you would like to track with google analytics
+
 
 const trackPage = (page) => {
   ReactGA.set({ page });
   ReactGA.pageview(page);
 };
 
+history.listen(location => {
+  ReactGA.set({ page: location.pathname }); // Update the user's current page
+  ReactGA.pageview(location.pathname); // Record a pageview for the given page
+});
+
+
 const App = () => {
   const childRef = useRef();
   let location = useLocation();
+
 
   useEffect(() => {
     const page = location.pathname;
