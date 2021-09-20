@@ -240,6 +240,87 @@ export default function myfeeds() {
           </center>
         </div>
 
+        <div className="myCard mycard2">
+          <div className="student-img st2" style={{ height: "90%" }}>
+            <img
+              src={require("./../../assets/images/priyanshu-img.png")}
+              alt=""
+              style={{ height: "100%", width: "100%" }}
+              className="photo ph2"
+            /* style={{ height: "140px" }} */
+            />
+          </div>
+          <div className="card-name">
+            <p className="card-name2">Priyanshu</p>
+          </div>
+          <div className="student-details sd">
+            <p className="stud-name">Priyanshu Pandey</p>
+            <p className="stud-age">Age: 16</p>
+            <p className="stud-location">Delhi</p>
+            <p className="stud-goal">Rajdhani Public School</p>
+            <br />
+            <p className="stud-brief">
+              I am Priyanshu. I am students of class 12th. I am very bright in my studies and topper of my class. I want to become Software developer. My father is a newspaper seller.
+            </p>
+          </div>
+          <center>
+            <a
+              /* tag="a"
+              color="primary" */
+              href="/priyanshu"
+              className="edoptbtn"
+              style={{
+                backgroundColor: "white",
+                borderRadius: "0 0 10px 10px",
+                color: "black",
+                padding: "6px 108px",
+              }}
+            >
+              eDOPT
+            </a>
+          </center>
+        </div>
+
+        <div className="myCard mycard2">
+          <div className="student-img st2" style={{ height: "90%" }}>
+            <img
+              src={require("./../../assets/images/divyanshu-img.png")}
+              alt=""
+              style={{ height: "100%", width: "100%" }}
+              className="photo ph2"
+            /* style={{ height: "140px" }} */
+            />
+          </div>
+          <div className="card-name">
+            <p className="card-name2">Divyanshu</p>
+          </div>
+          <div className="student-details sd">
+            <p className="stud-name">Divyanshu Pandey</p>
+            <p className="stud-age">Age: 11</p>
+            <p className="stud-location">Delhi</p>
+            <p className="stud-goal">Rajdhani Public School</p>
+            <br />
+            <p className="stud-brief">
+              I am Divyanshu. I am students of class 6th. I am very bright in studies. I want to become Police officer. My father works as a labourer in a factory.
+            </p>
+          </div>
+          <center>
+            <a
+
+              href="/divyanshu"
+              className="edoptbtn"
+              style={{
+                backgroundColor: "white",
+                borderRadius: "0 0 10px 10px",
+                color: "black",
+                padding: "6px 108px",
+              }}
+            >
+              eDOPT
+            </a>
+          </center>
+        </div>
+
 
       </div>
       <br />

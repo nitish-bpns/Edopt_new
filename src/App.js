@@ -45,6 +45,8 @@ import Sakshi from "./components/sections/sakshi";
 import Diya from "./components/sections/diya";
 import Jatin from "./components/sections/jatin";
 import anshu from "./components/sections/anshu";
+import priyanshu from "./components/sections/priyanshu";
+import divyanshu from "./components/sections/divyanshu";
 import MyFeeds from "./components/sections/myfeeds";
 
 
@@ -304,6 +306,19 @@ const App = () => {
             layout={LayoutDefault}
           />
 
+          <AppRoute
+            exact
+            path="/priyanshu"
+            component={priyanshu}
+            layout={LayoutDefault}
+          />
+
+          <AppRoute
+            exact
+            path="/divyanshu"
+            component={divyanshu}
+            layout={LayoutDefault}
+          />
 
           <AppRoute
             exact
