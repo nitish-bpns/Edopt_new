@@ -168,7 +168,7 @@ export default function Contact() {
                     <div className="certificate" style={{ width: "100%", margin: "auto" }}>
                         <h3>Certificates</h3>
                         <img
-                            src={require("./../../assets/images/priyanshu-mark.jpeg")}
+                            src={require("./../../assets/images/priyanshu-mark.png")}
                             alt=""
                             onClick={openImage}
                             className="prsnl-photo"
@@ -202,7 +202,7 @@ export default function Contact() {
                 {/* image popup */}
                 <div id="img-popup">
                     <img
-                        src={require("./../../assets/images/priyanshu-mark.jpeg")}
+                        src={require("./../../assets/images/priyanshu-mark.png")}
                         alt=""
                         onClick={closeImage}
                         className="prsnl-photo-popup"
