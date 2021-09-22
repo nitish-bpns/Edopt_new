@@ -1,10 +1,5 @@
 .bodyColor {
-  background: linear-gradient(
-      180deg,
-      rgba(0, 151, 19, 0.1) 50%,
-      rgba(0, 151, 19, 0) 54%
-    ),
-    #ffffff;
+  
   box-shadow: inset 0px 10px 10px -10px #617264;
   margin-top: 45px;
 }
@@ -21,7 +16,22 @@
 
 
 
+.bea{
+  font-family: Gill Sans MT;
+  font-weight: 700;
+  font-size: 160px;
+  line-height: 150px;
+  letter-spacing: 2%;
+  color: black;
+}
 
+.phero{
+  font-weight: 700;
+  font-size: 160px;
+  line-height: 150px;
+  letter-spacing: 2%;
+  color: #3a936c;
+}
 
 /* testing new feeds */
 
@@ -189,22 +199,28 @@
 }
 
 .btn-hover {
-  background-color: rgb(88 206 154 / 85%);
+  background-color: rgb(58, 147, 108);
   color: white;
   border-radius: 5px;
   padding: 11px 31px;
 }
 
 .btn-hover:hover {
-  background-color: rgb(58, 147, 108);
+  background-color: rgb(58 186 154 / 85%);
   color: #ffffff;
   /*  color: rgb(58, 147, 108); */
 }
 
 .stdCard {
-  margin: 7px;
+  margin: 25px;
+  
 }
-
+/* .cardOne{
+  box-shadow: 0px 0px 10px #617264;
+}
+.cardOne :hover{
+  box-shadow: 0px 0px 20px #617264;
+} */
 /*icon*/
 .columnIcon {
   float: left;
@@ -212,6 +228,7 @@
   padding-top: 75px;
   padding-left: 75px;
   padding-right: 75px;
+
 }
 
 .iconBg {
@@ -292,7 +309,9 @@
 
 .feed-content {
   width: 90%;
-  margin: auto;
+  margin:0 10% 0 10%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .myCard {
@@ -471,7 +490,8 @@
 }
 
 .feature-img {
-  height: 395px;
+  height: 325px;
+  width: 296px;
 }
 
 .nav-links,
@@ -608,6 +628,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.iconsContainer {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  color: rgb(90, 90, 90);
+  font-size: 18px;
+  height: 28px;
+  margin-top: -10%;
+  padding-left: 5%;
 }
 
 .column1 {
@@ -753,6 +784,7 @@ p {
     background-color: #fff !important;
     margin-top: 10%;  
     margin-left: 10%;
+    
   }
   /* Clearfix (clear floats) */
   .rowIcon::after {
@@ -832,6 +864,23 @@ p {
   
 }
 
+
+.bea{
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 70px;
+  letter-spacing: 2%;
+  color: black;
+}
+
+
+.phero{
+  font-weight: 700;
+  font-size: 110px;
+  line-height: 121px;
+  letter-spacing: 2%;
+  color: #3a936c;
+}
 
 
 .prsnl-photo-popup {
@@ -1049,6 +1098,7 @@ p {
 .feed-student {
   margin-left: auto;
   margin-right: auto;
+
 }
 .mobile-body .mobile-header {
   height: 20px;

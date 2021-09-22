@@ -1,21 +1,45 @@
 import React, { PureComponent } from "react";
 import SimpleReactFooter from "simple-react-footer";
 import logo from "./../../assets/images/eDOPT.png";
+import insta from "./../../assets/images/insta.png";
+import fb from "./../../assets/images/fb.png";
+import twt from "./../../assets/images/twt.png";
+import yt from "./../../assets/images/yt.png";
 import FS from "./partials/FooterSocial";
 import "./style.css";
 import i18n from "i18next";
 import { useTranslation, initReactI18next } from "react-i18next";
 
+
 function Footer() {
   const { t } = useTranslation();
   return (
-    <div className="row" style={{ backgroundColor: "rgba(100, 140, 118, 0.5)" }}>
+    <div className="row" style={{ backgroundColor: "rgb(198, 198, 198)" }}>
       <div
         className="columnx1"
         style={{ textAlign: "left", color: "black" }}
       >
         <img src={logo} alt="" style={{ width: "60%" }} />
+        <br />
+        <a href="https://www.instagram.com/edoptofficial/" target="blank">
+          <img className="iconsContainer" src={insta} />
+        </a>
+        <a href="https://www.facebook.com/edoptofficial/" target="blank">
+          <img className="iconsContainer" src={fb} />
+        </a>
+        <a href="https://twitter.com/edoptofficial" target="blank">
+          <img className="iconsContainer" src={twt} />
+        </a>
+        <a href="https://www.youtube.com/channel/UCWcyPj4DDQSDbba9D7T-kfA" target="blank">
+          <img className="iconsContainer" src={yt} />
+        </a>
+
+
+
+
       </div>
+
+
       <div>
         <br />
         <a id="about" href="/About_us">

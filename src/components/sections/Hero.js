@@ -209,13 +209,16 @@ const Hero = ({
 
                     }}
                   >
-                    <p
+                    <p className="bea"
                       style={{
-                        // fontFamily: "mitr",
-                        color: "#3a936c",
-                        fontSize: "50px",
+                        fontFamily: "Gill Sans MT",
+
+
                       }}
-                    >Be a hero!</p>
+                    >Be a <span className="phero" style={{
+                      fontFamily: "Gill Sans MT",
+
+                    }}> hero!</span></p>
                     <p
                       style={{
                         // fontFamily: "mitr",
@@ -263,11 +266,15 @@ const Hero = ({
             </div>
           </div>
         </div>
+
+
         {/* <br className="remove-in-mobile" />
         <br className="remove-in-mobile" /> */}
         {/* <img src={require("./../../assets/images/ss.png")} alt="" /> */}
         {/* <br />*/
+
           <div>
+            <p style={{ textAlign: "Left", fontSize: "30px", color: "black", marginLeft: "2%", marginTop: "4%" }}>Top  fundraisers</p>
             <Carousel responsive={responsive}>
 
               <div className="stdCard">
@@ -278,7 +285,7 @@ const Hero = ({
                     border: "none",
                     margin: "10px",
                     boxShadow: "0px 0px 20px #617264",
-                  }}>
+                  }}  >
                     <CardHeader style={{
                       padding: "20px 20px 20px", marginTop: "0%"
                     }}>
@@ -294,16 +301,15 @@ const Hero = ({
                         fontSize: "15px",
 
                         margin: "0%",
-                        height: "230px",
+                        height: "195px",
                         color: "rgba(0, 0, 0, 0.7)",
                         paddingLeft: "40px",
                       }}
                     >
-                      <b style={{ fontSize: "18px" }}>Priyanshu</b>
+                      <b style={{ fontSize: "18px" }}>Priyanshu Pandey  16yrs</b>
                       <br />
                       Location: Delhi<br />
-                      Age: 16 years<br />
-                      Rajdhani Public School
+                      A single mother child seeking help.
                       <br className="remove-in-mobile" />
                       <br className="remove-in-mobile" />
                       <center>
@@ -346,16 +352,15 @@ const Hero = ({
                         fontSize: "15px",
 
                         margin: "0%",
-                        height: "230px",
+                        height: "195px",
                         color: "rgba(0, 0, 0, 0.7)",
                         paddingLeft: "40px",
                       }}
                     >
-                      <b style={{ fontSize: "18px" }}>Divyanshu</b>
+                      <b style={{ fontSize: "18px" }}>Divyanshu Pandey 11yrs</b>
                       <br />
                       Location: Delhi<br />
-                      Age: 11 years<br />
-                      Rajdhani Public School
+
                       <br className="remove-in-mobile" />
                       <br className="remove-in-mobile" />
                       <center>
@@ -400,16 +405,15 @@ const Hero = ({
                         fontSize: "15px",
 
                         margin: "0%",
-                        height: "230px",
+                        height: "195px",
                         color: "rgba(0, 0, 0, 0.7)",
                         paddingLeft: "40px",
                       }}
                     >
-                      <b style={{ fontSize: "18px" }}>Sakshi</b>
+                      <b style={{ fontSize: "18px" }}>Sakshi 6yrs</b>
                       <br />
                       Location: Delhi<br />
-                      Age: 6 years<br />
-                      Delhi Vidyadeep Public School
+
                       <br className="remove-in-mobile" />
                       <br className="remove-in-mobile" />
                       <center>
@@ -451,16 +455,15 @@ const Hero = ({
                         fontSize: "15px",
 
                         margin: "0%",
-                        height: "230px",
+                        height: "195px",
                         color: "rgba(0, 0, 0, 0.7)",
                         paddingLeft: "40px",
                       }}
                     >
-                      <b style={{ fontSize: "18px" }}>Jatin</b>
+                      <b style={{ fontSize: "18px" }}>Jatin Arora 15yrs</b>
                       <br />
                       Location: Karnal<br />
-                      Age: 15 years<br />
-                      Gyan Ganga Montessori & Model School
+
                       <br className="remove-in-mobile" />
                       <br className="remove-in-mobile" />
                       <center>
@@ -503,17 +506,16 @@ const Hero = ({
                         fontSize: "15px",
 
                         margin: "0%",
-                        height: "230px",
+                        height: "195px",
 
                         paddingLeft: "40px",
                         color: "rgba(0, 0, 0, 0.7)"
                       }}
                     >
-                      <b style={{ fontSize: "18px" }}>Diya</b>
+                      <b style={{ fontSize: "18px" }}>Diya Gosain 15yrs</b>
                       <br />
                       Location: Sonipat<br />
-                      Age: 15 years<br />
-                      Holy Child Senior Secondary School
+
                       <br className="remove-in-mobile" />
                       <br className="remove-in-mobile" />
                       <center>
@@ -556,16 +558,15 @@ const Hero = ({
                         fontSize: "15px",
 
                         margin: "0%",
-                        height: "230px",
+                        height: "195px",
                         color: "rgba(0, 0, 0, 0.7)",
                         paddingLeft: "40px",
                       }}
                     >
-                      <b style={{ fontSize: "18px" }}>Anshu</b>
+                      <b style={{ fontSize: "18px" }}>Anshu 14yrs </b>
                       <br />
                       Location: Sonipat<br />
-                      Age: 14 years<br />
-                      Saraswati Vidya mandir Sr. Sec. School
+
                       <br className="remove-in-mobile" />
                       <br className="remove-in-mobile" />
                       <center>
@@ -592,16 +593,163 @@ const Hero = ({
                 wideMobile
                 href="/myfeeds"
                 style={{
-                  backgroundColor: "#3a936c",
-                  borderRadius: "5px"
+                  backgroundColor: "white",
+                  borderRadius: "5px",
+                  color: "grey",
+                  fontSize: "23px",
+                  float: "right"
                 }}
               >
 
-                Check All
+                See More >
               </Button>
             </center>
             <br />
             <br />
+
+
+
+
+
+            <br />
+            <div style={{ textAlign: "Center", fontSize: "30px", color: "black" }}>
+              <b >How it works</b>
+            </div>
+            <br />
+            <div className="iconBg">
+              <div className="rowIcon">
+                <div className="columnIcon">
+                  <center>
+                    <img src="merit.png" style={{
+                      width: "100%",
+                      paddingBottom: "8px",
+                      boxShadow: "0px 0pc 10px",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                      paddingTop: "10px",
+                      borderRadius: "8px",
+                    }} /><p style={{ color: "black", fontWeight: "inherit" }} >Meritorious Student</p>
+                  </center>
+                </div>
+                <div className="columnIcon">
+                  <center>
+                    <img src="story.png" style={{
+                      width: "100%",
+                      paddingBottom: "8px",
+                      boxShadow: "0px 0pc 10px",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                      paddingTop: "10px",
+                      borderRadius: "8px",
+                    }} /><p style={{ color: "black", fontWeight: "inherit" }} >Humble Background</p>
+                  </center>
+                </div>
+                <div className="columnIcon">
+                  <center>
+                    <img src="verify.png" style={{
+                      width: "100%",
+                      paddingBottom: "8px",
+                      boxShadow: "0px 0pc 10px",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                      paddingTop: "10px",
+                      borderRadius: "8px",
+                    }} /><p style={{ color: "black", fontWeight: "inherit" }} >Document Verification</p>
+                  </center>
+                </div>
+                <div className="columnIcon">
+                  <center>
+                    <img src="pay.png" style={{
+                      width: "100%",
+                      paddingBottom: "8px",
+                      boxShadow: "0px 0pc 10px",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                      paddingTop: "10px",
+                      borderRadius: "8px",
+                    }} />
+                    <p style={{ color: "black", fontWeight: "inherit" }} > Payment to Institution</p>
+                  </center>
+                </div>
+              </div>
+              <div className="rowIcon">
+                <div className="columnIcon">
+                  <center>
+                    <img src="achieve.png" style={{
+                      width: "100%",
+                      paddingBottom: "8px",
+                      boxShadow: "0px 0pc 10px",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                      paddingTop: "10px",
+                      borderRadius: "8px",
+                    }} />
+                    <p style={{ color: "black", fontWeight: "inherit" }} > Achievement</p>
+                  </center>
+                </div>
+                <div className="columnIcon">
+                  <center>
+                    <img src="attendance.png" style={{
+                      width: "100%",
+                      paddingBottom: "8px",
+                      boxShadow: "0px 0pc 10px",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                      paddingTop: "10px",
+                      borderRadius: "8px",
+                    }} />
+                    <p style={{ color: "black", fontWeight: "inherit" }} >Students' Attendance</p>
+                  </center>
+                </div>
+                <div className="columnIcon">
+                  <center>
+                    <img src="progress.png" style={{
+                      width: "100%",
+                      paddingBottom: "8px",
+                      boxShadow: "0px 0pc 10px",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                      paddingTop: "10px",
+                      borderRadius: "8px",
+                    }} />
+                    <p style={{ color: "black", fontWeight: "inherit" }} > Growth</p>
+                  </center>
+                </div>
+                <div className="columnIcon">
+                  <center>
+                    <img src="hero.png" style={{
+                      width: "100%",
+                      paddingBottom: "8px",
+                      boxShadow: "0px 0pc 10px",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                      paddingTop: "10px",
+                      borderRadius: "8px",
+                      fontWeight: "normal"
+                    }} />
+                    <p style={{ color: "black", fontWeight: "inherit" }} >Be a Hero</p>
+                  </center>
+                </div>
+              </div>
+            </div>
+
+            <br />
+            <br />
+            <br />
+            <div style={{ textAlign: "Center", fontSize: "30px", color: "black" }}>
+              <b >In the NEWS!</b>
+            </div>
+            <br />
+
+
+
+            <Carousel responsive={responsiveNews} style={{ width: "100%" }}>
+
+              <img src="news01.png" />
+              <img src="news02.png" />
+
+
+            </Carousel>
             <br />
 
             <center>
@@ -628,225 +776,88 @@ const Hero = ({
 
               </Card>
             </center>
-
             <br />
             <br />
-            <div style={{ textAlign: "Center", fontSize: "30px", color: "black" }}>
-              <b >Our utilities</b>
-            </div>
-            <br />
-            <div className="iconBg">
-              <div className="rowIcon">
-                <div className="columnIcon">
-                  <center>
-                    <img src="money.png" style={{
-                      width: "100%",
-                      paddingBottom: "8px",
-                      boxShadow: "0px 0pc 10px",
-                      paddingLeft: "10px",
-                      paddingRight: "10px",
-                      paddingTop: "10px",
-                      borderRadius: "8px",
-                    }} /><p style={{ color: "black", fontWeight: "inherit" }} >Money</p>
-                  </center>
-                </div>
-                <div className="columnIcon">
-                  <center>
-                    <img src="videocall.png" style={{
-                      width: "100%",
-                      paddingBottom: "8px",
-                      boxShadow: "0px 0pc 10px",
-                      paddingLeft: "10px",
-                      paddingRight: "10px",
-                      paddingTop: "10px",
-                      borderRadius: "8px",
-                    }} /><p style={{ color: "black", fontWeight: "inherit" }} >Video Call</p>
-                  </center>
-                </div>
-                <div className="columnIcon">
-                  <center>
-                    <img src="certi.png" style={{
-                      width: "100%",
-                      paddingBottom: "8px",
-                      boxShadow: "0px 0pc 10px",
-                      paddingLeft: "10px",
-                      paddingRight: "10px",
-                      paddingTop: "10px",
-                      borderRadius: "8px",
-                    }} /><p style={{ color: "black", fontWeight: "inherit" }} > Certificate</p>
-                  </center>
-                </div>
-                <div className="columnIcon">
-                  <center>
-                    <img src="pay.png" style={{
-                      width: "100%",
-                      paddingBottom: "8px",
-                      boxShadow: "0px 0pc 10px",
-                      paddingLeft: "10px",
-                      paddingRight: "10px",
-                      paddingTop: "10px",
-                      borderRadius: "8px",
-                    }} />
-                    <p style={{ color: "black", fontWeight: "inherit" }} > Payment to Institution</p>
-                  </center>
-                </div>
-              </div>
-              <div className="rowIcon">
-                <div className="columnIcon">
-                  <center>
-                    <img src="report.png" style={{
-                      width: "100%",
-                      paddingBottom: "8px",
-                      boxShadow: "0px 0pc 10px",
-                      paddingLeft: "10px",
-                      paddingRight: "10px",
-                      paddingTop: "10px",
-                      borderRadius: "8px",
-                    }} />
-                    <p style={{ color: "black", fontWeight: "inherit" }} > Reports</p>
-                  </center>
-                </div>
-                <div className="columnIcon">
-                  <center>
-                    <img src="events.png" style={{
-                      width: "100%",
-                      paddingBottom: "8px",
-                      boxShadow: "0px 0pc 10px",
-                      paddingLeft: "10px",
-                      paddingRight: "10px",
-                      paddingTop: "10px",
-                      borderRadius: "8px",
-                    }} />
-                    <p style={{ color: "black", fontWeight: "inherit" }} > Events</p>
-                  </center>
-                </div>
-                <div className="columnIcon">
-                  <center>
-                    <img src="greet.png" style={{
-                      width: "100%",
-                      paddingBottom: "8px",
-                      boxShadow: "0px 0pc 10px",
-                      paddingLeft: "10px",
-                      paddingRight: "10px",
-                      paddingTop: "10px",
-                      borderRadius: "8px",
-                    }} />
-                    <p style={{ color: "black", fontWeight: "inherit" }} > Meet and greet</p>
-                  </center>
-                </div>
-                <div className="columnIcon">
-                  <center>
-                    <img src="recentn.png" style={{
-                      width: "100%",
-                      paddingBottom: "8px",
-                      boxShadow: "0px 0pc 10px",
-                      paddingLeft: "10px",
-                      paddingRight: "10px",
-                      paddingTop: "10px",
-                      borderRadius: "8px",
-                      fontWeight: "normal"
-                    }} />
-                    <p style={{ color: "black", fontWeight: "inherit" }} > Recent</p>
-                  </center>
-                </div>
-              </div>
-            </div>
-
-            <br />
-            <br />
-            <br />
-            <div style={{ textAlign: "Center", fontSize: "30px", color: "black" }}>
-              <b >In the NEWS!</b>
-            </div>
-            <br />
-
-
-
-            <Carousel responsive={responsiveNews} style={{ width: "100%" }}>
-
-              <img src="news01.png" />
-              <img src="news02.png" />
-
-
-            </Carousel>
             <br />
           </div>
 
+
+
             /* <br className="remove-in-mobile" />
-            <center>
-              <ButtonGroup>
-                <Button
-                  tag="a"
-                  color="primary"
-                  wideMobile
-                  href="/Signup_Student"
-                  style={{ backgroundColor: "#3a936c", borderRadius: "5px" }}
+      <center>
+        <ButtonGroup>
+          <Button
+            tag="a"
+            color="primary"
+            wideMobile
+            href="/Signup_Student"
+            style={{ backgroundColor: "#3a936c", borderRadius: "5px" }}
+          >
+            Start a Fundraiser
+          </Button>
+        </ButtonGroup>
+      </center>
+      <br />
+
+      <br className="remove-in-mobile" />
+      <br className="remove-in-mobile" />
+      <div className={innerClasses}>
+        <SectionHeader data={sectionHeader} className="center-content" />
+        <div className={splitClasses}>
+          <div className="split-item">
+            <div
+              className={classNames(
+                "split-item-image center-content-mobile reveal-from-bottom",
+                imageFill && "split-item-image-fill"
+              )}
+
+              data-reveal-container=".split-item"
+            >
+              <img src="s2.png" alt="" style={{ width: "88%" }} />
+            </div>
+            <div
+              className="split-item-content center-content-mobile reveal-from-left"
+              data-reveal-container=".split-item"
+            >
+              <div className="container-xs">
+                <div
+                  className="row"
+                  style={{
+                    textAlign: "left",
+                    marginTop: "2%",
+                    marginLeft: "1%",
+                    marginBottom: "5%",
+                  }}
                 >
-                  Start a Fundraiser
-                </Button>
-              </ButtonGroup>
-            </center>
-            <br />
-
-            <br className="remove-in-mobile" />
-            <br className="remove-in-mobile" />
-            <div className={innerClasses}>
-              <SectionHeader data={sectionHeader} className="center-content" />
-              <div className={splitClasses}>
-                <div className="split-item">
                   <div
-                    className={classNames(
-                      "split-item-image center-content-mobile reveal-from-bottom",
-                      imageFill && "split-item-image-fill"
-                    )}
-
-                    data-reveal-container=".split-item"
+                    className="column"
+                    style={{ fontSize: "14px", paddingRight: "3%" }}
                   >
-                    <img src="s2.png" alt="" style={{ width: "88%" }} />
+                    <p className="m-0">
+                      "If we want to reach real peace in this world, we should
+                      start educating children"
+                      <br />~ Mahatma Gandhi
+                    </p>
                   </div>
                   <div
-                    className="split-item-content center-content-mobile reveal-from-left"
-                    data-reveal-container=".split-item"
+                    className="column"
+                    style={{
+                      fontSize: "14px",
+                      paddingLeft: "3%",
+                      borderLeft: "1px solid #adb9c5",
+                      textAlign: "center",
+                    }}
                   >
-                    <div className="container-xs">
-                      <div
-                        className="row"
-                        style={{
-                          textAlign: "left",
-                          marginTop: "2%",
-                          marginLeft: "1%",
-                          marginBottom: "5%",
-                        }}
-                      >
-                        <div
-                          className="column"
-                          style={{ fontSize: "14px", paddingRight: "3%" }}
-                        >
-                          <p className="m-0">
-                            "If we want to reach real peace in this world, we should
-                            start educating children"
-                            <br />~ Mahatma Gandhi
-                          </p>
-                        </div>
-                        <div
-                          className="column"
-                          style={{
-                            fontSize: "14px",
-                            paddingLeft: "3%",
-                            borderLeft: "1px solid #adb9c5",
-                            textAlign: "center",
-                          }}
-                        >
-                          <center>
-                            <h4 style={{ color: "black" }}>35+</h4>
-                            <p className="m-0">
-                              Children have registered themselves and cleared
-                              adoptation interview to change their lives forever...
-                            </p>
-                          </center>
-                        </div>
-                      </div>
-                      {/* <div className="reveal-from-bottom" data-reveal-delay="600">
+                    <center>
+                      <h4 style={{ color: "black" }}>35+</h4>
+                      <p className="m-0">
+                        Children have registered themselves and cleared
+                        adoptation interview to change their lives forever...
+                      </p>
+                    </center>
+                  </div>
+                </div>
+                {/* <div className="reveal-from-bottom" data-reveal-delay="600">
                     <ButtonGroup >
                       <Button
                         tag="a"

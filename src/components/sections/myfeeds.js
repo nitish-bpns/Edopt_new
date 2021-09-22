@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../elements/Button";
+import { Card, CardHeader, CardBody, CardFooter } from "react-simple-card";
 
 function sortLocation() {
   var input, filter, cards, loc, i, txtValue;
@@ -48,10 +49,11 @@ export default function myfeeds() {
       style={{
         marginTop: "85px",
       }}
+      className="bodyColor"
     >
-      <h3 style={{ textAlign: "center" }}>Student Feeds</h3>
-      <hr />
-      <div className="sorting">
+      <h3 style={{ textAlign: "center", paddingTop: "2%" }}>Student Feeds</h3>
+
+      {/* <div className="sorting">
         <p style={{ display: "inline-block", margin: "0 47px" }}>Sort By </p>
         <input
           type="text"
@@ -68,52 +70,334 @@ export default function myfeeds() {
           title="Type in a Name"
         />
       </div>
-      <hr />
+      <hr /> */}
       <br />
       <div className="feed-content">
-        <div className="myCard mycard2">
-          <div className="student-img st2" style={{ height: "90%" }}>
-            <img
-              src={require("./../../assets/images/sakshi-img.jpg")}
-              alt=""
-              style={{ height: "100%", width: "100%" }}
-              className="photo ph2"
-            /* style={{ height: "140px" }} */
-            />
-          </div>
-          <div className="card-name">
-            <p className="card-name2">Sakshi</p>
-          </div>
-          <div className="student-details sd">
-            <p className="stud-name">Sakshi</p>
-            <p className="stud-age">Age: 6</p>
-            <p className="stud-location">Delhi</p>
-            <p className="stud-goal">Vidyadeep Public School </p>
-            <br />
-            <p className="stud-brief">
-              I am Sakshi. I am a student of class 1st. I want to become a
-              teacher. My father lost his work due to COVID
-              and I have to hold my studies. Now he is working as a salesman in
-              the Sadar market of Delhi and earns only INR 7000.
-            </p>
-          </div>
+
+
+        <div className="stdCard">
           <center>
-            <a
-              /* tag="a"
-              color="primary" */
-              href="/sakshi"
-              className="edoptbtn"
-              style={{
-                backgroundColor: "white",
-                borderRadius: "0 0 10px 10px",
-                color: "black",
-                padding: "6px 108px",
-              }}
-            >
-              eDOPT
-            </a>
+            <Card style={{
+              padding: "4px",
+              borderRadius: "15px",
+              border: "none",
+              margin: "10px",
+              boxShadow: "0px 0px 20px #617264",
+
+
+            }}>
+              <CardHeader style={{
+                padding: "20px 20px 20px", marginTop: "0%"
+              }}>
+                <img
+                  className="feature-img"
+                  src="divyanshu-img.png"
+                  alt=""
+                />
+              </CardHeader>
+              <CardBody
+                style={{
+                  textAlign: "left",
+                  fontSize: "15px",
+
+                  margin: "0%",
+                  height: "195px",
+                  color: "rgba(0, 0, 0, 0.7)",
+                  paddingLeft: "40px",
+                }}
+              >
+                <b style={{ fontSize: "18px" }}>Divyanshu Pandey 11yrs</b>
+                <br />
+                Location: Delhi<br />
+
+                <br className="remove-in-mobile" />
+                <br className="remove-in-mobile" />
+                <center>
+                  <Button
+                    tag="a"
+                    color="primary"
+                    wideMobile
+                    href="/divyanshu"
+                    style={{ backgroundColor: "#4b5c6b", marginTop: "18px", borderRadius: "5px" }}
+                  >
+                    Profile of Divyanshu
+                  </Button>
+                </center>
+              </CardBody>
+            </Card>
           </center>
         </div>
+
+
+
+        <div className="stdCard">
+          <center>
+            <Card style={{
+              padding: "4px",
+              borderRadius: "15px",
+              border: "none",
+              margin: "10px",
+              boxShadow: "0px 0px 20px #617264",
+
+            }}  >
+              <CardHeader style={{
+                padding: "20px 20px 20px", marginTop: "0%"
+              }}>
+                <img
+                  className="feature-img"
+                  src="priyanshu-img.png"
+                  alt=""
+                />
+              </CardHeader>
+              <CardBody
+                style={{
+                  textAlign: "left",
+                  fontSize: "15px",
+
+                  margin: "0%",
+                  height: "195px",
+                  color: "rgba(0, 0, 0, 0.7)",
+                  paddingLeft: "40px",
+                }}
+              >
+                <b style={{ fontSize: "18px" }}>Priyanshu Pandey  16yrs</b>
+                <br />
+                Location: Delhi<br />
+                A single mother child seeking help.
+                <br className="remove-in-mobile" />
+                <br className="remove-in-mobile" />
+                <center>
+                  <Button
+                    tag="a"
+                    color="primary"
+                    wideMobile
+                    href="/priyanshu"
+                    style={{ backgroundColor: "#4b5c6b", marginTop: "18px", borderRadius: "5px" }}
+                  >
+                    Profile of Priyanshu
+                  </Button>
+                </center>
+              </CardBody>
+            </Card>
+          </center>
+        </div>
+
+        <div className="stdCard">
+          <center>
+            <Card style={{
+              padding: "4px",
+              borderRadius: "15px",
+              border: "5px",
+              margin: "10px",
+              borderTopRightRadius: "15px",
+              boxShadow: "0px 0px 20px #617264",
+
+            }}>
+              <CardHeader style={{
+                padding: "20px 20px 20px", margin: "0%"
+              }}>
+                <img
+                  className="feature-img"
+                  src="sakshi.jpg"
+                  alt=""
+                />
+              </CardHeader>
+              <CardBody
+                style={{
+                  textAlign: "left",
+                  fontSize: "15px",
+
+                  margin: "0%",
+                  height: "195px",
+                  color: "rgba(0, 0, 0, 0.7)",
+                  paddingLeft: "40px",
+                }}
+              >
+                <b style={{ fontSize: "18px" }}>Sakshi 6yrs</b>
+                <br />
+                Location: Delhi<br />
+
+                <br className="remove-in-mobile" />
+                <br className="remove-in-mobile" />
+                <center>
+                  <Button
+                    tag="a"
+                    color="primary"
+                    wideMobile
+                    href="/sakshi"
+                    style={{ backgroundColor: "#4b5c6b", marginTop: "18px", borderRadius: "5px" }}
+                  >
+                    Profile of Sakshi
+                  </Button>
+                </center>
+              </CardBody>
+            </Card>
+          </center>
+        </div>
+
+
+        <div className="stdCard">
+          <center>
+            <Card style={{
+              padding: "4px",
+              borderRadius: "15px",
+              border: "none",
+              margin: "10px",
+              boxShadow: "0px 0px 20px #617264",
+
+            }}>
+              <CardHeader style={{
+                padding: "20px 20px 20px", marginTop: "0%"
+              }}>
+                <img
+                  className="feature-img"
+                  src="jatin.jpg"
+                  alt=""
+                />
+              </CardHeader>
+              <CardBody
+                style={{
+                  textAlign: "left",
+                  fontSize: "15px",
+
+                  margin: "0%",
+                  height: "195px",
+                  color: "rgba(0, 0, 0, 0.7)",
+                  paddingLeft: "40px",
+                }}
+              >
+                <b style={{ fontSize: "18px" }}>Jatin Arora 15yrs</b>
+                <br />
+                Location: Karnal<br />
+
+                <br className="remove-in-mobile" />
+                <br className="remove-in-mobile" />
+                <center>
+                  <Button
+                    tag="a"
+                    color="primary"
+                    wideMobile
+                    href="/jatin"
+                    style={{ backgroundColor: "#4b5c6b", marginTop: "18px", borderRadius: "5px" }}
+                  >
+                    Profile of Jatin
+                  </Button>
+                </center>
+              </CardBody>
+            </Card>
+          </center>
+        </div>
+
+
+        <div className="stdCard">
+          <center>
+            <Card style={{
+              padding: "4px",
+              borderRadius: "15px",
+              border: "5px",
+              margin: "10px",
+              borderTopRightRadius: "15px",
+              boxShadow: "0px 0px 20px #617264",
+
+            }}>
+              <CardHeader style={{
+                padding: "20px 20px 20px", margin: "0%"
+              }}>
+                <img
+                  className="feature-img"
+                  src="diya.jpg"
+                  alt=""
+                />
+              </CardHeader>
+              <CardBody
+                style={{
+                  textAlign: "left",
+                  fontSize: "15px",
+
+                  margin: "0%",
+                  height: "195px",
+
+                  paddingLeft: "40px",
+                  color: "rgba(0, 0, 0, 0.7)"
+                }}
+              >
+                <b style={{ fontSize: "18px" }}>Diya Gosain 15yrs</b>
+                <br />
+                Location: Sonipat<br />
+
+                <br className="remove-in-mobile" />
+                <br className="remove-in-mobile" />
+                <center>
+                  <Button
+                    tag="a"
+                    color="primary"
+                    wideMobile
+                    href="/diya"
+                    style={{ backgroundColor: "#4b5c6b", marginTop: "18px", borderRadius: "5px" }}
+                  >
+                    Profile of Diya
+                  </Button>
+                </center>
+              </CardBody>
+            </Card>
+          </center>
+        </div>
+
+
+
+        <div className="stdCard">
+          <center>
+            <Card style={{
+              padding: "4px",
+              borderRadius: "15px",
+              border: "none",
+              margin: "10px",
+              boxShadow: "0px 0px 20px #617264",
+
+            }}>
+              <CardHeader style={{
+                padding: "20px 20px 20px", marginTop: "0%"
+              }}>
+                <img
+                  className="feature-img"
+                  src="anshu.jpg"
+                  alt=""
+                />
+              </CardHeader>
+              <CardBody
+                style={{
+                  textAlign: "left",
+                  fontSize: "15px",
+
+                  margin: "0%",
+                  height: "195px",
+                  color: "rgba(0, 0, 0, 0.7)",
+                  paddingLeft: "40px",
+                }}
+              >
+                <b style={{ fontSize: "18px" }}>Anshu 14yrs </b>
+                <br />
+                Location: Sonipat<br />
+
+                <br className="remove-in-mobile" />
+                <br className="remove-in-mobile" />
+                <center>
+                  <Button
+                    tag="a"
+                    color="primary"
+                    wideMobile
+                    href="/anshu"
+                    style={{ backgroundColor: "#4b5c6b", marginTop: "18px", borderRadius: "5px" }}
+                  >
+                    Profile of Anshu
+                  </Button>
+                </center>
+              </CardBody>
+            </Card>
+          </center>
+        </div>
+
+        {/* 
         <div className="myCard mycard2">
           <div className="student-img st2" style={{ height: "90%" }}>
             <img
@@ -121,7 +405,7 @@ export default function myfeeds() {
               alt=""
               style={{ height: "100%", width: "100%" }}
               className="photo ph2"
-            /* style={{ height: "140px" }} */
+        
             />
           </div>
           <div className="card-name">
@@ -141,8 +425,7 @@ export default function myfeeds() {
           </div>
           <center>
             <a
-              /* tag="a"
-              color="primary" */
+      
               href="/jatin"
               className="edoptbtn"
               style={{
@@ -155,15 +438,15 @@ export default function myfeeds() {
               eDOPT
             </a>
           </center>
-        </div>
-        <div className="myCard mycard2">
+        </div> */}
+        {/* <div className="myCard mycard2">
           <div className="student-img st2" style={{ height: "90%" }}>
             <img
               src={require("./../../assets/images/diya-img.jpg")}
               alt=""
               style={{ height: "100%", width: "100%" }}
               className="photo ph2"
-            /* style={{ height: "140px" }} */
+
             />
           </div>
           <div className="card-name">
@@ -183,8 +466,7 @@ export default function myfeeds() {
           </div>
           <center>
             <a
-              /* tag="a"
-              color="primary" */
+         
               href="/diya"
               className="edoptbtn"
               style={{
@@ -197,8 +479,8 @@ export default function myfeeds() {
               eDOPT
             </a>
           </center>
-        </div>
-
+        </div> */}
+        {/* 
         <div className="myCard mycard2">
           <div className="student-img st2" style={{ height: "90%" }}>
             <img
@@ -206,7 +488,7 @@ export default function myfeeds() {
               alt=""
               style={{ height: "100%", width: "100%" }}
               className="photo ph2"
-            /* style={{ height: "140px" }} */
+         
             />
           </div>
           <div className="card-name">
@@ -224,8 +506,7 @@ export default function myfeeds() {
           </div>
           <center>
             <a
-              /* tag="a"
-              color="primary" */
+      
               href="/anshu"
               className="edoptbtn"
               style={{
@@ -238,92 +519,12 @@ export default function myfeeds() {
               eDOPT
             </a>
           </center>
-        </div>
+        </div> */}
 
-        <div className="myCard mycard2">
-          <div className="student-img st2" style={{ height: "90%" }}>
-            <img
-              src={require("./../../assets/images/priyanshu-img.png")}
-              alt=""
-              style={{ height: "100%", width: "100%" }}
-              className="photo ph2"
-            /* style={{ height: "140px" }} */
-            />
-          </div>
-          <div className="card-name">
-            <p className="card-name2">Priyanshu</p>
-          </div>
-          <div className="student-details sd">
-            <p className="stud-name">Priyanshu Pandey</p>
-            <p className="stud-age">Age: 16</p>
-            <p className="stud-location">Delhi</p>
-            <p className="stud-goal">Rajdhani Public School</p>
-            <br />
-            <p className="stud-brief">
-              I am Priyanshu. I am students of class 12th. I am very bright in my studies and topper of my class. I want to become Software developer. My father is a newspaper seller.
-            </p>
-          </div>
-          <center>
-            <a
-              /* tag="a"
-              color="primary" */
-              href="/priyanshu"
-              className="edoptbtn"
-              style={{
-                backgroundColor: "white",
-                borderRadius: "0 0 10px 10px",
-                color: "black",
-                padding: "6px 108px",
-              }}
-            >
-              eDOPT
-            </a>
-          </center>
-        </div>
-
-        <div className="myCard mycard2">
-          <div className="student-img st2" style={{ height: "90%" }}>
-            <img
-              src={require("./../../assets/images/divyanshu-img.png")}
-              alt=""
-              style={{ height: "100%", width: "100%" }}
-              className="photo ph2"
-            /* style={{ height: "140px" }} */
-            />
-          </div>
-          <div className="card-name">
-            <p className="card-name2">Divyanshu</p>
-          </div>
-          <div className="student-details sd">
-            <p className="stud-name">Divyanshu Pandey</p>
-            <p className="stud-age">Age: 11</p>
-            <p className="stud-location">Delhi</p>
-            <p className="stud-goal">Rajdhani Public School</p>
-            <br />
-            <p className="stud-brief">
-              I am Divyanshu. I am students of class 6th. I am very bright in studies. I want to become Police officer. My father works as a labourer in a factory.
-            </p>
-          </div>
-          <center>
-            <a
-
-              href="/divyanshu"
-              className="edoptbtn"
-              style={{
-                backgroundColor: "white",
-                borderRadius: "0 0 10px 10px",
-                color: "black",
-                padding: "6px 108px",
-              }}
-            >
-              eDOPT
-            </a>
-          </center>
-        </div>
 
 
       </div>
       <br />
-    </div>
+    </div >
   );
 }
