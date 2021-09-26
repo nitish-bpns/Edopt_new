@@ -396,5 +396,9 @@ height: 220px;
   height: 30em;
   width: 85%;
 }
+.cscard{
+  width: 100% !important;
+  margin: 0 5px 0 2px;
+}
 }
   

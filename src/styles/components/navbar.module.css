@@ -73,6 +73,7 @@
     padding: 10px 10px;
     position: relative;
     user-select: none;
+    margin: 6% 3% 0 0;
 }
 
 .navbar .menuIcon .navicon {
@@ -159,6 +160,7 @@
         clear: none;
         float: right;
         max-height: none;
+        margin: 6% 3% 0 0;
     }
     .navbar .menuIcon {
         display: none;
