@@ -215,14 +215,14 @@ width: 100%;
     }
       .main2{
         background-image: url("prbg1.png");
-        height: 1100px;
+        height: 1000px;
         width: 100%;
         background-repeat: no-repeat;
         }
         .proBtn{
             width: 50%;
             height: 2.2em;
-            margin:5% 0 2% 5%;
+            margin:5% 0 2% 25%;
             border-radius: 10px;
             border: 2px solid grey;
             background-color: rgb(58, 147, 108);
