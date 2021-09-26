@@ -1,0 +1,116 @@
+footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    z-index: 99;
+    background-color: rgb(175, 175, 175);
+}
+
+.footerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1500px;
+    padding: 30px 0;
+    
+    color: rgb(0, 0, 0);
+    z-index: 99;
+}
+
+.footerCol {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+
+}
+
+.footerCol img{
+    height: 4em;
+    width: 9em;
+    margin-bottom: -1em;
+    margin-top: -1%;
+} 
+
+.footerCol .columnOne{
+    width: 100%;
+    margin: 0 0 0 25%;
+
+}
+
+svg{
+    fill: black;
+}
+
+
+
+
+.footerCol .address {
+    /* display: flex; */
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footerCol .address img {
+    height: 120px;
+    margin: 0 15px;
+}
+
+.footerCol .address div h1 {
+    font-size: 26px;
+}
+
+.footerCol .address div p {
+    font-size: 16px;
+    margin: 0 4px;
+}
+
+.iconsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.iconsContainer a {
+    color: rgb(90, 90, 90);
+    font-size: 18px;
+    margin: 3px 7px;
+}
+
+.iconsContainer a:hover {
+    color: #000;
+}
+.footerCol .columnTwo{
+    color: rgb(0, 0, 0);
+    margin: 0 0 0 20%;
+    
+}
+.quickLinkHeader {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 22px;
+    border-bottom: 3px solid grey;
+    border-width: 70%;
+}
+.quickLinkOne {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 5% 0 0 0;
+    padding: 0 0 0.6% 0;
+}
+
+.footerCol .columnThree{
+    color: white;
+    margin: 0 0 0 -15%;
+    
+}
+.quickLink {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+.quickLink:hover {
+    text-decoration: underline;
+}

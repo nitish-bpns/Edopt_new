@@ -1,0 +1,52 @@
+body, body * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.main-container {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 10% 0 10%;
+}
+
+section {
+  width: 90%;
+  max-width: 1500px;
+  align-self: center;
+  padding: 30px;
+}
+
+.pageHeading {
+  font-size: 42px;
+  font-weight: bold;
+  text-align: center;
+  margin: 25px 0;
+}
+
+section .section-heading {
+  font-size: 34px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+section .description {
+  font-size: 18px;
+}
+
+section blockquote {
+  margin: 15px 0;
+  padding: 10px;
+  border: 0;
+  border-left: 4px;
+  border-style: solid;
+  border-color: rgb(117, 117, 117);
+}

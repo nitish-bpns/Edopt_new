@@ -1,0 +1,400 @@
+.main{
+    margin:0 5% 0 5%;
+}
+
+.carouselContainer img {
+    object-fit: contain;
+    background-color: #fff;
+}
+
+.carouselContainer {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.bea{
+    font-family: Gill Sans MT;
+    font-weight: 700;
+    font-size: 160px;
+    line-height: 150px;
+    letter-spacing: 2%;
+    color: black;
+  }
+  
+.phero{
+    font-weight: 700;
+    font-size: 160px;
+    line-height: 150px;
+    letter-spacing: 2%;
+    color: #3a936c;
+  }
+.topCol{
+    width: 40%;
+}
+.btn1 {
+    background-color: rgb(58, 147, 108);
+    color: white;
+    border-radius: 5px;
+    padding: 11px 31px;
+    font-size: 26px;
+    text-decoration: none;
+    font-family: sans-serif;
+    border: 2px solid rgb(58, 147, 108);
+  }
+
+  .btn1:hover {
+    border: 2px solid rgb(58, 147, 108);
+    background-color: white;
+    color: rgb(58, 147, 108);
+
+    cursor: pointer;
+    transition:500ms;
+  }
+
+
+
+
+.footerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1500px;
+    padding: 30px 0;
+    color: rgb(0, 0, 0);
+}
+
+.footerCol {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+
+.footerCol .columnOne{
+    width: 100%;
+    margin: 0 0 0 0;
+}
+
+.footerCol .columnTwo{
+    color: rgb(0, 0, 0);
+    
+}
+
+.footerCol .columnTwo img{
+    width: 40em;
+    height: 30em;
+}
+
+.para1{
+    color: Black;
+    font-size: 20px;
+    font-weight: inherit;
+    font-family: sans-serif;
+}
+.para2{
+    text-align: Left;
+    font-size: 30px;
+    color: black;
+    margin-left: 2%;
+    margin-top: 4%;
+    font-family: sans-serif;
+    letter-spacing: 1.5px;
+}
+.para3{
+    color: rgb(0, 0, 0);
+    font-weight: inherit;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+
+.caroCont{
+    background-color: rgb(231, 231, 231);
+    width: 104%;
+    margin-left: -12%;
+    padding: 0 10% 5% 13%;
+}
+.stdCard {
+    border-radius: 15px;
+    border: none;
+    margin: 14px 5px 14px 5px;
+    box-shadow: 0px 0px 10px #617264;
+    height: 30em;
+    width: 90%;
+  }
+.stdCard img{
+    height: 14em;
+    width: 90%;
+    margin: 5%;
+}
+.cscard{
+  width: 370px !important;
+  margin: 0 5px 0 2px;
+}
+
+
+.stdDetail1{
+    font-size: 18px;
+    margin:0 5% 0 5%;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgb(61, 61, 61);
+}
+.stdDetail2{
+    font-size: 16px;
+    margin:2% 5% 0 5%;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: rgb(61, 61, 61);
+}
+
+.proBtn{
+  width: 50%;
+  height: 2em;
+  margin:6% 0 2% 0%;
+  border-radius: 10px;
+  border: 2px solid grey;
+  background-color: rgb(58, 147, 108);
+  color: white;
+  font-weight: 500;
+  font-family: sans-serif;
+  font-size: 18px;
+  padding: 0 0 0 0;
+}
+.proBtn:hover{
+  border: 3px solid rgb(58, 147, 108);
+  background-color: white;
+  color: rgb(58, 147, 108);
+  font-weight: 600;
+  cursor: pointer;
+  transition:500ms;
+}
+
+.moreBtn{
+    background-color: white;
+    border-radius: 5px;
+    color: grey;
+    font-size:23px;
+    float: right;
+    border: none;
+    margin: 2% 0 2% 0 ;
+}
+.iconBg {
+
+    border-radius: 20px;
+    margin: 0 0 3% 0;
+  }
+  
+  .rowIcon::after {
+    content: "";
+    clear: both;
+    display: table;
+    padding: 6px;
+  }
+  .rowIcon::after {
+    content: "";
+    clear: both;
+    display: table;
+    padding: 6px;
+  }
+  .columnIcon {
+    float: left;
+    width: 25%;
+    padding-top: 40px;
+
+  
+  }
+  .iconImg{
+    width: 220px;
+height: 220px;
+    background: radial-gradient(100% 100% at 0% 0%, #FFFFFF 0%, rgba(229, 229, 229, 0) 100%);
+    filter: drop-shadow(80px 120px 100px rgba(0, 0, 0, 0.05));
+    backdrop-filter: blur(2px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 20px;
+  }
+
+.news img{
+    width: 100%; 
+    height: 100%;
+    border-radius: 20px;
+}
+.news{
+    margin-bottom: 3%;
+}
+.iframeContainer{
+    position: relative;
+    width: 95%;
+    padding-bottom: 53.25%; 
+    height: 0;
+    margin-left: 5%;
+    margin-bottom: 15%;
+  }
+  .iframeContainer iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 95%;
+    height: 95%;
+  }
+.yt{
+    width: 95%;
+    height: 530px;
+    margin-top: 1%;
+    border-radius: 20px;
+    margin-bottom: 5%;
+}
+  .donorCard {
+    border-radius: 15px;
+    border: none;
+    margin: 14px;
+    box-shadow: 0px 0px 10px #617264;
+    height: 19em;
+    width: 93%;
+  }
+  .para4{
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.whatt{
+    font-size: 30px;
+    text-align: center;
+}
+  @media screen and (max-width: 900px){
+      
+
+
+
+.footerCol {
+    width: 100%;
+}
+
+.footerCol .columnTwo{
+    color: rgb(0, 0, 0);
+    
+}
+
+.footerCol .columnTwo img{
+    width: 100%;
+    height: 100%;
+    margin-top: 12%;
+}
+.yt{
+    width: 95%;
+    height: 340px;
+    margin-top: 1%;
+    border-radius: 20px;
+    margin-bottom: 5%;
+}
+
+} 
+
+
+
+  @media screen and (max-width: 768px) {
+    .columnIcon {
+      float: left;
+      width: 50%;
+      padding-top: 75px;
+      padding-left: 75px;
+      padding-right: 75px;
+    }
+    .yt{
+        width: 95%;
+        height: 250px;
+        margin-top: 1%;
+        border-radius: 20px;
+        margin-bottom: 5%;
+    }
+  }
+
+  @media screen and (max-width: 464px) {
+  .phero{
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 100px;
+    letter-spacing: 2%;
+    color: #3a936c;
+  }
+  .bea{
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 70px;
+    letter-spacing: 2%;
+    color: black;
+  }
+
+  .rowIcon::after {
+    content: "";
+    clear: both;
+    display: table;
+    padding: 6px;
+  }
+  .columnIcon {
+    float: left;
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .iframeContainer{
+  position: relative;
+  width: 95%;
+  padding-bottom: 53.25%; 
+  height: 0;
+  margin-left: 5%;
+  margin-bottom: -15%;
+}
+.iframeContainer iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 95%;
+  height: 95%;
+}
+.yt{
+    width: 95%;
+    height: 170px;
+    margin-top: 1%;
+    border-radius: 20px;
+    margin-bottom: 5%;
+}
+.moreBtn{
+    background-color: white;
+    border-radius: 5px;
+    color: grey;
+    font-size:18px;
+    float: right;
+    border: none;
+    margin: 2% 0 2% 0 ;
+}
+.para3{
+    color: rgb(0, 0, 0);
+    font-weight: inherit;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.para4{
+    text-align: justify;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.newst{
+    font-size: 20px;
+}
+.whatt{
+    font-size: 20px;
+}
+.stdCard {
+  border-radius: 15px;
+  border: none;
+  margin: 14px 5px 14px 5px;
+  box-shadow: 0px 0px 10px #617264;
+  height: 30em;
+  width: 85%;
+}
+}
+  

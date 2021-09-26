@@ -1,0 +1,90 @@
+.main{
+    margin:0 5% 0 5%;
+}
+.para1{
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: rgb(81, 81, 81);
+    font-weight: 600;
+    margin: 0 0 45px 0;
+}
+
+.allCards{
+    display: flex;
+    flex-wrap: none;
+    justify-content: center;
+}
+
+.stdCard {
+    border-radius: 15px;
+    border: none;
+    margin: 0px 22px 40px 25px;
+    box-shadow: 0px 0px 10px #617264;
+    height: 29em;
+    width: 320px;
+  }
+.stdCard img{
+    height: 14em;
+    width: 90%;
+    margin: 5%;
+}
+.stdDetail1{
+    font-size: 18px;
+    margin:0 5% 0 5%;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgb(61, 61, 61);
+}
+.stdDetail2{
+    font-size: 16px;
+    margin:2% 5% 0 5%;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: rgb(61, 61, 61);
+}
+.card{
+    width: 40% !important;
+}
+.proBtn{
+    width: 50%;
+    height: 2em;
+    margin:6% 0 2% 0%;
+    border-radius: 10px;
+    border: 2px solid grey;
+    background-color: rgb(58, 147, 108);
+    color: white;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding: 0 0 0 0;
+  }
+  .proBtn:hover{
+    border: 3px solid rgb(58, 147, 108);
+    background-color: white;
+    color: rgb(58, 147, 108);
+    font-weight: 600;
+    cursor: pointer;
+    transition:500ms;
+  }
+
+@media screen and (max-width: 900px){
+      
+
+.allCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+}
+@media screen and (max-width: 440px){
+      
+
+    .allCards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    }

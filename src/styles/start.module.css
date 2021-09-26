@@ -1,0 +1,208 @@
+.main{
+    margin:0 5% 0 5%;
+}
+.scols{
+    display: flex;
+    width: 100%;
+}
+.para1{
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: rgb(81, 81, 81);
+    font-weight: 600;
+    margin: 0 0 45px 0;
+}
+.col1{
+    width: 100%;
+    
+}
+.iname{
+    margin-top: 1.8%;
+    border-radius: 20px;
+    border: 2px solid grey;
+    width: 90%;
+    height: 3.25em;
+    padding: 4px 0 4px 2%;
+    font-size: 18px;
+    outline: none;
+    background-color:rgb(240, 240, 240) ;
+}
+.iname:focus{
+    background-color: rgb(255, 255, 255);
+}
+
+
+.iage{
+    margin-top: 1.8%;
+    border-radius: 20px;
+    border: 2px solid grey;
+    width: 90%;
+    height: 3.25em;
+    padding: 4px 0 4px 2%;
+    font-size: 18px;
+    outline: none;
+    background-color:rgb(240, 240, 240) ;
+}
+.iage:focus{
+    background-color: rgb(255, 255, 255);
+}.iclass{
+    margin-top: 1.8%;
+    border-radius: 20px;
+    border: 2px solid grey;
+    width: 90%;
+    height: 3.25em;
+    padding: 4px 0 4px 2%;
+    font-size: 18px;
+    outline: none;
+    background-color:rgb(240, 240, 240) ;
+}
+.iclass:focus{
+    background-color: rgb(255, 255, 255);
+}.ischool{
+    margin-top: 1.8%;
+    border-radius: 20px;
+    border: 2px solid grey;
+    width: 90%;
+    height: 3.25em;
+    padding: 4px 0 4px 2%;
+    font-size: 18px;
+    outline: none;
+    background-color:rgb(240, 240, 240) ;
+}
+.ischool:focus{
+    background-color: rgb(255, 255, 255);
+}.icontact{
+    margin-top: 1.8%;
+    border-radius: 20px;
+    border: 2px solid grey;
+    width: 90%;
+    height: 3.25em;
+    padding: 4px 0 4px 2%;
+    font-size: 18px;
+    outline: none;
+    background-color:rgb(240, 240, 240) ;
+}
+.icontact:focus{
+    background-color: rgb(255, 255, 255);
+}.ilocation{
+    margin-top: 1.8%;
+    border-radius: 20px;
+    border: 2px solid grey;
+    width: 90%;
+    height: 3.25em;
+    padding: 4px 0 4px 2%;
+    font-size: 18px;
+    outline: none;
+    background-color:rgb(240, 240, 240) ;
+}
+.ilocation:focus{
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+
+.istory{
+    margin: 4% 0 4% 0;
+    border-radius: 20px;
+    border-color: grey;
+    width: 90%;
+    height: 4.25em;
+    padding: 0 0 0 2%;
+    font-size: 18px;
+    outline: none;
+    background-color:rgb(240, 240, 240) ;
+}
+.istory:focus{
+    background-color: rgb(255, 255, 255);
+}
+.subBtn{
+    width: 30%;
+    height: 2.5em;
+    margin:0 0 6% -8%;
+    border-radius: 20px;
+    border: 2px solid grey;
+    background-color: rgb(58, 147, 108);
+    color: white;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 0 0 0 0;
+}
+.subBtn:hover{
+    border: 2px solid rgb(58, 147, 108);
+    background-color: white;
+    color: rgb(58, 147, 108);
+    transition: 300ms;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.col2{
+    position: relative;
+}
+.col2 img{
+    position: relative;
+    width: 100%;
+    margin-top: 20%;
+}
+
+@media screen and (max-width: 464px) {
+
+.col2{
+    display: none;
+} 
+.col2 img{
+    display: none;
+} 
+.iname{
+    margin-top: 1.8%;
+    border-radius: 20px;
+    border: 2px solid grey;
+    width: 90%;
+    height: 2.6em;
+    padding: 4px 0 4px 2%;
+    font-size: 17px;
+    outline: none;
+    background-color:rgb(240, 240, 240) ;
+    margin-left: 5%;
+}
+.iname:focus{
+    background-color: rgb(255, 255, 255);
+}
+
+.subBtn{
+    width: 50%;
+    height: 2.5em;
+    margin:4% 0 6% -8%;
+    border-radius: 20px;
+    border: 2px solid grey;
+    background-color: rgb(58, 147, 108);
+    color: white;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 0 0 0 0;
+}
+
+.istory{
+    margin: 4% 0 4% 5%;
+    border-radius: 20px;
+    border-color: grey;
+    width: 90%;
+    height: 4.25em;
+    padding: 0 0 0 2%;
+    font-size: 18px;
+    outline: none;
+    background-color:rgb(240, 240, 240) ;
+}
+.istory:focus{
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+
+
+}

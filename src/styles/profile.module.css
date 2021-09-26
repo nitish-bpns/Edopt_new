@@ -1,0 +1,306 @@
+.main{
+    margin:0 5% 0 5%;
+}
+.main2{
+background-image: url("prbg1.png");;
+height: 850px;
+width: 100%;
+background-repeat: no-repeat;
+}
+.para1{
+    text-align: left;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: rgb(81, 81, 81);
+    font-weight: 600;
+    margin: 1% 0 65px 2%;
+}
+.para2{
+    text-align: center;
+    font-size: 24px;
+    font-family: sans-serif;
+    color: rgb(90, 90, 90);
+    font-weight: 600;
+    margin: 1% 0 3% 2%;
+    padding: 3% 0 0 0;
+}
+
+
+.modalcerti:hover{
+    cursor: pointer;
+}
+.certiImg img{
+height: 50em;
+width: 100%;
+}
+.certiImg{
+    height: 28em;
+    width: 40em;
+}
+
+
+
+
+
+.scols{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.col1{
+    width: 50%;
+    
+}
+.col2{
+    position: relative;
+}
+.iframeContainer{
+    position: relative;
+    width: 95%;
+    padding-bottom: 53.25%; 
+    height: 0;
+    margin-left: 5%;
+    margin-bottom: -15%;
+  }
+  .iframeContainer iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 560px;
+    height: 308px;
+  }
+  .yt{
+    width: 95%;
+    height: 300px;
+    margin-top: 1%;
+    border-radius: 20px;
+    margin-bottom: 5%;
+}
+
+  .about{
+      width: 80%;
+      box-shadow: 0px 0px 8px #617264;
+      margin: -4% 0 0 0;
+      border-radius: 4px;
+      padding: 0 7.5% 0 7.5%;
+      font-size: 16px;
+      font-family: sans-serif;
+      background-color: white;
+
+  }
+  .about2{
+    width: 100%;
+    margin: 8% 0 0 0;
+    border-radius: 4px;
+    padding: 0 7.5% 0 7.5%;
+    border: ;
+    font-size: 16px;
+    font-family: sans-serif;
+
+}
+.para3{
+    text-align: center;
+    font-size: 24px;
+    font-family: sans-serif;
+    color: rgb(90, 90, 90);
+    font-weight: 600;
+    margin: -4% 0 2% 2%;
+    padding: 3% 0 0 0;
+  
+}
+.para4{
+    text-align: left;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: rgb(90, 90, 90);
+    font-weight: 600;
+    margin: 1% 0 0.5% 0%;
+    padding: 1% 0 0 0;
+  
+}
+.credt{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    margin: 1% 0 1% 1%;
+    
+}
+.amount{
+    text-align: left;
+    font-size: 21px;
+    font-family: sans-serif;
+    color: rgb(90, 90, 90);
+    font-weight: 600;
+    margin: 1% 0 1% 0%;
+    padding: 1.5% 0 0 0;
+  
+}
+.amt{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    margin: 1% 0 1% 1%;
+}
+.proBtn{
+    width: 40%;
+    height: 2.2em;
+    margin:5% 0 2% 5%;
+    border-radius: 10px;
+    border: 2px solid grey;
+    background-color: rgb(58, 147, 108);
+    color: white;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding: 0 0 0 0;
+    cursor: pointer;
+  }
+  .proBtn:hover{
+    border: 3px solid rgb(58, 147, 108);
+    background-color: white;
+    color: rgb(58, 147, 108);
+    font-weight: 600;
+    cursor: pointer;
+    transition:500ms;
+  }
+
+
+  @media screen and (max-width: 464px) {
+
+    .scols{
+        display: flex;
+        width: 100%;
+    }
+    .col1{
+        width: 100%;
+        
+    }
+    .col2{
+        position: relative;
+    }
+    .about{
+        width: 100%;
+        box-shadow: 0px 0px 0px #617264;
+        margin: 10% 0 0 0;
+        border-radius: 4px;
+        padding: 0 7.5% 0 7.5%;
+        font-size: 14px;
+        font-family: sans-serif;
+        background-color: white;
+  
+    }
+    .iframeContainer{
+        position: relative;
+        width: 95%;
+        padding-bottom: 53.25%; 
+        height: 0;
+        margin-left: 5%;
+        margin-bottom: -15%;
+      }
+      .iframeContainer iframe{
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 95%;
+        height: 95%;
+      }
+      .yt{
+        width: 95%;
+        height: 170px;
+        margin-top: 1%;
+        border-radius: 20px;
+        margin-bottom: 5%;
+    }
+      .main2{
+        background-image: url("prbg1.png");
+        height: 1100px;
+        width: 100%;
+        background-repeat: no-repeat;
+        }
+        .proBtn{
+            width: 50%;
+            height: 2.2em;
+            margin:5% 0 2% 5%;
+            border-radius: 10px;
+            border: 2px solid grey;
+            background-color: rgb(58, 147, 108);
+            color: white;
+            font-weight: 500;
+            font-family: sans-serif;
+            font-size: 15px;
+            padding: 0 0 0 0;
+        }
+
+        .para2{
+            text-align: center;
+            font-size: 21px;
+            font-family: sans-serif;
+            color: rgb(90, 90, 90);
+            font-weight: 600;
+            margin: 1% 0 3% 2%;
+            padding: 3% 0 0 0;
+        }
+        .amount{
+            text-align: left;
+            font-size: 20px;
+            font-family: sans-serif;
+            color: rgb(90, 90, 90);
+            font-weight: 600;
+            margin: 1% 0 1% 0%;
+            padding: 1.5% 0 0 0;
+          
+        }
+        .amt{
+            font-family: sans-serif;
+            font-size: 19px;
+            color: rgb(0, 0, 0);
+            font-weight: 300;
+            margin: 1% 0 1% 1%;
+        }
+        .para4{
+            text-align: left;
+            font-size: 18px;
+            font-family: sans-serif;
+            color: rgb(90, 90, 90);
+            font-weight: 600;
+            margin: 1% 0 0.5% 0%;
+            padding: 1% 0 0 0;
+          
+        }
+        .credt{
+            font-family: sans-serif;
+            font-size: 16px;
+            color: rgb(0, 0, 0);
+            font-weight: 300;
+            margin: 1% 0 1% 1%;
+            
+        }
+        .para3{
+            text-align: center;
+            font-size: 22px;
+            font-family: sans-serif;
+            color: rgb(90, 90, 90);
+            font-weight: 600;
+            margin: 1% 0 2% 2%;
+            padding: 3% 0 0 0;
+          
+        }
+        .para1{
+            text-align: left;
+            font-size: 24px;
+            font-family: sans-serif;
+            color: rgb(81, 81, 81);
+            font-weight: 600;
+            margin: 1% 0 25px 2%;
+        }
+        .certiImg img{
+            height: 35em;
+            width: 100%;
+            }
+            .certiImg{
+                height: 28em;
+                width: 24em;
+            }
+  }
