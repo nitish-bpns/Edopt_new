@@ -14,6 +14,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
+    margin-left: 0%;
 }
 
 .stdCard {
@@ -95,6 +97,8 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        width: 110%;
+    margin-left: -5%;
     }
     .card2{
         width: 100%;
