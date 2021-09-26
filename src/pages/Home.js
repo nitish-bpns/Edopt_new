@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { useEffect, useState } from "react";
 import Layout from '../components/Layout'
 import { Link } from 'react-router-dom';
 import "react-awesome-slider/dist/styles.css";
 import "react-awesome-slider/dist/custom-animations/open-animation.css";
-import { Card } from "react-simple-card";
+import { Card, CardHeader, CardBody, CardFooter } from "react-simple-card";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Styles from '../styles/home.module.css';
@@ -91,115 +91,129 @@ export default function Home() {
 
                 <p className={Styles.para2} style={{ textAlign: "Left", fontSize: "30px", color: "black", marginLeft: "2%", marginTop: "4%" }}>Top  fundraisers</p>
                 <div style={{ position: "relative" }}>
+                    <center>
+                        <Carousel responsive={responsive}>
+                            <center>
+                                <div className={Styles.cscard}>
 
-                    <Carousel responsive={responsive}>
+                                    <Card className={Styles.stdCard} >
+                                        <img src="./data/images/posters/diya.jpg" alt="student" />
+                                        <p className={Styles.stdDetail1} >Diya Gosain 15yrs</p>
+                                        <p className={Styles.stdDetail2} >Location: Sonipat<br /><br />
+                                            COVID-19 hits are hard on her family. She wants to pursue engineering but due to this crisis, facing financial issues. Help her to achieve her dream.
 
-                        <div className={Styles.cscard}>
-                            <Card className={Styles.stdCard} >
-                                <img src="./data/images/posters/diya.jpg" alt="student" />
-                                <p className={Styles.stdDetail1} >Diya Gosain 15yrs</p>
-                                <p className={Styles.stdDetail2} >Location: Sonipat<br /><br />
-                                    COVID-19 hits are hard on her family. She wants to pursue engineering but due to this crisis, facing financial issues. Help her to achieve her dream.
+                                        </p>
+                                        <center>
+                                            <Link to="/diya"
+                                            >
+                                                <button className={Styles.proBtn} >Profile</button>
+                                            </Link>
+                                        </center>
+                                    </Card>
 
-                                </p>
+                                </div>
+                            </center>
+                            <div className={Styles.cscard}>
                                 <center>
-                                    <Link to="/diya"
-                                    >
-                                        <button className={Styles.proBtn} >Profile</button>
-                                    </Link>
+                                    <Card className={Styles.stdCard} >
+                                        <img src="./data/images/posters/jatin.jpg" alt="student" />
+                                        <p className={Styles.stdDetail1} >Jatin Arora 15yrs</p>
+                                        <p className={Styles.stdDetail2} >Location: Karnal<br /><br />
+                                            A single parent child who wants to serve the nation. Help him to study and pursue his dream to become a teacher to serve the nation.
+                                        </p>
+                                        <center>
+                                            <Link to="/jatin"
+                                            >
+                                                <button className={Styles.proBtn} >Profile</button>
+                                            </Link>
+                                        </center>
+                                    </Card>
                                 </center>
-                            </Card>
-                        </div>
+                            </div>
 
-                        <div className={Styles.cscard}>
-                            <Card className={Styles.stdCard} >
-                                <img src="./data/images/posters/jatin.jpg" alt="student" />
-                                <p className={Styles.stdDetail1} >Jatin Arora 15yrs</p>
-                                <p className={Styles.stdDetail2} >Location: Karnal<br /><br />
-                                    A single parent child who wants to serve the nation. Help him to study and pursue his dream to become a teacher to serve the nation.
-                                </p>
+                            <div className={Styles.cscard}>
                                 <center>
-                                    <Link to="/jatin"
-                                    >
-                                        <button className={Styles.proBtn} >Profile</button>
-                                    </Link>
-                                </center>
-                            </Card>
-                        </div>
+                                    <Card className={Styles.stdCard} >
+                                        <img src="./data/images/posters/priyanshu.png" alt="student" />
+                                        <p className={Styles.stdDetail1} >Priyanshu Pandey 16yrs</p>
+                                        <p className={Styles.stdDetail2} >Location: Delhi<br /><br />
+                                            The Father of this child is a newspaper vendor and can't afford his educational finances. Help this child to fulfil his dream to become software developer.
+                                        </p>
+                                        <center>
+                                            <Link to="/priyanshu"
+                                            >
+                                                <button className={Styles.proBtn} >Profile</button>
+                                            </Link>
+                                        </center>
 
-                        <div className={Styles.cscard}>
-                            <Card className={Styles.stdCard} >
-                                <img src="./data/images/posters/priyanshu.png" alt="student" />
-                                <p className={Styles.stdDetail1} >Priyanshu Pandey 16yrs</p>
-                                <p className={Styles.stdDetail2} >Location: Delhi<br /><br />
-                                    The Father of this child is a newspaper vendor and can't afford his educational finances. Help this child to fulfil his dream to become software developer.
-                                </p>
+
+                                    </Card>
+                                </center>
+                            </div>
+
+                            <div className={Styles.cscard}>
                                 <center>
-                                    <Link to="/priyanshu"
-                                    >
-                                        <button className={Styles.proBtn} >Profile</button>
-                                    </Link>
+                                    <Card className={Styles.stdCard} >
+                                        <img src="./data/images/posters/divyanshu.png" alt="student" />
+                                        <p className={Styles.stdDetail1} >Divyanshu Pandey 11yrs</p>
+                                        <p className={Styles.stdDetail2} >Location: Delhi<br /><br />
+                                            He wants to become an IPS officer but facing difficulties due to financial constraints. Help this child by sponsoring his education.
+                                        </p>
+                                        <center>
+                                            <Link to="/divyanshu"
+                                            >
+                                                <button className={Styles.proBtn} >Profile</button>
+                                            </Link>
+                                        </center>
+
+
+                                    </Card>
                                 </center>
+                            </div>
 
-
-                            </Card>
-                        </div>
-
-                        <div className={Styles.cscard}>
-                            <Card className={Styles.stdCard} >
-                                <img src="./data/images/posters/divyanshu.png" alt="student" />
-                                <p className={Styles.stdDetail1} >Divyanshu Pandey 11yrs</p>
-                                <p className={Styles.stdDetail2} >Location: Delhi<br /><br />
-                                    He wants to become an IPS officer but facing difficulties due to financial constraints. Help this child by sponsoring his education.
-                                </p>
+                            <div className={Styles.cscard}>
                                 <center>
-                                    <Link to="/divyanshu"
-                                    >
-                                        <button className={Styles.proBtn} >Profile</button>
-                                    </Link>
+                                    <Card className={Styles.stdCard} >
+                                        <img src="./data/images/posters/sakshi.jpg" alt="student" />
+                                        <p className={Styles.stdDetail1} >Sakshi 6yrs</p>
+                                        <p className={Styles.stdDetail2} >Location: Delhi<br /><br />
+                                            The child of a labourer who had lost his employment during COVID-19 seeks help to pay off her school fees.Help this child to fulfil her dreams.
+                                        </p>
+                                        <center>
+                                            <Link to="/sakshi"
+                                            >
+                                                <button className={Styles.proBtn} >Profile</button>
+                                            </Link>
+                                        </center>
+                                    </Card>
                                 </center>
+                            </div>
 
-
-                            </Card>
-                        </div>
-
-                        <div className={Styles.cscard}>
-                            <Card className={Styles.stdCard} >
-                                <img src="./data/images/posters/sakshi.jpg" alt="student" />
-                                <p className={Styles.stdDetail1} >Sakshi 6yrs</p>
-                                <p className={Styles.stdDetail2} >Location: Delhi<br /><br />
-                                    The child of a labourer who had lost his employment during COVID-19 seeks help to pay off her school fees.Help this child to fulfil her dreams.
-                                </p>
+                            <div className={Styles.cscard}>
                                 <center>
-                                    <Link to="/sakshi"
-                                    >
-                                        <button className={Styles.proBtn} >Profile</button>
-                                    </Link>
+                                    <Card className={Styles.stdCard} >
+                                        <img src="./data/images/posters/anshu.jpg" alt="student" />
+                                        <p className={Styles.stdDetail1} >Anshu 14yrs</p>
+                                        <p className={Styles.stdDetail2} >Location: Sonipat<br /><br />
+                                            Help this single parent-child whose father suffers from kidney damage, to complete her education and achieve her goal of becoming a doctor.
+                                        </p>
+                                        <center>
+                                            <Link to="/anshu"
+                                            >
+                                                <button className={Styles.proBtn} >Profile</button>
+                                            </Link>
+                                        </center>
+                                    </Card>
                                 </center>
-                            </Card>
-                        </div>
-
-                        <div className={Styles.cscard}>
-                            <Card className={Styles.stdCard} >
-                                <img src="./data/images/posters/anshu.jpg" alt="student" />
-                                <p className={Styles.stdDetail1} >Anshu 14yrs</p>
-                                <p className={Styles.stdDetail2} >Location: Sonipat<br /><br />
-                                    Help this single parent-child whose father suffers from kidney damage, to complete her education and achieve her goal of becoming a doctor.
-                                </p>
-                                <center>
-                                    <Link to="/anshu"
-                                    >
-                                        <button className={Styles.proBtn} >Profile</button>
-                                    </Link>
-                                </center>
-                            </Card>
-                        </div>
+                            </div>
 
 
 
-                    </Carousel>
+                        </Carousel>
+
+                    </center>
                 </div>
-                <Link to="/fundraisers" id="how" >
+                <Link to="/fundraisers">
                     <button className={Styles.moreBtn}>
 
                         See More

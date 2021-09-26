@@ -12,22 +12,27 @@
 
 .allCards{
     display: flex;
-    flex-wrap: none;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 .stdCard {
     border-radius: 15px;
     border: none;
-    margin: 0px 22px 40px 25px;
+    margin: 0% 10% 10% 10% !important;
     box-shadow: 0px 0px 10px #617264;
-    height: 29em;
-    width: 320px;
+    height: 29em !important;
+    width: 320px !important;
+  }
+  .card2{
+      width: 33%;
+      display: flex;
+      
   }
 .stdCard img{
-    height: 14em;
-    width: 90%;
-    margin: 5%;
+    height: 14em !important;
+    width: 90% !important;
+    margin: 5% !important;
 }
 .stdDetail1{
     font-size: 18px;
@@ -43,9 +48,9 @@
     font-weight: 500;
     color: rgb(61, 61, 61);
 }
-.card{
+/* .card{
     width: 40% !important;
-}
+} */
 .proBtn{
     width: 50%;
     height: 2em;
@@ -76,6 +81,11 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+.card2{
+    width: 50%;
+    display: flex;
+    
+}
 
 }
 @media screen and (max-width: 440px){
@@ -86,5 +96,11 @@
         flex-wrap: wrap;
         justify-content: center;
     }
-    
+    .card2{
+        width: 100%;
+        display: flex;
+        
+    }.main{
+        margin:0 2% 0 2%;
+    }
     }

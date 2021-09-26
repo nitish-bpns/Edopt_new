@@ -111,17 +111,17 @@
 
 .caroCont{
     background-color: rgb(231, 231, 231);
-    width: 104%;
+    width: 100%;
     margin-left: -12%;
     padding: 0 10% 5% 13%;
 }
 .stdCard {
     border-radius: 15px;
     border: none;
-    margin: 14px 5px 14px 5px;
+    margin: 5% 5% 5% 5% !important;
     box-shadow: 0px 0px 10px #617264;
-    height: 30em;
-    width: 90%;
+    height: 30em !important;
+    width: 90% !important;
   }
 .stdCard img{
     height: 14em;

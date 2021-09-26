@@ -15,7 +15,7 @@ function fundraisers() {
 
             <div className={Styles.allCards}>
 
-                <div>
+                <div className={Styles.card2}>
                     <Card className={Styles.stdCard} >
                         <img src="./data/images/posters/diya.jpg" alt="student" />
                         <p className={Styles.stdDetail1} >Diya Gosain 15yrs</p>
@@ -32,7 +32,7 @@ function fundraisers() {
                     </Card>
                 </div>
 
-                <div>
+                <div className={Styles.card2}>
                     <Card className={Styles.stdCard} >
                         <img src="./data/images/posters/jatin.jpg" alt="student" />
                         <p className={Styles.stdDetail1} >Jatin Arora 15yrs</p>
@@ -48,7 +48,7 @@ function fundraisers() {
                     </Card>
                 </div>
 
-                <div>
+                <div className={Styles.card2}>
                     <Card className={Styles.stdCard} >
                         <img src="./data/images/posters/priyanshu.png" alt="student" />
                         <p className={Styles.stdDetail1} >Priyanshu Pandey 16yrs</p>
@@ -66,13 +66,9 @@ function fundraisers() {
                     </Card>
                 </div>
 
-            </div>
 
 
-
-            <div className={Styles.allCards}>
-
-                <div className={Styles.cscard}>
+                <div className={Styles.card2}>
                     <Card className={Styles.stdCard} >
                         <img src="./data/images/posters/divyanshu.png" alt="student" />
                         <p className={Styles.stdDetail1} >Divyanshu Pandey 11yrs</p>
@@ -90,7 +86,7 @@ function fundraisers() {
                     </Card>
                 </div>
 
-                <div className={Styles.cscard}>
+                <div className={Styles.card2}>
                     <Card className={Styles.stdCard} >
                         <img src="./data/images/posters/sakshi.jpg" alt="student" />
                         <p className={Styles.stdDetail1} >Sakshi 6yrs</p>
@@ -106,7 +102,7 @@ function fundraisers() {
                     </Card>
                 </div>
 
-                <div className={Styles.cscard}>
+                <div className={Styles.card2}>
                     <Card className={Styles.stdCard} >
                         <img src="./data/images/posters/anshu.jpg" alt="student" />
                         <p className={Styles.stdDetail1} >Anshu 14yrs</p>
