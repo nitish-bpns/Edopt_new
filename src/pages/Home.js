@@ -7,6 +7,14 @@ import { Card, CardHeader, CardBody, CardFooter } from "react-simple-card";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Styles from '../styles/home.module.css';
+import story from "./../certi/story.png";
+import verify from "./../certi/verify.png";
+import pay from "./../certi/pay.png";
+import merit from "./../certi/merit.png";
+import attendance from "./../certi/attendance.png";
+import achieve from "./../certi/achieve.png";
+import progress from "./../certi/progress.png";
+import hero from "./../certi/hero.png";
 
 export default function Home() {
 
@@ -284,25 +292,25 @@ export default function Home() {
                 <div className={Styles.rowIcon}>
                     <div className={Styles.columnIcon}>
                         <center>
-                            <img style={{ height: "260px", marginTop: "-15%" }} src="./data/images/posters/merit.png" className={Styles.iconImg} alt="icon" />
+                            <img style={{ height: "260px", marginTop: "-15%" }} src={merit} className={Styles.iconImg} alt="icon" />
                             {/* <p className={Styles.para3} >Humble Background</p> */}
                         </center>
                     </div>
                     <div className={Styles.columnIcon}>
                         <center>
-                            <img src="./data/images/posters/story.png" className={Styles.iconImg} alt="icon" />
+                            <img src={story} className={Styles.iconImg} alt="icon" />
                             {/* <p className={Styles.para3} >Humble Background</p> */}
                         </center>
                     </div>
                     <div className={Styles.columnIcon}>
                         <center>
-                            <img src="./data/images/posters/verify.png" className={Styles.iconImg} alt="icon" />
+                            <img src={verify} className={Styles.iconImg} alt="icon" />
                             {/* <p className={Styles.para3} >Document Verification</p> */}
                         </center>
                     </div>
                     <div className={Styles.columnIcon}>
                         <center>
-                            <img src="./data/images/posters/pay.png" className={Styles.iconImg} alt="icon" />
+                            <img src={pay} className={Styles.iconImg} alt="icon" />
                             {/* <p className={Styles.para3} > Payment to Institution</p> */}
                         </center>
                     </div>
@@ -310,14 +318,14 @@ export default function Home() {
                 <div className={Styles.rowIcon}>
                     <div className={Styles.columnIcon}>
                         <center>
-                            <img src="./data/images/posters/attendance.png" className={Styles.iconImg} alt="icon" />
+                            <img src={attendance} className={Styles.iconImg} alt="icon" />
                             {/* <p className={Styles.para3} >Student Record</p> */}
                         </center>
 
                     </div>
                     <div className={Styles.columnIcon}>
                         <center>
-                            <img src="./data/images/posters/achieve.png" className={Styles.iconImg} alt="icon" />
+                            <img src={achieve} className={Styles.iconImg} alt="icon" />
                             {/* <p className={Styles.para3} > Achievement</p> */}
                         </center>
                     </div>
@@ -325,13 +333,13 @@ export default function Home() {
 
                     <div className={Styles.columnIcon}>
                         <center>
-                            <img src="./data/images/posters/progress.png" className={Styles.iconImg} alt="icon" />
+                            <img src={progress} className={Styles.iconImg} alt="icon" />
                             {/* <p className={Styles.para3} > Growth</p> */}
                         </center>
                     </div>
                     <div className={Styles.columnIcon}>
                         <center>
-                            <img src="./data/images/posters/hero.png" className={Styles.iconImg} alt="icon" />
+                            <img src={hero} className={Styles.iconImg} alt="icon" />
                             {/* <p className={Styles.para3} >You Become a Hero</p> */}
                         </center>
                     </div>

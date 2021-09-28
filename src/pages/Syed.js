@@ -3,7 +3,7 @@ import Layout from '../components/Layout';
 import Styles from '../styles/profile.module.css';
 import { Link } from 'react-router-dom';
 import Modal from 'react-modal';
-import photo from "./../certi/diya-mark.jpg";
+import photo from "./../certi/syed-mark.jpg";
 
 var reactModal = require("react-modal");
 
@@ -98,16 +98,16 @@ function Syed() {
                                 <span className={Styles.credt} > Banglore</span>
                             </p>
                             <p className={Styles.para4}>School:
-                                <span className={Styles.credt} >Holy Child Senior Secondary School</span>
+                                <span className={Styles.credt} >Amity Banglore School</span>
                             </p>
                             <p className={Styles.para4}>Achievement:
-                                <span className={Styles.credt} > 93% in informatic Tech</span>
+                                <span className={Styles.credt} > 82% in Standard 5th </span>
                             </p>
                             <p className={Styles.para4}>Certificates:
                                 <span className={Styles.credt} onClick={openModal} className={Styles.modalcerti} > Click to Open</span>
                             </p>
                             <p className={Styles.amount}>Amount:
-                                <span className={Styles.amt} > Rs.1,00,000/ per year</span>
+                                <span className={Styles.amt} >___</span>
                             </p>
 
 
