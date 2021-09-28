@@ -84,9 +84,6 @@ export default function Home() {
                 </div>
             </div>
 
-
-
-
             <div >
 
                 <p className={Styles.para2} style={{ textAlign: "Left", fontSize: "30px", color: "black", marginLeft: "2%", marginTop: "4%" }}>Top  fundraisers</p>
@@ -207,6 +204,62 @@ export default function Home() {
                                 </center>
                             </div>
 
+                            <div className={Styles.cscard}>
+                                <center>
+                                    <Card className={Styles.stdCard} >
+                                        <img src="./data/images/posters/owiz.png" alt="student" />
+                                        <p className={Styles.stdDetail1} >Owiz Ahmed 14yrs</p>
+                                        <p className={Styles.stdDetail2} >Location: Banglore<br /><br />
+                                            This child wants to fulfill his passed father's wish to be an IAS officer.  Help this child by sponsoring his education.
+
+                                        </p>
+                                        <center>
+                                            <Link to="/owiz"
+                                            >
+                                                <button className={Styles.proBtn} >Profile</button>
+                                            </Link>
+                                        </center>
+                                    </Card>
+                                </center>
+                            </div>
+
+                            <div className={Styles.cscard}>
+                                <center>
+                                    <Card className={Styles.stdCard} >
+                                        <img src="./data/images/posters/awas.png" alt="student" />
+                                        <p className={Styles.stdDetail1} >Awas Pasha 10yrs</p>
+                                        <p className={Styles.stdDetail2} >Location: Banglore<br /><br />
+                                            Awas’s single mother is struggling so hard to make him a Doctor.  Help this child by sponsoring his education.
+
+                                        </p>
+                                        <center>
+                                            <Link to="/awas"
+                                            >
+                                                <button className={Styles.proBtn} >Profile</button>
+                                            </Link>
+                                        </center>
+                                    </Card>
+                                </center>
+                            </div>
+
+                            <div className={Styles.cscard}>
+                                <center>
+                                    <Card className={Styles.stdCard} >
+                                        <img src="./data/images/posters/syed.png" alt="student" />
+                                        <p className={Styles.stdDetail1} >Syed Ameen 10yrs</p>
+                                        <p className={Styles.stdDetail2} >Location: Banglore<br /><br />
+                                            This family has no source of income to make him study. Syed, a talented child!  Help this child by sponsoring his education.
+
+                                        </p>
+                                        <center>
+                                            <Link to="/syed"
+                                            >
+                                                <button className={Styles.proBtn} >Profile</button>
+                                            </Link>
+                                        </center>
+                                    </Card>
+                                </center>
+                            </div>
 
 
                         </Carousel>
