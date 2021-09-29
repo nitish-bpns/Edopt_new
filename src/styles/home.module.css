@@ -265,7 +265,7 @@ height: 220px;
   font-size: 42px;
 }
   .donorBody{
-    border: none;
+    border: none !important;
 
   }
 

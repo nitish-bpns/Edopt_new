@@ -367,7 +367,7 @@ export default function Home() {
 
                     <div>
                         <Card className={Styles.donorBody}>
-                            <CardBody className={Styles.donorCard} style={{ padding: "0px" }} >
+                            <CardBody className={Styles.donorCard} style={{ padding: "0px", border: "none" }} >
                                 <img src="./data/images/posters/khush.jpg" alt="img" />
 
 
@@ -382,12 +382,12 @@ export default function Home() {
 
                     <div>
                         <Card className={Styles.donorBody}>
-                            <CardBody className={Styles.donorCard} style={{ padding: "0px" }} >
+                            <CardBody className={Styles.donorCard} style={{ padding: "0px", border: "none" }} >
                                 <img src="./data/images/posters/shomby.jpg" alt="img" />
 
 
                             </CardBody>
-                            <CardFooter className={Styles.donorFooter} >
+                            <CardFooter className={Styles.donorFooter} style={{ border: "none" }} >
                                 <center> Shomby Goswami<br />NIFT 2017 topper, Presidential gold medalist </center>
                             </CardFooter>
                         </Card>
@@ -396,12 +396,12 @@ export default function Home() {
 
                     <div>
                         <Card className={Styles.donorBody}>
-                            <CardBody className={Styles.donorCard} style={{ padding: "0px" }} >
-                                <img src="./data/images/posters/HARSHVEER.jpg" alt="img" />
+                            <CardBody className={Styles.donorCard} style={{ padding: "0px", border: "none" }} >
+                                <img src="./data/images/posters/harshveer.png" alt="img" />
 
 
                             </CardBody>
-                            <CardFooter className={Styles.donorFooter} >
+                            <CardFooter className={Styles.donorFooter} style={{ border: "none" }} >
                                 <center> Harshveer Jain<br />IIT B, CAT 100%ile, IIM C, Bain & Co.</center>
                             </CardFooter>
                         </Card>
@@ -410,12 +410,12 @@ export default function Home() {
 
                     <div>
                         <Card className={Styles.donorBody}>
-                            <CardBody className={Styles.donorCard} style={{ padding: "0px" }} >
+                            <CardBody className={Styles.donorCard} style={{ padding: "0px", border: "none" }} >
                                 <img src="./data/images/posters/prabhas.jpg" alt="img" />
 
 
                             </CardBody>
-                            <CardFooter className={Styles.donorFooter} >
+                            <CardFooter className={Styles.donorFooter} style={{ border: "none" }} >
                                 <center> Prabhas Kumar<br />IITian, IAS CDO-Lucknow, UP </center>
                             </CardFooter>
                         </Card>
@@ -424,12 +424,12 @@ export default function Home() {
 
                     <div>
                         <Card className={Styles.donorBody}>
-                            <CardBody className={Styles.donorCard} style={{ padding: "0px" }} >
+                            <CardBody className={Styles.donorCard} style={{ padding: "0px", border: "none" }} >
                                 <img src="./data/images/posters/anant.jpg" alt="img" />
 
 
                             </CardBody>
-                            <CardFooter className={Styles.donorFooter} >
+                            <CardFooter className={Styles.donorFooter} style={{ border: "none" }} >
                                 <center> Anant Mehrotra<br />Google, MIT</center>
                             </CardFooter>
                         </Card>
@@ -437,12 +437,12 @@ export default function Home() {
 
                     <div>
                         <Card className={Styles.donorBody}>
-                            <CardBody className={Styles.donorCard} style={{ padding: "0px" }} >
+                            <CardBody className={Styles.donorCard} style={{ padding: "0px", border: "none" }} >
                                 <img src="./data/images/posters/rahul.jpg" alt="img" />
 
 
                             </CardBody>
-                            <CardFooter className={Styles.donorFooter} >
+                            <CardFooter className={Styles.donorFooter} style={{ border: "none" }} >
                                 <center> Rahul Khanna<br />Founder Thunderpod, YC Backed </center>
                             </CardFooter>
                         </Card>
@@ -451,12 +451,12 @@ export default function Home() {
 
                     <div>
                         <Card className={Styles.donorBody}>
-                            <CardBody className={Styles.donorCard} style={{ padding: "0px" }} >
+                            <CardBody className={Styles.donorCard} style={{ padding: "0px", border: "none" }} >
                                 <img src="./data/images/posters/ayush.jpg" alt="img" />
 
 
                             </CardBody>
-                            <CardFooter className={Styles.donorFooter} >
+                            <CardFooter className={Styles.donorFooter} style={{ border: "none" }} >
                                 <center> Ayush Agrawal<br />IIT Kharagpur, Flipkart </center>
                             </CardFooter>
                         </Card>
