@@ -408,18 +408,7 @@ export default function Home() {
                     </div>
 
 
-                    <div>
-                        <Card className={Styles.donorBody}>
-                            <CardBody className={Styles.donorCard} style={{ padding: "0px", border: "none" }} >
-                                <img src="./data/images/posters/prabhas.jpg" alt="img" />
 
-
-                            </CardBody>
-                            <CardFooter className={Styles.donorFooter} style={{ border: "none" }} >
-                                <center> Prabhas Kumar<br />IITian, IAS CDO-Lucknow, UP </center>
-                            </CardFooter>
-                        </Card>
-                    </div>
 
 
                     <div>
