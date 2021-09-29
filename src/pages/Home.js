@@ -359,37 +359,119 @@ export default function Home() {
                     </div>
                 </center>
             </div>
-
-            {/* <div>
+            <br />
+            <br />
+            <div>
+                <center> <b className={Styles.donor} >Our Super Mentors</b> </center>
                 <Carousel responsive={responsive}>
 
                     <div>
-                        <Card className={Styles.donorCard} >
+                        <Card className={Styles.donorBody}>
+                            <CardBody className={Styles.donorCard} style={{ padding: "0px" }} >
+                                <img src="./data/images/posters/khush.jpg" alt="img" />
+
+
+                            </CardBody>
+                            <CardFooter className={Styles.donorFooter} >
+                                <center> Kush Taneja<br />Forbes 30, CEO Fampay</center>
+                            </CardFooter>
+                        </Card>
+                    </div>
 
 
 
+                    <div>
+                        <Card className={Styles.donorBody}>
+                            <CardBody className={Styles.donorCard} style={{ padding: "0px" }} >
+                                <img src="./data/images/posters/shomby.jpg" alt="img" />
+
+
+                            </CardBody>
+                            <CardFooter className={Styles.donorFooter} >
+                                <center> Shomby Goswami<br />NIFT 2017 topper, Presidential gold medalist </center>
+                            </CardFooter>
+                        </Card>
+                    </div>
+
+
+                    <div>
+                        <Card className={Styles.donorBody}>
+                            <CardBody className={Styles.donorCard} style={{ padding: "0px" }} >
+                                <img src="./data/images/posters/HARSHVEER.jpg" alt="img" />
+
+
+                            </CardBody>
+                            <CardFooter className={Styles.donorFooter} >
+                                <center> Harshveer Jain<br />IIT B, CAT 100%ile, IIM C, Bain & Co.</center>
+                            </CardFooter>
+                        </Card>
+                    </div>
+
+
+                    <div>
+                        <Card className={Styles.donorBody}>
+                            <CardBody className={Styles.donorCard} style={{ padding: "0px" }} >
+                                <img src="./data/images/posters/prabhas.jpg" alt="img" />
+
+
+                            </CardBody>
+                            <CardFooter className={Styles.donorFooter} >
+                                <center> Prabhas Kumar<br />IITian, IAS CDO-Lucknow, UP </center>
+                            </CardFooter>
+                        </Card>
+                    </div>
+
+
+                    <div>
+                        <Card className={Styles.donorBody}>
+                            <CardBody className={Styles.donorCard} style={{ padding: "0px" }} >
+                                <img src="./data/images/posters/anant.jpg" alt="img" />
+
+
+                            </CardBody>
+                            <CardFooter className={Styles.donorFooter} >
+                                <center> Anant Mehrotra<br />Google, MIT</center>
+                            </CardFooter>
                         </Card>
                     </div>
 
                     <div>
-                        <Card className={Styles.donorCard} >
+                        <Card className={Styles.donorBody}>
+                            <CardBody className={Styles.donorCard} style={{ padding: "0px" }} >
+                                <img src="./data/images/posters/rahul.jpg" alt="img" />
 
 
-
+                            </CardBody>
+                            <CardFooter className={Styles.donorFooter} >
+                                <center> Rahul Khanna<br />Founder Thunderpod, YC Backed </center>
+                            </CardFooter>
                         </Card>
                     </div>
+
 
                     <div>
-                        <Card className={Styles.donorCard} >
+                        <Card className={Styles.donorBody}>
+                            <CardBody className={Styles.donorCard} style={{ padding: "0px" }} >
+                                <img src="./data/images/posters/ayush.jpg" alt="img" />
 
 
-
+                            </CardBody>
+                            <CardFooter className={Styles.donorFooter} >
+                                <center> Ayush Agrawal<br />IIT Kharagpur, Flipkart </center>
+                            </CardFooter>
                         </Card>
                     </div>
+
+
+
+
+
+
+
 
                 </Carousel>
             </div>
- */}
+
 
 
             <br />
