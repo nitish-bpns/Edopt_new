@@ -372,7 +372,7 @@ export default function Home() {
 
 
                             </CardBody>
-                            <CardFooter className={Styles.donorFooter} >
+                            <CardFooter className={Styles.donorFooter} style={{ border: "none" }} >
                                 <center> Kush Taneja<br />Forbes 30, CEO Fampay</center>
                             </CardFooter>
                         </Card>
