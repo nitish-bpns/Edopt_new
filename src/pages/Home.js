@@ -87,7 +87,7 @@ export default function Home() {
                 </div>
                 <div className={Styles.footerCol}>
                     <div className={Styles.columnTwo}>
-                        <img src="./data/images/posters/img1.png" alt="img" />
+                        <img src="./data/images/posters/ss1.png" alt="img" />
                     </div>
                 </div>
             </div>
