@@ -484,9 +484,6 @@ export default function Home() {
                 </Carousel>
             </div>
 
-
-
-            <br />
             <br />
             <div style={{ textAlign: "Center", fontSize: "30px", color: "black" }}>
                 <b className={Styles.newst} >In the NEWS!</b>
