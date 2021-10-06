@@ -104,7 +104,8 @@ export default function Home() {
                                     <Card className={Styles.stdCard} >
                                         <img src="./data/images/posters/diya.jpg" alt="student" />
                                         <p className={Styles.stdDetail1} >Diya Gosain 15yrs</p>
-                                        <p className={Styles.stdDetail2} >Location: Sonipat<br /><br />
+                                        <p className={Styles.stdDetail2} >Location: Sonipat<br />
+                                            97% in 9th Class<br />
                                             COVID-19 hits are hard on her family. She wants to pursue engineering but due to this crisis, facing financial issues. Help her to achieve her dream.
 
                                         </p>
@@ -123,7 +124,8 @@ export default function Home() {
                                     <Card className={Styles.stdCard} >
                                         <img src="./data/images/posters/jatin.jpg" alt="student" />
                                         <p className={Styles.stdDetail1} >Jatin Arora 15yrs</p>
-                                        <p className={Styles.stdDetail2} >Location: Karnal<br /><br />
+                                        <p className={Styles.stdDetail2} >Location: Karnal<br />
+                                            96% in 8th Class<br />
                                             A single parent child who wants to serve the nation. Help him to study and pursue his dream to become a teacher to serve the nation.
                                         </p>
                                         <center>
@@ -141,7 +143,8 @@ export default function Home() {
                                     <Card className={Styles.stdCard} >
                                         <img src="./data/images/posters/priyanshu.png" alt="student" />
                                         <p className={Styles.stdDetail1} >Priyanshu Pandey 16yrs</p>
-                                        <p className={Styles.stdDetail2} >Location: Delhi<br /><br />
+                                        <p className={Styles.stdDetail2} >Location: Delhi<br />
+                                            85% in 10th class<br />
                                             The Father of this child is a newspaper vendor and can't afford his educational finances. Help this child to fulfil his dream to become software developer.
                                         </p>
                                         <center>
@@ -161,7 +164,8 @@ export default function Home() {
                                     <Card className={Styles.stdCard} >
                                         <img src="./data/images/posters/divyanshu.png" alt="student" />
                                         <p className={Styles.stdDetail1} >Divyanshu Pandey 11yrs</p>
-                                        <p className={Styles.stdDetail2} >Location: Delhi<br /><br />
+                                        <p className={Styles.stdDetail2} >Location: Delhi<br />
+                                            77.4% in 5th class<br />
                                             He wants to become an IPS officer but facing difficulties due to financial constraints. Help this child by sponsoring his education.
                                         </p>
                                         <center>
@@ -181,7 +185,8 @@ export default function Home() {
                                     <Card className={Styles.stdCard} >
                                         <img src="./data/images/posters/sakshi.jpg" alt="student" />
                                         <p className={Styles.stdDetail1} >Sakshi 6yrs</p>
-                                        <p className={Styles.stdDetail2} >Location: Delhi<br /><br />
+                                        <p className={Styles.stdDetail2} >Location: Delhi<br />
+                                            98.6% in 1st Class<br />
                                             The child of a labourer who had lost his employment during COVID-19 seeks help to pay off her school fees.Help this child to fulfil her dreams.
                                         </p>
                                         <center>
@@ -199,7 +204,8 @@ export default function Home() {
                                     <Card className={Styles.stdCard} >
                                         <img src="./data/images/posters/anshu.jpg" alt="student" />
                                         <p className={Styles.stdDetail1} >Anshu 14yrs</p>
-                                        <p className={Styles.stdDetail2} >Location: Sonipat<br /><br />
+                                        <p className={Styles.stdDetail2} >Location: Sonipat<br />
+                                            99.6% in 9th Class<br />
                                             Help this single parent-child whose father suffers from kidney damage, to complete her education and achieve her goal of becoming a doctor.
                                         </p>
                                         <center>
@@ -217,9 +223,9 @@ export default function Home() {
                                     <Card className={Styles.stdCard} >
                                         <img src="./data/images/posters/owiz.png" alt="student" />
                                         <p className={Styles.stdDetail1} >Owiz Ahmed 14yrs</p>
-                                        <p className={Styles.stdDetail2} >Location: Banglore<br /><br />
+                                        <p className={Styles.stdDetail2} >Location: Banglore<br />
+                                            98% in 8th Class<br />
                                             This child wants to fulfill his passed father's wish to be an IAS officer.  Help this child by sponsoring his education.
-
                                         </p>
                                         <center>
                                             <Link to="/owiz"
@@ -236,7 +242,8 @@ export default function Home() {
                                     <Card className={Styles.stdCard} >
                                         <img src="./data/images/posters/awas.png" alt="student" />
                                         <p className={Styles.stdDetail1} >Awas Pasha 10yrs</p>
-                                        <p className={Styles.stdDetail2} >Location: Banglore<br /><br />
+                                        <p className={Styles.stdDetail2} >Location: Banglore<br />
+                                            74% in 5th Class<br />
                                             Awas’s single mother is struggling so hard to make him a Doctor.  Help this child by sponsoring his education.
 
                                         </p>
@@ -255,8 +262,9 @@ export default function Home() {
                                     <Card className={Styles.stdCard} >
                                         <img src="./data/images/posters/syed.png" alt="student" />
                                         <p className={Styles.stdDetail1} >Syed Ameen 10yrs</p>
-                                        <p className={Styles.stdDetail2} >Location: Banglore<br /><br />
-                                            This family has no source of income to make him study. Syed, a talented child!  Help this child by sponsoring his education.
+                                        <p className={Styles.stdDetail2} >Location: Banglore<br />
+                                            82% in 10th Class<br />
+                                            This family has no source of income to make him study. Help this child by sponsoring his education.
 
                                         </p>
                                         <center>
@@ -288,63 +296,61 @@ export default function Home() {
                 <b >How it works</b>
             </div>
             <br />
-            <div className={Styles.iconBg}>
-                <div className={Styles.rowIcon}>
-                    <div className={Styles.columnIcon}>
-                        <center>
-                            <img style={{ height: "260px", marginTop: "-15%" }} src={merit} className={Styles.iconImg} alt="icon" />
-                            {/* <p className={Styles.para3} >Humble Background</p> */}
-                        </center>
-                    </div>
-                    <div className={Styles.columnIcon}>
-                        <center>
-                            <img src={story} className={Styles.iconImg} alt="icon" />
-                            {/* <p className={Styles.para3} >Humble Background</p> */}
-                        </center>
-                    </div>
-                    <div className={Styles.columnIcon}>
-                        <center>
-                            <img src={verify} className={Styles.iconImg} alt="icon" />
-                            {/* <p className={Styles.para3} >Document Verification</p> */}
-                        </center>
-                    </div>
-                    <div className={Styles.columnIcon}>
-                        <center>
-                            <img src={pay} className={Styles.iconImg} alt="icon" />
-                            {/* <p className={Styles.para3} > Payment to Institution</p> */}
-                        </center>
-                    </div>
+
+
+            <div className={Styles.irow}>
+                <div className={Styles.iicon}>
+                    <center>
+                        <img src={merit} className={Styles.iconImg1} alt="icon" />
+
+                    </center>
                 </div>
-                <div className={Styles.rowIcon}>
-                    <div className={Styles.columnIcon}>
-                        <center>
-                            <img src={attendance} className={Styles.iconImg} alt="icon" />
-                            {/* <p className={Styles.para3} >Student Record</p> */}
-                        </center>
+                <div className={Styles.iicon}>
+                    <center>
+                        <img src={story} className={Styles.iconImg} alt="icon" />
 
-                    </div>
-                    <div className={Styles.columnIcon}>
-                        <center>
-                            <img src={achieve} className={Styles.iconImg} alt="icon" />
-                            {/* <p className={Styles.para3} > Achievement</p> */}
-                        </center>
-                    </div>
+                    </center>
+                </div>
+                <div className={Styles.iicon}>
+                    <center>
+                        <img src={verify} className={Styles.iconImg} alt="icon" />
 
+                    </center>
+                </div>
+                <div className={Styles.iicon}>
+                    <center>
+                        <img src={pay} className={Styles.iconImg} alt="icon" />
 
-                    <div className={Styles.columnIcon}>
-                        <center>
-                            <img src={progress} className={Styles.iconImg} alt="icon" />
-                            {/* <p className={Styles.para3} > Growth</p> */}
-                        </center>
-                    </div>
-                    <div className={Styles.columnIcon}>
-                        <center>
-                            <img src={hero} className={Styles.iconImg} alt="icon" />
-                            {/* <p className={Styles.para3} >You Become a Hero</p> */}
-                        </center>
-                    </div>
+                    </center>
+                </div>
+                <div className={Styles.iicon}>
+                    <center>
+                        <img src={attendance} className={Styles.iconImg} alt="icon" />
+
+                    </center>
+                </div>
+                <div className={Styles.iicon}>
+                    <center>
+                        <img src={achieve} className={Styles.iconImg} alt="icon" />
+
+                    </center>
+                </div>
+
+                <div className={Styles.iicon}>
+                    <center>
+                        <img src={progress} className={Styles.iconImg} alt="icon" />
+
+                    </center>
+                </div>
+                <div className={Styles.iicon}>
+                    <center>
+                        <img src={hero} className={Styles.iconImg} alt="icon" />
+
+                    </center>
                 </div>
             </div>
+            <br />
+            <br />
             <br />
             <br />
             <div>
@@ -366,91 +372,108 @@ export default function Home() {
                 <Carousel responsive={responsive}>
 
                     <div>
-                        <Card className={Styles.donorBody}>
-                            <CardBody className={Styles.donorCard} style={{ padding: "0px", border: "none" }} >
-                                <img src="./data/images/posters/khush.jpg" alt="img" />
+                        <a href="https://www.linkedin.com/in/kushtaneja/?originalSubdomain=in" className={Styles.menLink} target="blank" Styles={{ textDecoration: "none", cursor: "pointer" }}>
+                            <Card className={Styles.donorBody}>
+
+                                <CardBody className={Styles.donorCard} style={{ padding: "0px", border: "none" }} >
+                                    <img src="./data/images/posters/khush.jpg" alt="img" />
 
 
-                            </CardBody>
-                            <CardFooter className={Styles.donorFooter} style={{ border: "none" }} >
-                                <center> Kush Taneja<br />Forbes 30, CEO Fampay</center>
-                            </CardFooter>
-                        </Card>
-                    </div>
+                                </CardBody>
 
-
-
-                    <div>
-                        <Card className={Styles.donorBody}>
-                            <CardBody className={Styles.donorCard} style={{ padding: "0px", border: "none" }} >
-                                <img src="./data/images/posters/shomby.jpg" alt="img" />
-
-
-                            </CardBody>
-                            <CardFooter className={Styles.donorFooter} style={{ border: "none" }} >
-                                <center> Shomby Goswami<br />NIFT 2017 topper, Presidential gold medalist </center>
-                            </CardFooter>
-                        </Card>
+                                <CardFooter className={Styles.donorFooter} style={{ border: "none" }} >
+                                    <center> Kush Taneja<br />Forbes 30, CEO Fampay</center>
+                                </CardFooter>
+                            </Card>
+                        </a>
                     </div>
 
 
                     <div>
-                        <Card className={Styles.donorBody}>
-                            <CardBody className={Styles.donorCard} style={{ padding: "0px", border: "none" }} >
-                                <img src="./data/images/posters/harshveer.png" alt="img" />
+                        <a href="https://www.linkedin.com/in/harshveer-jain-9285448b/?originalSubdomain=in" target="blank" className={Styles.menLink} Styles={{ textDecoration: "none", cursor: "pointer" }}>
+                            <Card className={Styles.donorBody}>
+
+                                <CardBody className={Styles.donorCard} style={{ padding: "0px", border: "none" }} >
+                                    <img src="./data/images/posters/harsh.jpg" alt="img" />
 
 
-                            </CardBody>
-                            <CardFooter className={Styles.donorFooter} style={{ border: "none" }} >
-                                <center> Harshveer Jain<br />IIT B, CAT 100%ile, IIM C, Bain & Co.</center>
-                            </CardFooter>
-                        </Card>
+                                </CardBody>
+
+                                <CardFooter className={Styles.donorFooter} style={{ border: "none" }} >
+                                    <center> Harshveer Jain<br />IIT B, CAT 100%ile, IIM C, Bain & Co.</center>
+                                </CardFooter>
+                            </Card>
+                        </a>
                     </div>
 
 
-
-
-
-                    <div>
+                    <div> <a href="https://www.linkedin.com/in/anantmehrotra/" target="blank" className={Styles.menLink} Styles={{ textDecoration: "none", cursor: "pointer" }}>
                         <Card className={Styles.donorBody}>
+
                             <CardBody className={Styles.donorCard} style={{ padding: "0px", border: "none" }} >
                                 <img src="./data/images/posters/anant.jpg" alt="img" />
 
 
                             </CardBody>
+
                             <CardFooter className={Styles.donorFooter} style={{ border: "none" }} >
                                 <center> Anant Mehrotra<br />Google, MIT</center>
                             </CardFooter>
                         </Card>
-                    </div>
-
-                    <div>
-                        <Card className={Styles.donorBody}>
-                            <CardBody className={Styles.donorCard} style={{ padding: "0px", border: "none" }} >
-                                <img src="./data/images/posters/rahul.jpg" alt="img" />
-
-
-                            </CardBody>
-                            <CardFooter className={Styles.donorFooter} style={{ border: "none" }} >
-                                <center> Rahul Khanna<br />Founder Thunderpod, YC Backed </center>
-                            </CardFooter>
-                        </Card>
+                    </a>
                     </div>
 
 
                     <div>
+                        <a href="https://www.linkedin.com/in/rahulkhanna02/?originalSubdomain=in" target="blank" className={Styles.menLink} Styles={{ textDecoration: "none", cursor: "pointer" }}>
+                            <Card className={Styles.donorBody}>
+
+
+
+
+                                <CardBody className={Styles.donorCard} style={{ padding: "0px", border: "none" }} >
+                                    <img src="./data/images/posters/rahul.jpg" alt="img" />
+                                </CardBody>
+
+
+                                <CardFooter className={Styles.donorFooter} style={{ border: "none", textDecoration: "none" }} >
+                                    <center> Rahul Khanna<br />Founder Thunderpod, YC Backed </center>
+                                </CardFooter>
+                            </Card>
+                        </a>
+                    </div>
+
+
+                    <div>
                         <Card className={Styles.donorBody}>
-                            <CardBody className={Styles.donorCard} style={{ padding: "0px", border: "none" }} >
-                                <img src="./data/images/posters/ayush.jpg" alt="img" />
+                            <a href="https://www.linkedin.com/in/ayush-agrawal-5a6aa766/?originalSubdomain=in" target="blank" className={Styles.menLink} Styles={{ textDecoration: "none", cursor: "pointer" }}>
+                                <CardBody className={Styles.donorCard} style={{ padding: "0px", border: "none" }} >
+                                    <img src="./data/images/posters/ayush.jpg" alt="img" />
 
 
-                            </CardBody>
+                                </CardBody>
+                            </a>
                             <CardFooter className={Styles.donorFooter} style={{ border: "none" }} >
                                 <center> Ayush Agrawal<br />IIT Kharagpur, Flipkart </center>
                             </CardFooter>
                         </Card>
                     </div>
 
+
+                    <div>
+                        <Card className={Styles.donorBody}>
+                            <a href="https://www.linkedin.com/in/shomby-goswami-20669ba5/" className={Styles.menLink} target="blank" Styles={{ textDecoration: "none", cursor: "pointer" }}>
+                                <CardBody className={Styles.donorCard} style={{ padding: "0px", border: "none" }} >
+                                    <img src="./data/images/posters/shomby.jpg" alt="img" />
+
+
+                                </CardBody>
+                            </a>
+                            <CardFooter className={Styles.donorFooter} style={{ border: "none" }} >
+                                <center> Shomby Goswami<br />NIFT 2017 topper, Presidential gold medalist </center>
+                            </CardFooter>
+                        </Card>
+                    </div>
 
 
 

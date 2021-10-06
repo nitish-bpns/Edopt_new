@@ -207,12 +207,7 @@
   }
   .iconImg{
     width: 220px;
-height: 220px;
-    background: radial-gradient(100% 100% at 0% 0%, #FFFFFF 0%, rgba(229, 229, 229, 0) 100%);
-    filter: drop-shadow(80px 120px 100px rgba(0, 0, 0, 0.05));
-    backdrop-filter: blur(2px);
-    /* Note: backdrop-filter has minimal browser support */
-    
+    height: 220px;
     border-radius: 20px;
   }
 
@@ -288,8 +283,23 @@ height: 220px;
     text-align: center;
 }
 
-
-
+.irow{
+  display: flex;
+  flex-wrap: wrap;
+}
+.iicon{
+  width: 25%;
+  margin: 3% 0 3% 0;
+}
+.iconImg1{
+  height:250px;
+  width: 220px;
+  border-radius: 20px;
+  margin-top: -13%;
+}
+.menLink{
+  text-decoration: none;
+}
 
 
   @media screen and (max-width: 900px){
@@ -337,6 +347,10 @@ height: 220px;
         margin-top: 1%;
         border-radius: 20px;
         margin-bottom: 5%;
+    }
+    .iicon{
+      width: 32%;
+      margin: 3% 0 3% 0;
     }
   }
 
@@ -432,6 +446,21 @@ height: 220px;
 .donor{
   margin-top: 100%;;
   font-size: 28px;
+}
+.iicon{
+  width: 40%;
+  margin: 3% 5% 3% 5%;
+}
+.iconImg{
+  width: 100%;
+  height: 140px;
+  border-radius: 20px;
+}
+.iconImg1{
+  height:165px;
+  width: 100%;
+  border-radius: 20px;
+  margin-top: -20%;
 }
 }
   
