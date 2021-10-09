@@ -93,7 +93,7 @@ function Sakshi() {
                                 <span className={Styles.credt} >Delhi</span>
                             </p>
                             <p className={Styles.para4}>School:
-                                <span className={Styles.credt} >  Vidyadeep Public School</span>
+                                <span className={Styles.credt} >Rav Meher Chand Saraswati Vidya Mandir </span>
                             </p>
                             <p className={Styles.para4}>Achievement:
                                 <span className={Styles.credt} > 98.6% in first class, Class Topper</span>
@@ -102,7 +102,7 @@ function Sakshi() {
                                 <span className={Styles.credt} onClick={openModal} className={Styles.modalcerti} > Click to Open</span>
                             </p>
                             <p className={Styles.amount}>Amount:
-                                <span className={Styles.amt} > Rs.50,000/ per year</span>
+                                <span className={Styles.amt} > Rs.13,000/ per year</span>
                             </p>
 
 

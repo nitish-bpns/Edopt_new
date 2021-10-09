@@ -22,7 +22,7 @@ const customStyles = {
 
 // Modal.setAppElement('#yourAppElement');
 
-function Awas() {
+function Awaiz() {
 
     let subtitle;
     const [modalIsOpen, setIsOpen] = React.useState(false);
@@ -72,7 +72,7 @@ function Awas() {
 
 
             <div className={Styles.main2}>
-                <p className={Styles.para1}>Awas Pasha</p>
+                <p className={Styles.para1}>Awaiz Pasha</p>
 
                 <div className={Styles.scols}>
 
@@ -89,7 +89,7 @@ function Awas() {
                             <p className={Styles.para3}>Credentials</p>
                             <hr />
                             <p className={Styles.para4}>Name:
-                                <span className={Styles.credt} > Awas Pasha</span>
+                                <span className={Styles.credt} > Awaiz Pasha</span>
                             </p>
                             <p className={Styles.para4}>Age:
                                 <span className={Styles.credt} > 10</span>
@@ -107,7 +107,7 @@ function Awas() {
                                 <span className={Styles.credt} onClick={openModal} className={Styles.modalcerti} > Click to Open</span>
                             </p>
                             <p className={Styles.amount}>Amount:
-                                <span className={Styles.amt} >___ </span>
+                                <span className={Styles.amt} >Rs.16,000 </span>
                             </p>
 
 
@@ -122,11 +122,11 @@ function Awas() {
                             <div className={Styles.about}>
                                 <p className={Styles.para2}>About the fundraiser</p>
                                 <br />
-                                Awas Pasha, resident of Bangalore is a bright student from Amity Bangalore School. His mother is a school teacher and working tirelessly to make Awas’s future bright. He wants to be a doctor but his mother doesn't earn enough to give him a proper education. After his father’s death, the family is not able to support itself.
+                                Awaiz Pasha, resident of Bangalore is a bright student from Amity Bangalore School. His mother is a school teacher and working tirelessly to make Awaiz’s future bright. He wants to be a doctor but his mother doesn't earn enough to give him a proper education. After his father’s death, the family is not able to support itself.
 
                                 <br />
                                 <br />
-                                Only you can help Awas to get a proper education and his mother an emotional support.
+                                Only you can help Awaiz to get a proper education and his mother an emotional support.
 
                                 <br />
 
@@ -158,4 +158,4 @@ function Awas() {
     )
 }
 
-export default Awas;
+export default Awaiz;

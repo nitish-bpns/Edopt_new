@@ -24,7 +24,7 @@ import Divyanshu from './pages/Divyanshu';
 import Sakshi from './pages/Sakshi';
 import Anshu from './pages/Anshu';
 import Owiz from './pages/Owiz';
-import Awas from './pages/Awas';
+import Awaiz from './pages/Awaiz';
 import Syed from './pages/Syed';
 
 
@@ -53,7 +53,7 @@ function App() {
         <Route exact path="/Sakshi" component={Sakshi} />
         <Route exact path="/Anshu" component={Anshu} />
         <Route exact path="/Owiz" component={Owiz} />
-        <Route exact path="/Awas" component={Awas} />
+        <Route exact path="/Awaiz" component={Awaiz} />
         <Route exact path="/Syed" component={Syed} />
 
         <Route component={NotFound} />

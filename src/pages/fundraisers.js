@@ -21,8 +21,8 @@ function fundraisers() {
                             <img src="./data/images/posters/diya.jpg" alt="student" />
                             <p className={Styles.stdDetail1} >Diya Gosain 15yrs</p>
                             <p className={Styles.stdDetail2} >Location: Sonipat<br />
-                                Result: 97%<br />
-                                COVID-19 hits are hard on her family. She wants to pursue engineering but due to this crisis, facing financial issues. Help her to achieve her dream.
+                            Result: 77.6%<br />
+                             COVID-19 hit are hard on her family.She wants to pursue engineering but due to this crisis she is facing financial issues. Help her to achieve her dream.
 
                             </p>
                             <center>
@@ -121,7 +121,7 @@ function fundraisers() {
                             <img src="./data/images/posters/anshu.jpg" alt="student" />
                             <p className={Styles.stdDetail1} >Anshu 14yrs</p>
                             <p className={Styles.stdDetail2} >Location: Sonipat<br />
-                                Result: 99.6%<br />
+                                Result: 98%<br />
                                 Help this single parent-child whose father suffers from kidney damage, to complete her education and achieve her goal of becoming a doctor.
                             </p>
                             <center>
@@ -139,7 +139,7 @@ function fundraisers() {
                     <Card className={Styles.stdCard} >
                         <center>
                             <img src="./data/images/posters/owiz.png" alt="student" />
-                            <p className={Styles.stdDetail1} >Owiz Ahmed 14yrs</p>
+                            <p className={Styles.stdDetail1} >Owaiz Ahmed 14yrs</p>
                             <p className={Styles.stdDetail2} >Location: Banglore<br />
                                 Result: 98%<br />
                                 This child wants to fulfill his passed father's wish to be an IAS officer.  Help this child by sponsoring his education.
@@ -161,14 +161,14 @@ function fundraisers() {
                     <Card className={Styles.stdCard} >
                         <center>
                             <img src="./data/images/posters/awas.png" alt="student" />
-                            <p className={Styles.stdDetail1} >Awas Pasha 10yrs</p>
+                            <p className={Styles.stdDetail1} >Awaiz Pasha 10yrs</p>
                             <p className={Styles.stdDetail2} >Location: Banglore<br />
                                 Result: 74%<br />
-                                Awas’s single mother is struggling so hard to make him a Doctor.  Help this child by sponsoring his education.
+                                Awaiz’s single mother is struggling so hard to make him a Doctor.  Help this child by sponsoring his education.
 
                             </p>
                             <center>
-                                <Link to="/awas"
+                                <Link to="/awaiz"
                                 >
                                     <button className={Styles.proBtn} >Profile</button>
                                 </Link>
@@ -197,25 +197,8 @@ function fundraisers() {
                             </center>
                         </center>
                     </Card>
-
                 </div>
-
-
-
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
         </Layout>
     )
 }

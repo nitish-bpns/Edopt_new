@@ -68,7 +68,7 @@ function Owiz() {
 
 
             <div className={Styles.main2}>
-                <p className={Styles.para1}>Owiz Ahmed</p>
+                <p className={Styles.para1}>Owaiz Ahmed</p>
 
                 <div className={Styles.scols}>
 
@@ -85,7 +85,7 @@ function Owiz() {
                             <p className={Styles.para3}>Credentials</p>
                             <hr />
                             <p className={Styles.para4}>Name:
-                                <span className={Styles.credt} > Owiz Ahmed</span>
+                                <span className={Styles.credt} > Owaiz Ahmed</span>
                             </p>
                             <p className={Styles.para4}>Age:
                                 <span className={Styles.credt} > 14</span>
@@ -103,7 +103,7 @@ function Owiz() {
                                 <span className={Styles.credt} onClick={openModal} className={Styles.modalcerti} > Click to Open</span>
                             </p>
                             <p className={Styles.amount}>Amount:
-                                <span className={Styles.amt} >___ </span>
+                                <span className={Styles.amt} >Rs. 21,000 </span>
                             </p>
 
                         </div>
@@ -115,8 +115,8 @@ function Owiz() {
                             <div className={Styles.about}>
                                 <p className={Styles.para2}>About the fundraiser</p>
                                 <br />
-                                Owiz Ahmed, resident of bangalore is a bright student who lost his father 5 years back. From that time his only aim is to become an IAS officer because his father wishes the same. He scored brilliant in his subjects and also got achievements and medals in competitions.
-                                His mother is a primary school teacher and does not earn enough to provide owiz high quality education he deserves. Owiz’s mother cannot fulfil his dream alone.
+                                Owaiz Ahmed, resident of bangalore is a bright student who lost his father 5 years back. From that time his only aim is to become an IAS officer because his father wishes the same. He scored brilliant in his subjects and also got achievements and medals in competitions.
+                                His mother is a primary school teacher and does not earn enough to provide Owaiz high quality education he deserves. Owaiz’s mother cannot fulfil his dream alone.
 
                                 <br />
                                 <br />

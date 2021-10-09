@@ -94,7 +94,7 @@ function Jatin() {
                                 <span className={Styles.credt} > Karnal</span>
                             </p>
                             <p className={Styles.para4}>School:
-                                <span className={Styles.credt} >Gyan Ganga Montessori & Model School</span>
+                                <span className={Styles.credt} >Guru Harikrishan Public School</span>
                             </p>
                             <p className={Styles.para4}>Achievement:
                                 <span className={Styles.credt} >  96% in 8th class, Class Topper</span>
@@ -102,7 +102,7 @@ function Jatin() {
                             <p className={Styles.para4}>Certificates:
                                 <span className={Styles.credt} onClick={openModal} className={Styles.modalcerti} > Click to Open</span></p>
                             <p className={Styles.amount}>Amount:
-                                <span className={Styles.amt} > Rs.1,00,000/ per year</span>
+                                <span className={Styles.amt} > Rs.20,000/ per year</span>
                             </p>
                         </div>
                     </div>
@@ -115,7 +115,7 @@ function Jatin() {
                                 My name is Jatin Arora. I am a student of class 9th. I am very bright in studies and very much interested in studies. My mother is a single parent.
                                 <br />
                                 <br />
-                                I hereby bring to your notice that there is a legal dispute going on between my parents which affects my studies emotionally as well as financially. My mother takes care of me and my sister. This is a tough time for us, as my mother works due to her health issues.
+                                I hereby bring to your notice that there is a legal dispute going on between my parents which affects my studies emotionally as well as financially. My mother takes care of me and my sister. This is a tough time for us, as my mother cannot work due to her health issues.
                                 <br />
                                 <br />
                                 Financial condition of my family is not good as there is no source of income because of this it is difficult for me to complete my education and achieve my goals. I have no resources for my studies. I need guidance and financial support to complete my studies. I assure you to work very hard for my goals. I am grateful to one who will help me to reach my goals. Kindly sponsor me, I will be forever grateful to you.

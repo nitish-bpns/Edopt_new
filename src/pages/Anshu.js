@@ -100,13 +100,13 @@ function Anshu() {
                                 <span className={Styles.credt} >Saraswati Vidya mandir Sr. Sec. School</span>
                             </p>
                             <p className={Styles.para4}>Achievement:
-                                <span className={Styles.credt} >98% in Science, School topper</span>
+                                <span className={Styles.credt} >98% Overall, School topper</span>
                             </p>
                             <p className={Styles.para4}>Certificates:
                                 <span className={Styles.credt} onClick={openModal} className={Styles.modalcerti} > Click to Open</span>
                             </p>
                             <p className={Styles.amount}>Amount:
-                                <span className={Styles.amt} > Rs.50,000/ per year</span>
+                                <span className={Styles.amt} > Rs.16,200/ per year</span>
                             </p>
 
 

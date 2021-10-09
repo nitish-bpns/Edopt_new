@@ -107,7 +107,7 @@ function Diya() {
                                 <span className={Styles.credt} onClick={openModal} className={Styles.modalcerti} > Click to Open</span>
                             </p>
                             <p className={Styles.amount}>Amount:
-                                <span className={Styles.amt} > Rs.50,000/ per year</span>
+                                <span className={Styles.amt} > Rs.50,880/ per year</span>
                             </p>
 
 
@@ -122,13 +122,13 @@ function Diya() {
                             <div className={Styles.about}>
                                 <p className={Styles.para2}>About the fundraiser</p>
                                 <br />
-                                I am Diya Gosain. I am a student of class 11th. My father runs a small business. COVID-19 makes our life miserable as one of our family members got infected to COVID and later to black fungus.
+                                I am Diya Gosain. I am a student of class 11th. My father runs a small business. COVID-19 makes our life miserable as one of our family member got infected to COVID and later to black fungus.
                                 <br />
                                 <br />
-                                Our family suffered a lot in this phase. This phase makes us financially weak and we aren't able to pay our educational expenses.
+                                Our family suffered a lot in this phase. This phase made us financially weak and we aren't able to pay our educational expenses.
                                 <br />
                                 <br />
-                                This is a tough time for us, so I request you to please support us financially in this phase. I want to do engineering and achieve my goals. I will be grateful to the one who supports me incessantly. Kindly sponsor me.
+                                This is a tough time for us. So, I request you to please support us financially in this phase. I want to do engineering and achieve my goals. I will be grateful to the one who supports me incessantly. Kindly sponsor me.
                                 <br />
 
                                 <br />

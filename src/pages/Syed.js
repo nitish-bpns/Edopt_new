@@ -107,7 +107,7 @@ function Syed() {
                                 <span className={Styles.credt} onClick={openModal} className={Styles.modalcerti} > Click to Open</span>
                             </p>
                             <p className={Styles.amount}>Amount:
-                                <span className={Styles.amt} >___</span>
+                                <span className={Styles.amt} >Rs.16,000</span>
                             </p>
 
 
