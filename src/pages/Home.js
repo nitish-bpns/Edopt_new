@@ -503,7 +503,9 @@ export default function Home() {
                     <img src="./data/images/posters/news02.png" alt="news" />
                 </Carousel>
             </div>
-
+<br/>
+<br/>
+<br/>
 
         </Layout >
     );
