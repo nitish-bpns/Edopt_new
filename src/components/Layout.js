@@ -74,7 +74,7 @@ export default function Layout({ children }) {
                     <div className={FooterStyles.footerCol}>
                         <div className={FooterStyles.columnTwo}>
                             <a className={FooterStyles.quickLinkHeader} href="/">
-                                About Us
+                                Contact Us
                             </a>
                             <br />
 
