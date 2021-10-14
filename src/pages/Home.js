@@ -15,6 +15,7 @@ import attendance from "./../certi/attendance.png";
 import achieve from "./../certi/achieve.png";
 import progress from "./../certi/progress.png";
 import hero from "./../certi/hero.png";
+import how from "./../certi/howitw.png";
 
 export default function Home() {
 
@@ -298,14 +299,25 @@ export default function Home() {
                 </Link>
             </div >
             <br />
+            <br/>
+            <br/>
 
             <div style={{ textAlign: "Center", fontSize: "30px", color: "black" }}  >
                 <b >How it works</b>
             </div>
             <br />
+            <br/>
+     
+
+<div className={Styles.info}>
+    <center>
+    <img src={how} alt="img"/>
+    </center>
+    </div>
+<br/>
 
 
-            <div className={Styles.irow}>
+            {/* <div className={Styles.irow}>
                 <div className={Styles.iicon}>
                     <center>
                         <img src={merit} className={Styles.iconImg1} alt="icon" />
@@ -355,7 +367,7 @@ export default function Home() {
 
                     </center>
                 </div>
-            </div>
+            </div> */}
             <br />
             <br />
             <br />

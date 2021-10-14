@@ -288,6 +288,10 @@
 .menLink {
   text-decoration: none;
 }
+.info {
+  width: 100%;
+  margin: 5% 0 5% 0;
+}
 
 @media screen and (max-width: 900px) {
   .footerCol {
@@ -448,5 +452,13 @@
     box-shadow: 0px 0px 10px #617264;
     height: 17em;
     width: 93%;
+  }
+  .info {
+    width: 390px;
+    margin: 5% 0 5% 0;
+  }
+  .info img {
+    width: 90%;
+    margin: 5% 0 5% -5%;
   }
 }
