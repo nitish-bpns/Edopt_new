@@ -7,14 +7,14 @@ import { Card, CardHeader, CardBody, CardFooter } from "react-simple-card";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Styles from '../styles/home.module.css';
-import story from "./../certi/story.png";
-import verify from "./../certi/verify.png";
-import pay from "./../certi/pay.png";
-import merit from "./../certi/merit.png";
-import attendance from "./../certi/attendance.png";
-import achieve from "./../certi/achieve.png";
-import progress from "./../certi/progress.png";
-import hero from "./../certi/hero.png";
+// import story from "./../certi/story.png";
+// import verify from "./../certi/verify.png";
+// import pay from "./../certi/pay.png";
+// import merit from "./../certi/merit.png";
+// import attendance from "./../certi/attendance.png";
+// import achieve from "./../certi/achieve.png";
+// import progress from "./../certi/progress.png";
+// import hero from "./../certi/hero.png";
 import how from "./../certi/howitw.png";
 
 export default function Home() {
@@ -80,6 +80,8 @@ export default function Home() {
                         </p>
                         <br />
                         <br />
+                        <br />
+                   
                         <Link to="/fundraisers" className={Styles.btn1}
                         >
                             edopt now!
@@ -92,10 +94,14 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-
+<br/>
+<br/>
             <div >
-
-                <p className={Styles.para2} style={{ textAlign: "Left", fontSize: "30px", color: "black", marginLeft: "2%", marginTop: "4%" }}>Top  fundraisers</p>
+{/* 
+                <p className={Styles.para2} style={{ textAlign: "Left", fontSize: "30px", color: "black", marginLeft: "2%", marginTop: "4%" }}>Top  fundraisers</p> */}
+                <div className={Styles.heading1} ><b>
+                    Top Fundraisers</b></div>
+                    <br/>
                 <div style={{ position: "relative" }}>
                     <center>
                         <Carousel responsive={responsive}>
@@ -106,7 +112,7 @@ export default function Home() {
                                         <img src="./data/images/posters/diya.jpg" alt="student" />
                                         <p className={Styles.stdDetail1} >Diya Gosain 15yrs</p>
                                         <p className={Styles.stdDetail2} >Location: Sonipat<br />
-                                            Result: 77.6%<br />
+                                           <b> Result: 77.6%</b><br />
                                             COVID-19 hit are hard on her family.She wants to pursue engineering but due to this crisis she is facing financial issues. Help her to achieve her dream.
 
                                         </p>
@@ -126,7 +132,7 @@ export default function Home() {
                                         <img src="./data/images/posters/jatin.jpg" alt="student" />
                                         <p className={Styles.stdDetail1} >Jatin Arora 15yrs</p>
                                         <p className={Styles.stdDetail2} >Location: Karnal<br />
-                                            Result: 96%<br />
+                                           <b> Result: 96%</b><br />
                                             A single parent child who wants to serve the nation. Help him to study and pursue his dream to become a teacher to serve the nation.
                                         </p>
                                         <center>
@@ -145,7 +151,7 @@ export default function Home() {
                                         <img src="./data/images/posters/priyanshu.png" alt="student" />
                                         <p className={Styles.stdDetail1} >Priyanshu Pandey 16yrs</p>
                                         <p className={Styles.stdDetail2} >Location: Delhi<br />
-                                            Result: 85%<br />
+                                            <b>Result: 85%</b><br />
                                             The Father of this child is a newspaper vendor and can't afford his educational finances. Help this child to fulfil his dream to become software developer.
                                         </p>
                                         <center>
@@ -166,7 +172,7 @@ export default function Home() {
                                         <img src="./data/images/posters/divyanshu.png" alt="student" />
                                         <p className={Styles.stdDetail1} >Divyanshu Pandey 11yrs</p>
                                         <p className={Styles.stdDetail2} >Location: Delhi<br />
-                                            Result: 77.4%<br />
+                                           <b> Result: 77.4%</b><br />
                                             He wants to become an IPS officer but facing difficulties due to financial constraints. Help this child by sponsoring his education.
                                         </p>
                                         <center>
@@ -187,7 +193,7 @@ export default function Home() {
                                         <img src="./data/images/posters/sakshi.jpg" alt="student" />
                                         <p className={Styles.stdDetail1} >Sakshi 6yrs</p>
                                         <p className={Styles.stdDetail2} >Location: Delhi<br />
-                                            Result: 98.6%<br />
+                                           <b> Result: 98.6%</b><br />
                                             The child of a labourer who had lost his employment during COVID-19 seeks help to pay off her school fees.Help this child to fulfil her dreams.
                                         </p>
                                         <center>
@@ -206,7 +212,7 @@ export default function Home() {
                                         <img src="./data/images/posters/anshu.jpg" alt="student" />
                                         <p className={Styles.stdDetail1} >Anshu 14yrs</p>
                                         <p className={Styles.stdDetail2} >Location: Sonipat<br />
-                                            Result: 98%<br />
+                                            <b>Result: 98%</b><br />
                                             Help this single parent-child whose father suffers from kidney damage, to complete her education and achieve her goal of becoming a doctor.
                                         </p>
                                         <center>
@@ -225,7 +231,7 @@ export default function Home() {
                                         <img src="./data/images/posters/owiz.png" alt="student" />
                                         <p className={Styles.stdDetail1} >Owaiz Ahmed 14yrs</p>
                                         <p className={Styles.stdDetail2} >Location: Banglore<br />
-                                            Result: 98%<br />
+                                            <b>Result: 98%</b><br />
                                             This child wants to fulfill his passed father's wish to be an IAS officer.  Help this child by sponsoring his education.
                                         </p>
                                         <center>
@@ -244,7 +250,7 @@ export default function Home() {
                                         <img src="./data/images/posters/awas.png" alt="student" />
                                         <p className={Styles.stdDetail1} >Awaiz Pasha 10yrs</p>
                                         <p className={Styles.stdDetail2} >Location: Banglore<br />
-                                            Result: 74%<br />
+                                           <b> Result: 74%</b><br />
                                             Awaiz’s single mother is struggling so hard to make him a Doctor.  Help this child by sponsoring his education.
 
                                         </p>
@@ -264,7 +270,7 @@ export default function Home() {
                                         <img src="./data/images/posters/syed.png" alt="student" />
                                         <p className={Styles.stdDetail1} >Syed Ameen 10yrs</p>
                                         <p className={Styles.stdDetail2} >Location: Banglore<br />
-                                            Result: 82%<br />
+                                           <b> Result: 82%</b><br />
                                             This family has no source of income to make him study. Help this child by sponsoring his education.
 
                                         </p>
@@ -293,7 +299,7 @@ export default function Home() {
                 <Link to="/fundraisers">
                     <button className={Styles.moreBtn}>
 
-                        See More
+                        See More >
 
                     </button>
                 </Link>
@@ -302,7 +308,7 @@ export default function Home() {
             <br/>
             <br/>
 
-            <div style={{ textAlign: "Center", fontSize: "30px", color: "black" }}  >
+            <div className={Styles.heading1} >
                 <b >How it works</b>
             </div>
             <br />
@@ -374,8 +380,9 @@ export default function Home() {
             <br />
             <div>
                 <center>
-                    <b className={Styles.whatt} >What we do?</b>
+                <div className={Styles.heading1} ><b>What we do?</b></div>
                     <br />
+                    <br/>
                     <regular> <div className={Styles.para4}>eDOPT is an Indian online peer-to-peer funding platform, where any individual organ across the country can fund a meritorious underprivileged student and can see the impact that he/she has made by getting reports of student achievement monthly. </div></regular>
 
                     <br /><br />
@@ -387,7 +394,9 @@ export default function Home() {
             <br />
             <br />
             <div>
-                <center> <b className={Styles.donor} >Our Super Mentors</b> </center>
+            <div className={Styles.heading1} ><b>
+                    Our Super Mentors</b></div>
+                {/* <center> <b className={Styles.donor} >Our Super Mentors</b> </center> */}
                 <Carousel responsive={responsive}>
 
                     <div>
@@ -504,10 +513,10 @@ export default function Home() {
             </div>
 
             <br />
-            <div style={{ textAlign: "Center", fontSize: "30px", color: "black" }}>
+            <div className={Styles.heading1} >
                 <b className={Styles.newst} >In the NEWS!</b>
             </div>
-
+<br/>
 
             <div>
                 <Carousel responsive={responsiveNews} className={Styles.news} >
