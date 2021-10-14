@@ -310,9 +310,9 @@ export default function Home() {
      
 
 <div className={Styles.info}>
-    <center>
+
     <img src={how} alt="img"/>
-    </center>
+
     </div>
 <br/>
 
