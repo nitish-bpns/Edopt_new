@@ -514,7 +514,7 @@ export default function Home() {
 
             <br />
             <div className={Styles.heading1} >
-                <b className={Styles.newst} >In the NEWS!</b>
+              <b>In the NEWS!</b>
             </div>
 <br/>
 
