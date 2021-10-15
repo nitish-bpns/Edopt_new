@@ -70,13 +70,13 @@ export default function Home() {
                             style={{
                                 fontFamily: "Gill Sans MT",
                             }}>
-                            Be a <br /><span className={Styles.phero} style={{
+                            Raise a <br /><span className={Styles.phero} style={{
                                 fontFamily: "Gill Sans MT",
                             }}> hero!</span></p>
                         <br />
                         <br />
                         <p className={Styles.para1}>
-                            Empowering Life one at a time, Virtually edopt one meritorious students who lack means.
+                            Empower one life at a time. Virtually<br/> edopt one meritorious students who lack means.
                         </p>
                         <br />
                         <br />
@@ -97,104 +97,25 @@ export default function Home() {
 <br/>
 <br/>
             <div >
-{/* 
-                <p className={Styles.para2} style={{ textAlign: "Left", fontSize: "30px", color: "black", marginLeft: "2%", marginTop: "4%" }}>Top  fundraisers</p> */}
+
                 <div className={Styles.heading1} ><b>
                     Top Fundraisers</b></div>
                     <br/>
                 <div style={{ position: "relative" }}>
                     <center>
                         <Carousel responsive={responsive}>
-                            <center>
-                                <div className={Styles.cscard}>
+                         
+                         
+                             <div className={Styles.cscard}>
 
-                                    <Card className={Styles.stdCard} >
-                                        <img src="./data/images/posters/diya.jpg" alt="student" />
-                                        <p className={Styles.stdDetail1} >Diya Gosain 15yrs</p>
-                                        <p className={Styles.stdDetail2} >Location: Sonipat<br />
-                                           <b> Result: 77.6%</b><br />
-                                            COVID-19 hit are hard on her family.She wants to pursue engineering but due to this crisis she is facing financial issues. Help her to achieve her dream.
-
-                                        </p>
-                                        <center>
-                                            <Link to="/diya"
-                                            >
-                                                <button className={Styles.proBtn} >Profile</button>
-                                            </Link>
-                                        </center>
-                                    </Card>
-
-                                </div>
-                            </center>
-                            <div className={Styles.cscard}>
-                                <center>
-                                    <Card className={Styles.stdCard} >
-                                        <img src="./data/images/posters/jatin.jpg" alt="student" />
-                                        <p className={Styles.stdDetail1} >Jatin Arora 15yrs</p>
-                                        <p className={Styles.stdDetail2} >Location: Karnal<br />
-                                           <b> Result: 96%</b><br />
-                                            A single parent child who wants to serve the nation. Help him to study and pursue his dream to become a teacher to serve the nation.
-                                        </p>
-                                        <center>
-                                            <Link to="/jatin"
-                                            >
-                                                <button className={Styles.proBtn} >Profile</button>
-                                            </Link>
-                                        </center>
-                                    </Card>
-                                </center>
-                            </div>
-
-                            <div className={Styles.cscard}>
-                                <center>
-                                    <Card className={Styles.stdCard} >
-                                        <img src="./data/images/posters/priyanshu.png" alt="student" />
-                                        <p className={Styles.stdDetail1} >Priyanshu Pandey 16yrs</p>
-                                        <p className={Styles.stdDetail2} >Location: Delhi<br />
-                                            <b>Result: 85%</b><br />
-                                            The Father of this child is a newspaper vendor and can't afford his educational finances. Help this child to fulfil his dream to become software developer.
-                                        </p>
-                                        <center>
-                                            <Link to="/priyanshu"
-                                            >
-                                                <button className={Styles.proBtn} >Profile</button>
-                                            </Link>
-                                        </center>
-
-
-                                    </Card>
-                                </center>
-                            </div>
-
-                            <div className={Styles.cscard}>
-                                <center>
-                                    <Card className={Styles.stdCard} >
-                                        <img src="./data/images/posters/divyanshu.png" alt="student" />
-                                        <p className={Styles.stdDetail1} >Divyanshu Pandey 11yrs</p>
-                                        <p className={Styles.stdDetail2} >Location: Delhi<br />
-                                           <b> Result: 77.4%</b><br />
-                                            He wants to become an IPS officer but facing difficulties due to financial constraints. Help this child by sponsoring his education.
-                                        </p>
-                                        <center>
-                                            <Link to="/divyanshu"
-                                            >
-                                                <button className={Styles.proBtn} >Profile</button>
-                                            </Link>
-                                        </center>
-
-
-                                    </Card>
-                                </center>
-                            </div>
-
-                            <div className={Styles.cscard}>
-                                <center>
-                                    <Card className={Styles.stdCard} >
+                                <Card className={Styles.stdCard} >
                                         <img src="./data/images/posters/sakshi.jpg" alt="student" />
-                                        <p className={Styles.stdDetail1} >Sakshi 6yrs</p>
-                                        <p className={Styles.stdDetail2} >Location: Delhi<br />
-                                           <b> Result: 98.6%</b><br />
-                                            The child of a labourer who had lost his employment during COVID-19 seeks help to pay off her school fees.Help this child to fulfil her dreams.
+                                        <p className={Styles.stdDetail1} >Sakshi </p>
+                                        <p className={Styles.stdDetail3} >6 yrs</p>
+                                        <p className={Styles.stdDetail2} ><b> Result: 98.6%</b><br /></p>
+                                        <p className={Styles.stdDetail2} ><b>Location:</b> Delhi<br /></p>
+                                        <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.13,000<br />
+                                           
                                         </p>
                                         <center>
                                             <Link to="/sakshi"
@@ -203,17 +124,18 @@ export default function Home() {
                                             </Link>
                                         </center>
                                     </Card>
-                                </center>
-                            </div>
-
-                            <div className={Styles.cscard}>
-                                <center>
-                                    <Card className={Styles.stdCard} >
+                                </div>
+                     
+                       <div className={Styles.cscard}>
+                            
+                                <Card className={Styles.stdCard} >
                                         <img src="./data/images/posters/anshu.jpg" alt="student" />
-                                        <p className={Styles.stdDetail1} >Anshu 14yrs</p>
-                                        <p className={Styles.stdDetail2} >Location: Sonipat<br />
-                                            <b>Result: 98%</b><br />
-                                            Help this single parent-child whose father suffers from kidney damage, to complete her education and achieve her goal of becoming a doctor.
+                                        <p className={Styles.stdDetail1} >Anshu</p>
+                                        <p className={Styles.stdDetail3} >14 yrs</p>
+                                        <p className={Styles.stdDetail2} ><b> Result: 98%</b><br /></p>
+                                        <p className={Styles.stdDetail2} ><b>Location:</b> Sonipat<br /></p>
+                                        <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.20,000<br />
+                                          
                                         </p>
                                         <center>
                                             <Link to="/anshu"
@@ -222,17 +144,18 @@ export default function Home() {
                                             </Link>
                                         </center>
                                     </Card>
-                                </center>
                             </div>
 
-                            <div className={Styles.cscard}>
-                                <center>
-                                    <Card className={Styles.stdCard} >
+                         <div className={Styles.cscard}>
+                             
+                                <Card className={Styles.stdCard} >
                                         <img src="./data/images/posters/owiz.png" alt="student" />
-                                        <p className={Styles.stdDetail1} >Owaiz Ahmed 14yrs</p>
-                                        <p className={Styles.stdDetail2} >Location: Banglore<br />
-                                            <b>Result: 98%</b><br />
-                                            This child wants to fulfill his passed father's wish to be an IAS officer.  Help this child by sponsoring his education.
+                                        <p className={Styles.stdDetail1} >Owaiz Ahmed</p>
+                                        <p className={Styles.stdDetail3} >14 yrs</p>
+                                        <p className={Styles.stdDetail2} ><b> Result: 98%</b><br /></p>
+                                        <p className={Styles.stdDetail2} ><b>Location:</b> Banglore<br /></p>
+                                        <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.21,000<br />
+                                       
                                         </p>
                                         <center>
                                             <Link to="/owiz"
@@ -241,18 +164,117 @@ export default function Home() {
                                             </Link>
                                         </center>
                                     </Card>
-                                </center>
                             </div>
 
-                            <div className={Styles.cscard}>
-                                <center>
-                                    <Card className={Styles.stdCard} >
-                                        <img src="./data/images/posters/awas.png" alt="student" />
-                                        <p className={Styles.stdDetail1} >Awaiz Pasha 10yrs</p>
-                                        <p className={Styles.stdDetail2} >Location: Banglore<br />
-                                           <b> Result: 74%</b><br />
-                                            Awaiz’s single mother is struggling so hard to make him a Doctor.  Help this child by sponsoring his education.
+                       <div className={Styles.cscard}>
 
+                                <Card className={Styles.stdCard} >
+                                        <img src="./data/images/posters/jatin.jpg" alt="student" />
+                                        <p className={Styles.stdDetail1} >Jatin Arora</p>
+                                        <p className={Styles.stdDetail3} >15 yrs</p>
+                                        <p className={Styles.stdDetail2} ><b> Result: 96%</b><br /></p>
+                                        <p className={Styles.stdDetail2} ><b>Location:</b> Karnal<br /></p>
+                                        <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.20,000<br />
+                                         
+                                        </p>
+                                        <center>
+                                            <Link to="/jatin"
+                                            >
+                                                <button className={Styles.proBtn} >Profile</button>
+                                            </Link>
+                                        </center>
+                                    </Card>
+                            </div>
+
+                       <div className={Styles.cscard}>
+                               
+                         <Card className={Styles.stdCard} >
+                                        <img src="./data/images/posters/priyanshu.png" alt="student" />
+                                        <p className={Styles.stdDetail1} >Priyanshu Pandey</p>
+                                        <p className={Styles.stdDetail3} >16 yrs</p>
+                                        <p className={Styles.stdDetail2} ><b> Result: 85%</b><br /></p>
+                                        <p className={Styles.stdDetail2} ><b>Location:</b> Delhi<br /></p>
+                                        <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.40,000<br />
+                                         
+                                        </p>
+                                        <center>
+                                            <Link to="/priyanshu"
+                                            >
+                                                <button className={Styles.proBtn} >Profile</button>
+                                            </Link>
+                                        </center>
+                                    </Card>
+                            </div>
+
+                         <div className={Styles.cscard}>
+                               
+                          <Card className={Styles.stdCard} >
+                                        <img src="./data/images/posters/syed.png" alt="student" />
+                                        <p className={Styles.stdDetail1} >Syed Ameen</p>
+                                        <p className={Styles.stdDetail3} >10 yrs</p>
+                                        <p className={Styles.stdDetail2} ><b> Result: 82%</b><br /></p>
+                                        <p className={Styles.stdDetail2} ><b>Location:</b> Banglore<br /></p>
+                                        <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.16,000<br />
+                                          
+                                        </p>
+                                        <center>
+                                            <Link to="/syed"
+                                            >
+                                                <button className={Styles.proBtn} >Profile</button>
+                                            </Link>
+                                        </center>
+                                    </Card>
+                            </div>
+
+                       <div className={Styles.cscard}>
+                               
+                         <Card className={Styles.stdCard} >
+                                        <img src="./data/images/posters/diya.jpg" alt="student" />
+                                        <p className={Styles.stdDetail1} >Diya Gosain</p>
+                                        <p className={Styles.stdDetail3} >15 yrs</p>
+                                        <p className={Styles.stdDetail2} ><b> Result: 77.6%</b><br /></p>
+                                        <p className={Styles.stdDetail2} ><b>Location:</b> Sonipat<br /></p>
+                                        <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.50,880<br />                                      
+                                         
+                                        </p>
+                                        <center>
+                                            <Link to="/diya"
+                                            >
+                                                <button className={Styles.proBtn} >Profile</button>
+                                            </Link>
+                                        </center>
+                                    </Card>
+                            </div>
+
+                           <div className={Styles.cscard}>
+                           
+                                <Card className={Styles.stdCard} >
+                                        <img src="./data/images/posters/divyanshu.png" alt="student" />
+                                        <p className={Styles.stdDetail1} >Divyanshu Pandey</p>
+                                        <p className={Styles.stdDetail3} >11 yrs</p>
+                                        <p className={Styles.stdDetail2} ><b> Result: 77.4%</b><br /></p>
+                                        <p className={Styles.stdDetail2} ><b>Location:</b> Delhi<br /></p>
+                                        <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.40,000<br />
+                                           
+                                        </p>
+                                        <center>
+                                            <Link to="/divyanshu">
+                                                <button className={Styles.proBtn} >Profile</button>
+                                            </Link>
+                                        </center>
+                                    </Card>                                                          
+                            </div>
+
+                 <div className={Styles.cscard}>
+
+                         <Card className={Styles.stdCard} >
+                                        <img src="./data/images/posters/awas.png" alt="student" />
+                                        <p className={Styles.stdDetail1} >Awaiz Pasha</p>
+                                        <p className={Styles.stdDetail3} >10 yrs</p>
+                                        <p className={Styles.stdDetail2} ><b> Result: 74%</b><br /></p>
+                                        <p className={Styles.stdDetail2} ><b>Location:</b> Banglore<br /></p>
+                                        <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.16,000<br />
+                                           
                                         </p>
                                         <center>
                                             <Link to="/awaiz"
@@ -261,34 +283,6 @@ export default function Home() {
                                             </Link>
                                         </center>
                                     </Card>
-                                </center>
-                            </div>
-
-                            <div className={Styles.cscard}>
-                                <center>
-                                    <Card className={Styles.stdCard} >
-                                        <img src="./data/images/posters/syed.png" alt="student" />
-                                        <p className={Styles.stdDetail1} >Syed Ameen 10yrs</p>
-                                        <p className={Styles.stdDetail2} >Location: Banglore<br />
-                                           <b> Result: 82%</b><br />
-                                            This family has no source of income to make him study. Help this child by sponsoring his education.
-
-                                        </p>
-
-
-
-
-
-
-                                        
-                                        <center>
-                                            <Link to="/syed"
-                                            >
-                                                <button className={Styles.proBtn} >Profile</button>
-                                            </Link>
-                                        </center>
-                                    </Card>
-                                </center>
                             </div>
 
 
@@ -383,8 +377,8 @@ export default function Home() {
                 <div className={Styles.heading1} ><b>What we do?</b></div>
                     <br />
                     <br/>
+                  
                     <regular> <div className={Styles.para4}>eDOPT is an Indian online peer-to-peer funding platform, where any individual organ across the country can fund a meritorious underprivileged student and can see the impact that he/she has made by getting reports of student achievement monthly. </div></regular>
-
                     <br /><br />
                     <div className={Styles.iframewContainer}>
                         <iframe className={Styles.yt} src="https://www.youtube.com/embed/AL0-g5R9ARA?playlist=AL0-g5R9ARA&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -397,6 +391,10 @@ export default function Home() {
             <div className={Styles.heading1} ><b>
                     Our Super Mentors</b></div>
                 {/* <center> <b className={Styles.donor} >Our Super Mentors</b> </center> */}
+                <br/>
+                <regular> <div className={Styles.para4}>Donor can book a slot with super mentor for it's adopted children. </div></regular>
+
+
                 <Carousel responsive={responsive}>
 
                     <div>
@@ -410,8 +408,14 @@ export default function Home() {
                                 </CardBody>
 
                                 <CardFooter className={Styles.donorFooter} style={{ border: "none" }} >
-                                    <center> Kush Taneja<br />Forbes 30, CEO Fampay</center>
+                                    <center> Kush Taneja<br />Forbes 30, CEO Fampay
+                                    
+                                            <Link to="/">
+                                                <button className={Styles.proBtn} >Book a Slot</button>
+                                            </Link>
+                                        </center>
                                 </CardFooter>
+                               
                             </Card>
                         </a>
                     </div>
@@ -428,7 +432,10 @@ export default function Home() {
                                 </CardBody>
 
                                 <CardFooter className={Styles.donorFooter} style={{ border: "none" }} >
-                                    <center> Harshveer Jain<br />IIT B, CAT 100%ile, IIM C, Bain & Co.</center>
+                                    <center> Harshveer Jain<br />IIT B, CAT 100%ile, IIM C
+                                    <Link to="/">
+                                                <button className={Styles.proBtn} >Book a Slot</button>
+                                            </Link></center>
                                 </CardFooter>
                             </Card>
                         </a>
@@ -445,7 +452,10 @@ export default function Home() {
                             </CardBody>
 
                             <CardFooter className={Styles.donorFooter} style={{ border: "none" }} >
-                                <center> Anant Mehrotra<br />Google, MIT</center>
+                                <center> Anant Mehrotra<br />Google, MIT(Executive Education)
+                                <Link to="/">
+                                                <button className={Styles.proBtn} >Book a Slot</button>
+                                            </Link></center>
                             </CardFooter>
                         </Card>
                     </a>
@@ -465,7 +475,10 @@ export default function Home() {
 
 
                                 <CardFooter className={Styles.donorFooter} style={{ border: "none", textDecoration: "none" }} >
-                                    <center> Rahul Khanna<br />Founder Thunderpod, YC Backed </center>
+                                    <center> Rahul Khanna<br />Founder Thunderpod, YC Backed 
+                                    <Link to="/">
+                                                <button className={Styles.proBtn} >Book a Slot</button>
+                                            </Link></center>
                                 </CardFooter>
                             </Card>
                         </a>
@@ -482,7 +495,10 @@ export default function Home() {
                                 </CardBody>
                             </a>
                             <CardFooter className={Styles.donorFooter} style={{ border: "none" }} >
-                                <center> Ayush Agrawal<br />IIT Kharagpur, Flipkart </center>
+                                <center> Ayush Agrawal<br />IIT Kharagpur, Flipkart 
+                                <Link to="/">
+                                                <button className={Styles.proBtn} >Book a Slot</button>
+                                            </Link></center>
                             </CardFooter>
                         </Card>
                     </div>
@@ -498,7 +514,10 @@ export default function Home() {
                                 </CardBody>
                             </a>
                             <CardFooter className={Styles.donorFooter} style={{ border: "none" }} >
-                                <center> Shomby Goswami<br />NIFT 2017 topper, Presidential gold medalist </center>
+                                <center> Shomby Goswami<br />NIFT topper, President Gold Medalist
+                                <Link to="/">
+                                                <button className={Styles.proBtn} >Book a Slot</button>
+                                            </Link></center>
                             </CardFooter>
                         </Card>
                     </div>

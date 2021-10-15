@@ -15,7 +15,7 @@
 .bea {
   font-family: Gill Sans MT;
   font-weight: 700;
-  font-size: 160px;
+  font-size: 120px;
   line-height: 150px;
   letter-spacing: 2%;
   color: black;
@@ -115,7 +115,7 @@
   border: none;
   margin: 5% 5% 5% 5% !important;
   box-shadow: 0px 0px 10px #617264;
-  height: 30em !important;
+  height: 27em !important;
   width: 90% !important;
 }
 .stdCard img {
@@ -130,17 +130,29 @@
 
 .stdDetail1 {
   font-size: 18px;
-  margin: 0 5% 0 5%;
+  margin: 0 5% 3% 5%;
   font-family: sans-serif;
   font-weight: 600;
   color: rgb(61, 61, 61);
+  text-align: left;
+  position: absolute;
 }
 .stdDetail2 {
   font-size: 16px;
-  margin: 2% 5% 0 5%;
+  margin: 1.5% 5% 0 5%;
   font-family: sans-serif;
   font-weight: 500;
   color: rgb(61, 61, 61);
+  text-align: left;
+}
+.stdDetail3 {
+  font-size: 18px;
+  margin: 0 5% 3% 5%;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: rgb(61, 61, 61);
+  text-align: right;
+  position: relative;
 }
 
 .proBtn {
@@ -255,7 +267,7 @@
 
 .donorFooter {
   border: none;
-  margin: -2% 8% 8% 8%;
+  margin: -2% 2% 8% 2%;
   justify-content: center;
   font-weight: 600;
   font-size: 18px;
@@ -265,6 +277,12 @@
   text-align: center;
   font-size: 20px;
   font-family: sans-serif;
+}
+.para5 {
+  text-align: center;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin: 0 0 -3% 0;
 }
 .whatt {
   font-size: 30px;
@@ -424,7 +442,7 @@
     border: none;
     margin: 14px 5px 14px 5px;
     box-shadow: 0px 0px 10px #617264;
-    height: 30em;
+    height: 27em;
     width: 85%;
   }
   .cscard {

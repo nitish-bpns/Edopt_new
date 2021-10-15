@@ -16,187 +16,179 @@ function fundraisers() {
             <div className={Styles.allCards}>
 
                 <div className={Styles.card2}>
-                    <Card className={Styles.stdCard} >
-                        <center>
-                            <img src="./data/images/posters/diya.jpg" alt="student" />
-                            <p className={Styles.stdDetail1} >Diya Gosain 15yrs</p>
-                            <p className={Styles.stdDetail2} >Location: Sonipat<br />
-                            Result: 77.6%<br />
-                             COVID-19 hit are hard on her family.She wants to pursue engineering but due to this crisis she is facing financial issues. Help her to achieve her dream.
-
-                            </p>
-                            <center>
-                                <Link to="/diya"
-                                >
-                                    <button className={Styles.proBtn} >Profile</button>
-                                </Link>
-                            </center>
-                        </center>
-                    </Card>
+                <Card className={Styles.stdCard} >
+                                        <img src="./data/images/posters/sakshi.jpg" alt="student" />
+                                        <p className={Styles.stdDetail1} >Sakshi </p>
+                                        <p className={Styles.stdDetail3} >6 yrs</p>
+                                        <p className={Styles.stdDetail2} ><b> Result: 98.6%</b><br /></p>
+                                        <p className={Styles.stdDetail2} ><b>Location:</b> Delhi<br /></p>
+                                        <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.13,000<br />
+                                           
+                                        </p>
+                                        <center>
+                                            <Link to="/sakshi"
+                                            >
+                                                <button className={Styles.proBtn} >Profile</button>
+                                            </Link>
+                                        </center>
+                                    </Card>
                 </div>
 
                 <div className={Styles.card2}>
-                    <Card className={Styles.stdCard} >
-                        <center>
-                            <img src="./data/images/posters/jatin.jpg" alt="student" />
-                            <p className={Styles.stdDetail1} >Jatin Arora 15yrs</p>
-                            <p className={Styles.stdDetail2} >Location: Karnal<br />
-                                Result: 96%<br />
-                                A single parent child who wants to serve the nation. Help him to study and pursue his dream to become a teacher to serve the nation.
-                            </p>
-                            <center>
-                                <Link to="/jatin"
-                                >
-                                    <button className={Styles.proBtn} >Profile</button>
-                                </Link>
-                            </center>
-                        </center>
-                    </Card>
+                <Card className={Styles.stdCard} >
+                                        <img src="./data/images/posters/anshu.jpg" alt="student" />
+                                        <p className={Styles.stdDetail1} >Anshu</p>
+                                        <p className={Styles.stdDetail3} >14 yrs</p>
+                                        <p className={Styles.stdDetail2} ><b> Result: 98%</b><br /></p>
+                                        <p className={Styles.stdDetail2} ><b>Location:</b> Sonipat<br /></p>
+                                        <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.20,000<br />
+                                          
+                                        </p>
+                                        <center>
+                                            <Link to="/anshu"
+                                            >
+                                                <button className={Styles.proBtn} >Profile</button>
+                                            </Link>
+                                        </center>
+                                    </Card>
                 </div>
 
                 <div className={Styles.card2}>
-                    <Card className={Styles.stdCard} >
-                        <center>
-                            <img src="./data/images/posters/priyanshu.png" alt="student" />
-                            <p className={Styles.stdDetail1} >Priyanshu Pandey 16yrs</p>
-                            <p className={Styles.stdDetail2} >Location: Delhi<br />
-                                Result: 85%<br />
-                                The Father of this child is a newspaper vendor and can't afford his educational finances. Help this child to fulfil his dream to become software developer.
-                            </p>
-                            <center>
-                                <Link to="/priyanshu"
-                                >
-                                    <button className={Styles.proBtn} >Profile</button>
-                                </Link>
-                            </center>
-
-                        </center>
-                    </Card>
+                <Card className={Styles.stdCard} >
+                                        <img src="./data/images/posters/owiz.png" alt="student" />
+                                        <p className={Styles.stdDetail1} >Owaiz Ahmed</p>
+                                        <p className={Styles.stdDetail3} >14 yrs</p>
+                                        <p className={Styles.stdDetail2} ><b> Result: 98%</b><br /></p>
+                                        <p className={Styles.stdDetail2} ><b>Location:</b> Banglore<br /></p>
+                                        <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.21,000<br />
+                                       
+                                        </p>
+                                        <center>
+                                            <Link to="/owiz"
+                                            >
+                                                <button className={Styles.proBtn} >Profile</button>
+                                            </Link>
+                                        </center>
+                                    </Card>
                 </div>
 
 
 
                 <div className={Styles.card2}>
-                    <Card className={Styles.stdCard} >
-                        <center>
-                            <img src="./data/images/posters/divyanshu.png" alt="student" />
-                            <p className={Styles.stdDetail1} >Divyanshu Pandey 11yrs</p>
-                            <p className={Styles.stdDetail2} >Location: Delhi<br />
-                                Result: 77.4%<br />
-                                He wants to become an IPS officer but facing difficulties due to financial constraints. Help this child by sponsoring his education.
-                            </p>
-                            <center>
-                                <Link to="/divyanshu"
-                                >
-                                    <button className={Styles.proBtn} >Profile</button>
-                                </Link>
-                            </center>
-                        </center>
-
-                    </Card>
+                <Card className={Styles.stdCard} >
+                                        <img src="./data/images/posters/jatin.jpg" alt="student" />
+                                        <p className={Styles.stdDetail1} >Jatin Arora</p>
+                                        <p className={Styles.stdDetail3} >15 yrs</p>
+                                        <p className={Styles.stdDetail2} ><b> Result: 96%</b><br /></p>
+                                        <p className={Styles.stdDetail2} ><b>Location:</b> Karnal<br /></p>
+                                        <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.20,000<br />
+                                         
+                                        </p>
+                                        <center>
+                                            <Link to="/jatin"
+                                            >
+                                                <button className={Styles.proBtn} >Profile</button>
+                                            </Link>
+                                        </center>
+                                    </Card>
                 </div>
 
                 <div className={Styles.card2}>
-                    <Card className={Styles.stdCard} >
-                        <center>
-                            <img src="./data/images/posters/sakshi.jpg" alt="student" />
-                            <p className={Styles.stdDetail1} >Sakshi 6yrs</p>
-                            <p className={Styles.stdDetail2} >Location: Delhi<br />
-                                Result: 98.6%<br />
-                                The child of a labourer who had lost his employment during COVID-19 seeks help to pay off her school fees.Help this child to fulfil her dreams.
-                            </p>
-                            <center>
-                                <Link to="/sakshi"
-                                >
-                                    <button className={Styles.proBtn} >Profile</button>
-                                </Link>
-                            </center>
-                        </center>
-                    </Card>
+                <Card className={Styles.stdCard} >
+                                        <img src="./data/images/posters/priyanshu.png" alt="student" />
+                                        <p className={Styles.stdDetail1} >Priyanshu Pandey</p>
+                                        <p className={Styles.stdDetail3} >16 yrs</p>
+                                        <p className={Styles.stdDetail2} ><b> Result: 85%</b><br /></p>
+                                        <p className={Styles.stdDetail2} ><b>Location:</b> Delhi<br /></p>
+                                        <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.40,000<br />
+                                         
+                                        </p>
+                                        <center>
+                                            <Link to="/priyanshu"
+                                            >
+                                                <button className={Styles.proBtn} >Profile</button>
+                                            </Link>
+                                        </center>
+                                    </Card>
                 </div>
 
                 <div className={Styles.card2}>
-                    <Card className={Styles.stdCard} >
-                        <center>
-                            <img src="./data/images/posters/anshu.jpg" alt="student" />
-                            <p className={Styles.stdDetail1} >Anshu 14yrs</p>
-                            <p className={Styles.stdDetail2} >Location: Sonipat<br />
-                                Result: 98%<br />
-                                Help this single parent-child whose father suffers from kidney damage, to complete her education and achieve her goal of becoming a doctor.
-                            </p>
-                            <center>
-                                <Link to="/anshu"
-                                >
-                                    <button className={Styles.proBtn} >Profile</button>
-                                </Link>
-                            </center>
-                        </center>
-                    </Card>
-                </div>
-
-                <div className={Styles.card2}>
-
-                    <Card className={Styles.stdCard} >
-                        <center>
-                            <img src="./data/images/posters/owiz.png" alt="student" />
-                            <p className={Styles.stdDetail1} >Owaiz Ahmed 14yrs</p>
-                            <p className={Styles.stdDetail2} >Location: Banglore<br />
-                                Result: 98%<br />
-                                This child wants to fulfill his passed father's wish to be an IAS officer.  Help this child by sponsoring his education.
-
-                            </p>
-                            <center>
-                                <Link to="/owiz"
-                                >
-                                    <button className={Styles.proBtn} >Profile</button>
-                                </Link>
-                            </center>
-                        </center>
-                    </Card>
-
+                <Card className={Styles.stdCard} >
+                                        <img src="./data/images/posters/syed.png" alt="student" />
+                                        <p className={Styles.stdDetail1} >Syed Ameen</p>
+                                        <p className={Styles.stdDetail3} >10 yrs</p>
+                                        <p className={Styles.stdDetail2} ><b> Result: 82%</b><br /></p>
+                                        <p className={Styles.stdDetail2} ><b>Location:</b> Banglore<br /></p>
+                                        <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.16,000<br />
+                                          
+                                        </p>
+                                        <center>
+                                            <Link to="/syed"
+                                            >
+                                                <button className={Styles.proBtn} >Profile</button>
+                                            </Link>
+                                        </center>
+                                    </Card>
                 </div>
 
                 <div className={Styles.card2}>
 
-                    <Card className={Styles.stdCard} >
-                        <center>
-                            <img src="./data/images/posters/awas.png" alt="student" />
-                            <p className={Styles.stdDetail1} >Awaiz Pasha 10yrs</p>
-                            <p className={Styles.stdDetail2} >Location: Banglore<br />
-                                Result: 74%<br />
-                                Awaiz’s single mother is struggling so hard to make him a Doctor.  Help this child by sponsoring his education.
+                <Card className={Styles.stdCard} >
+                                        <img src="./data/images/posters/diya.jpg" alt="student" />
+                                        <p className={Styles.stdDetail1} >Diya Gosain</p>
+                                        <p className={Styles.stdDetail3} >15 yrs</p>
+                                        <p className={Styles.stdDetail2} ><b> Result: 77.6%</b><br /></p>
+                                        <p className={Styles.stdDetail2} ><b>Location:</b> Sonipat<br /></p>
+                                        <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.50,880<br />                                      
+                                         
+                                        </p>
+                                        <center>
+                                            <Link to="/diya"
+                                            >
+                                                <button className={Styles.proBtn} >Profile</button>
+                                            </Link>
+                                        </center>
+                                    </Card>
+                </div>
 
-                            </p>
-                            <center>
-                                <Link to="/awaiz"
-                                >
-                                    <button className={Styles.proBtn} >Profile</button>
-                                </Link>
-                            </center>
-                        </center>
-                    </Card>
+                <div className={Styles.card2}>
+
+                <Card className={Styles.stdCard} >
+                                        <img src="./data/images/posters/divyanshu.png" alt="student" />
+                                        <p className={Styles.stdDetail1} >Divyanshu Pandey</p>
+                                        <p className={Styles.stdDetail3} >11 yrs</p>
+                                        <p className={Styles.stdDetail2} ><b> Result: 77.4%</b><br /></p>
+                                        <p className={Styles.stdDetail2} ><b>Location:</b> Delhi<br /></p>
+                                        <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.40,000<br />
+                                           
+                                        </p>
+                                        <center>
+                                            <Link to="/divyanshu">
+                                                <button className={Styles.proBtn} >Profile</button>
+                                            </Link>
+                                        </center>
+                                    </Card>                                 
 
                 </div>
 
                 <div className={Styles.card2}>
 
-                    <Card className={Styles.stdCard} >
-                        <center>
-                            <img src="./data/images/posters/syed.png" alt="student" />
-                            <p className={Styles.stdDetail1} >Syed Ameen 10yrs</p>
-                            <p className={Styles.stdDetail2} >Location: Banglore<br />
-                                Result: 82%<br />
-                                This family has no source of income to make him study. Help this child by sponsoring his education.
-
-                            </p>
-                            <center>
-                                <Link to="/syed"
-                                >
-                                    <button className={Styles.proBtn} >Profile</button>
-                                </Link>
-                            </center>
-                        </center>
-                    </Card>
+                <Card className={Styles.stdCard} >
+                                        <img src="./data/images/posters/awas.png" alt="student" />
+                                        <p className={Styles.stdDetail1} >Awaiz Pasha</p>
+                                        <p className={Styles.stdDetail3} >10 yrs</p>
+                                        <p className={Styles.stdDetail2} ><b> Result: 74%</b><br /></p>
+                                        <p className={Styles.stdDetail2} ><b>Location:</b> Banglore<br /></p>
+                                        <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.16,000<br />
+                                           
+                                        </p>
+                                        <center>
+                                            <Link to="/awaiz"
+                                            >
+                                                <button className={Styles.proBtn} >Profile</button>
+                                            </Link>
+                                        </center>
+                                    </Card>
                 </div>
             </div>
         </Layout>
