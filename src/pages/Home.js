@@ -551,7 +551,7 @@ export default function Home() {
             <div>
                 <Carousel responsive={responsiveNews} className={Styles.news} >
                     <img src="./data/images/posters/news01.jpg" alt="news" />
-                    <img src="./data/images/posters/news03.png" alt="news" />
+                   
                     <img src="./data/images/posters/news02.png" alt="news" />
                 </Carousel>
             </div>
