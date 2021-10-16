@@ -502,8 +502,8 @@
     width: 110%;
   }
   .ss2 img {
-    width: 115%;
-    margin: 0 0px 15% -5%;
+    width: 100%;
+    margin: 0 0px 15% 0%;
   }
   .btn1 {
     background-color: rgb(58, 147, 108);
