@@ -3,7 +3,7 @@
 }
 .main2 {
   background-image: url("prbg1.png");
-  height: 850px;
+  height: 860px;
   width: 100%;
   background-repeat: no-repeat;
 }
@@ -203,7 +203,7 @@
   }
   .main2 {
     background-image: url("prbg1.png");
-    height: 1000px;
+    height: 1050px;
     width: 100%;
     background-repeat: no-repeat;
   }
@@ -211,7 +211,7 @@
   .proBtn {
     width: 50%;
     height: 2.2em;
-    margin: 5% 0 2% 25%;
+    margin: 2% 0 2% 25%;
     border-radius: 10px;
     border: 2px solid grey;
     background-color: rgb(58, 147, 108);
