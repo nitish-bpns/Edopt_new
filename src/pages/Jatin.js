@@ -121,8 +121,7 @@ function Jatin() {
                                 Financial condition of my family is not good as there is no source of income because of this it is difficult for me to complete my education and achieve my goals. I have no resources for my studies. I need guidance and financial support to complete my studies. I assure you to work very hard for my goals. I am grateful to one who will help me to reach my goals. Kindly sponsor me, I will be forever grateful to you.
                                 <br />
                                 <br />
-                                <br />
-                                <br />
+                            
 
                             </div>
                         </center>

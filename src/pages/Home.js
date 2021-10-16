@@ -76,7 +76,7 @@ export default function Home() {
                         <br />
                         <br />
                         <p className={Styles.para1}>
-                            Empower one life at a time. Virtually<br/> edopt one meritorious students who lack means.
+                            Empower one life at a time. Virtually edopt one meritorious students who lack means.
                         </p>
                         <br />
                         <br />
@@ -533,7 +533,7 @@ export default function Home() {
 
             <br />
             <div className={Styles.heading1} >
-              <b>In the NEWS!</b>
+              <b>In the News!</b>
             </div>
 <br/>
 
