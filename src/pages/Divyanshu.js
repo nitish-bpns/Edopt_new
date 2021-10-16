@@ -35,7 +35,9 @@ function Divyanshu() {
     function closeModal() {
         setIsOpen(false);
     }
-
+    React.useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
 
     return (
         <Layout className={Styles.main1}>
@@ -64,7 +66,7 @@ function Divyanshu() {
             </div>
 
             <div className={Styles.main2}>
-                <p className={Styles.para1}>Divyanshu</p>
+                <p className={Styles.para1} id="divyanshu1" >Divyanshu</p>
 
                 <div className={Styles.scols}>
 

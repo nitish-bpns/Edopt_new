@@ -39,12 +39,12 @@ function Syed() {
     function closeModal() {
         setIsOpen(false);
     }
-
+    React.useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+      
     return (
         <Layout className={Styles.main1}>
-
-
-
             <div>
                 <Modal
                     isOpen={modalIsOpen}

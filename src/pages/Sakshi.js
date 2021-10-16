@@ -19,8 +19,9 @@ const customStyles = {
 };
 
 
-function Sakshi() {
 
+function Sakshi() {
+  
     let subtitle;
     const [modalIsOpen, setIsOpen] = React.useState(false);
 
@@ -36,10 +37,12 @@ function Sakshi() {
     function closeModal() {
         setIsOpen(false);
     }
-
-
+    React.useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return (
-        <Layout className={Styles.main1}>
+        
+        <Layout className={Styles.main1} >
 
             <div>
                 <Modal
@@ -66,8 +69,8 @@ function Sakshi() {
             </div>
 
 
-            <div className={Styles.main2}>
-                <p className={Styles.para1}>Sakshi</p>
+            <div className={Styles.main2}  id="sakshi2" >
+                <p className={Styles.para1}id="sakshi1" >Sakshi</p>
 
                 <div className={Styles.scols}>
 

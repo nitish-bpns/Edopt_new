@@ -39,7 +39,9 @@ function Diya() {
     function closeModal() {
         setIsOpen(false);
     }
-
+    React.useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return (
         <Layout className={Styles.main1}>
 
@@ -72,7 +74,7 @@ function Diya() {
 
 
             <div className={Styles.main2}>
-                <p className={Styles.para1}>Diya Gosain</p>
+                <p className={Styles.para1} id="diya1" >Diya Gosain</p>
 
                 <div className={Styles.scols}>
 

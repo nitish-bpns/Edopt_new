@@ -82,7 +82,9 @@ function Donor() {
             setMessage("Error");
         }
     };
-
+    React.useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return (
         <Layout className={Styles.main}>
 

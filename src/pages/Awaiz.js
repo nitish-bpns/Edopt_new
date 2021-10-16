@@ -39,7 +39,9 @@ function Awaiz() {
     function closeModal() {
         setIsOpen(false);
     }
-
+    React.useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return (
         <Layout className={Styles.main1}>
 
@@ -72,7 +74,7 @@ function Awaiz() {
 
 
             <div className={Styles.main2}>
-                <p className={Styles.para1}>Awaiz Pasha</p>
+                <p className={Styles.para1} id="awaiz1" >Awaiz Pasha</p>
 
                 <div className={Styles.scols}>
 

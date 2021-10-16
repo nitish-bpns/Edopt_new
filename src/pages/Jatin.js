@@ -37,7 +37,9 @@ function Jatin() {
         setIsOpen(false);
     }
 
-
+    React.useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return (
         <Layout className={Styles.main1}>
 
@@ -68,7 +70,7 @@ function Jatin() {
 
 
             <div className={Styles.main2}>
-                <p className={Styles.para1}>Jatin Arora</p>
+                <p className={Styles.para1} id="jatin1" >Jatin Arora</p>
 
                 <div className={Styles.scols}>
 

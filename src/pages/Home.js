@@ -7,6 +7,7 @@ import { Card, CardBody, CardFooter } from "react-simple-card";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Styles from '../styles/home.module.css';
+import { HashLink } from 'react-router-hash-link';
 // import story from "./../certi/story.png";
 // import verify from "./../certi/verify.png";
 // import pay from "./../certi/pay.png";
@@ -97,10 +98,10 @@ export default function Home() {
 <div className={Styles.ss2}>
 <img src="./data/images/posters/ss2.png" alt="img" />
 <center>
-<Link to="/fundraisers" className={Styles.btn1}
+<HashLink to="/fundraisers#feed1" className={Styles.btn1}
                         >
-                            eDOPTnow
-                        </Link>
+                            eDOPT Now
+                        </HashLink>
                         </center>
     </div>
 
@@ -128,10 +129,10 @@ export default function Home() {
                                            
                                         </p>
                                         <center>
-                                            <Link to="/sakshi"
+                                            <HashLink to="/sakshi"
                                             >
                                                 <button className={Styles.proBtn} >Profile</button>
-                                            </Link>
+                                            </HashLink>
                                         </center>
                                     </Card>
                                 </div>
@@ -300,13 +301,13 @@ export default function Home() {
 
                     </center>
                 </div>
-                <Link to="/fundraisers">
+                <HashLink to="/fundraisers#feed1">
                     <button className={Styles.moreBtn}>
 
                         See More >
 
                     </button>
-                </Link>
+                </HashLink>
             </div >
             <br />
             <br/>
@@ -549,7 +550,8 @@ export default function Home() {
 
             <div>
                 <Carousel responsive={responsiveNews} className={Styles.news} >
-                    <img src="./data/images/posters/news01.png" alt="news" />
+                    <img src="./data/images/posters/news01.jpg" alt="news" />
+                    <img src="./data/images/posters/news03.png" alt="news" />
                     <img src="./data/images/posters/news02.png" alt="news" />
                 </Carousel>
             </div>

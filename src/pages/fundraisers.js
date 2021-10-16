@@ -4,12 +4,17 @@ import Styles from '../styles/fundraisers.module.css';
 import { Link } from 'react-router-dom';
 import { Card } from "react-simple-card";
 
+
 function fundraisers() {
+    
     document.title = 'Fundraiser | eDOPT';
+  
     return (
+      
+          
         <Layout className={Styles.main}>
 
-            <p className={Styles.para1}>Browse Fundraisers</p>
+            <p className={Styles.para1} id="feed1" >Browse Fundraisers</p>
 
 
 
