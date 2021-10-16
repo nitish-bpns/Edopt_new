@@ -94,6 +94,16 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+<div className={Styles.ss2}>
+<img src="./data/images/posters/ss2.png" alt="img" />
+<center>
+<Link to="/fundraisers" className={Styles.btn1}
+                        >
+                            eDOPTnow
+                        </Link>
+                        </center>
+    </div>
+
 <br/>
 <br/>
             <div >

@@ -40,6 +40,7 @@
   text-decoration: none;
   font-family: sans-serif;
   border: 2px solid rgb(58, 147, 108);
+  margin: 0 0 0 0;
 }
 
 .btn1:hover {
@@ -315,6 +316,9 @@
   text-align: center;
   font-size: 30px;
 }
+.ss2 {
+  display: none;
+}
 
 @media screen and (max-width: 900px) {
   .footerCol {
@@ -361,6 +365,9 @@
 }
 
 @media screen and (max-width: 464px) {
+  .main {
+    margin: 0 0% 0 0%;
+  }
   .phero {
     font-weight: 700;
     font-size: 90px;
@@ -485,5 +492,27 @@
     color: #000000;
     text-align: center;
     font-size: 23px;
+  }
+  .footerCol {
+    display: none;
+  }
+  .ss2 {
+    display: block;
+    margin: -10% 0 10% -5%;
+    width: 110%;
+  }
+  .ss2 img {
+    width: 115%;
+    margin: 0 0px 15% -5%;
+  }
+  .btn1 {
+    background-color: rgb(58, 147, 108);
+    color: white;
+    border-radius: 35px;
+    padding: 11px 55px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: sans-serif;
+    border: 2px solid rgb(58, 147, 108);
   }
 }
