@@ -3,7 +3,7 @@ import Layout from '../components/Layout'
 import { Link } from 'react-router-dom';
 import "react-awesome-slider/dist/styles.css";
 import "react-awesome-slider/dist/custom-animations/open-animation.css";
-import { Card, CardHeader, CardBody, CardFooter } from "react-simple-card";
+import { Card, CardBody, CardFooter } from "react-simple-card";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Styles from '../styles/home.module.css';
