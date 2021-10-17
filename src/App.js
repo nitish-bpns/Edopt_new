@@ -26,6 +26,13 @@ import Anshu from './pages/Anshu';
 import Owiz from './pages/Owiz';
 import Awaiz from './pages/Awaiz';
 import Syed from './pages/Syed';
+import Ranjith from './pages/Ranjith';
+import Ritesh from './pages/Ritesh';
+import Aradhya from './pages/Aradhya';
+import Bhavya from './pages/Bhavya';
+import Rohit from './pages/Rohit';
+import Roopam from './pages/Roopam';
+
 
 
 function App() {
@@ -55,6 +62,12 @@ function App() {
         <Route exact path="/Owiz" component={Owiz} />
         <Route exact path="/Awaiz" component={Awaiz} />
         <Route exact path="/Syed" component={Syed} />
+        <Route exact path="/Ranjith" component={Ranjith} />
+        <Route exact path="/Ritesh" component={Ritesh} />
+        <Route exact path="/Aradhya" component={Aradhya} />
+        <Route exact path="/Bhavya" component={Bhavya} />
+        <Route exact path="/Rohit" component={Rohit} />
+        <Route exact path="/Roopam" component={Roopam} />
 
         <Route component={NotFound} />
       </Switch>

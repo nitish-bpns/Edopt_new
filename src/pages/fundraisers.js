@@ -99,6 +99,45 @@ function fundraisers() {
                 </div>
 
                 <div className={Styles.card2}>
+
+<Card className={Styles.stdCard} >
+        <img src="./data/images/posters/ranjith.jpeg" alt="student" />
+        <p className={Styles.stdDetail1} >Ranjith AV</p>
+        <p className={Styles.stdDetail3} >20 yrs</p>
+        <p className={Styles.stdDetail2} ><b> Result: 95.68%</b><br /></p>
+        <p className={Styles.stdDetail2} ><b>Location:</b> Banglore<br /></p>
+        <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.20,000<br />
+         
+        </p>
+        <center>
+            <Link to="/ranjith"
+            >
+                <button className={Styles.proBtn} >Profile</button>
+            </Link>
+        </center>
+    </Card>
+</div>
+
+<div className={Styles.card2}>
+                            <Card className={Styles.stdCard} >
+                                <img src="./data/images/posters/prf.png" alt="student" />
+                                <p className={Styles.stdDetail1} >Ritesh Darda</p>
+                                <p className={Styles.stdDetail3} >12 yrs</p>
+                                <p className={Styles.stdDetail2} ><b> Result: 93%</b><br /></p>
+                                <p className={Styles.stdDetail2} ><b>Location:</b> Kota<br /></p>
+                                <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.20,000<br />
+                                
+                                </p>
+                                <center>
+                                    <Link to="/ritesh"
+                                    >
+                                        <button className={Styles.proBtn} >Profile</button>
+                                    </Link>
+                                </center>
+                            </Card>
+                        </div>
+
+                <div className={Styles.card2}>
                 <Card className={Styles.stdCard} >
                                         <img src="./data/images/posters/priyanshu.png" alt="student" />
                                         <p className={Styles.stdDetail1} >Priyanshu Pandey</p>
