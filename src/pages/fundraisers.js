@@ -9,15 +9,10 @@ function fundraisers() {
     
     document.title = 'Fundraiser | eDOPT';
   
-    return (
-      
-          
+    return (          
         <Layout className={Styles.main}>
 
             <p className={Styles.para1} id="feed1" >Browse Fundraisers</p>
-
-
-
             <div className={Styles.allCards}>
 
                 <div className={Styles.card2}>
@@ -156,6 +151,27 @@ function fundraisers() {
                                     </Card>
                 </div>
 
+
+                <div className={Styles.card2}>
+                               <Card className={Styles.stdCard} >
+                                              <img src="./data/images/posters/bhavya.jpg" alt="student" />
+                                              <p className={Styles.stdDetail1} >Bhavya Jain</p>
+                                              <p className={Styles.stdDetail3} >11 yrs</p>
+                                              <p className={Styles.stdDetail2} ><b> Result: 84.5%</b><br /></p>
+                                              <p className={Styles.stdDetail2} ><b>Location:</b> Kota<br /></p>
+                                              <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.40,000<br />
+                                               
+                                              </p>
+                                              <center>
+                                                  <Link to="/bhavya"
+                                                  >
+                                                      <button className={Styles.proBtn} >Profile</button>
+                                                  </Link>
+                                              </center>
+                                          </Card>
+                                  </div>
+
+
                 <div className={Styles.card2}>
                 <Card className={Styles.stdCard} >
                                         <img src="./data/images/posters/syed.png" alt="student" />
@@ -233,8 +249,66 @@ function fundraisers() {
                                             </Link>
                                         </center>
                                     </Card>
+               </div>
+
+               <div className={Styles.card2}>
+
+<Card className={Styles.stdCard} >
+               <img src="./data/images/posters/roopam.jpeg" alt="student" />
+               <p className={Styles.stdDetail1} >Roopam Ghanta</p>
+               <p className={Styles.stdDetail3} >11 yrs</p>
+               <p className={Styles.stdDetail2} ><b> Result: 62%</b><br /></p>
+               <p className={Styles.stdDetail2} ><b>Location:</b> Kota<br /></p>
+               <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.16,000<br />
+                  
+               </p>
+               <center>
+                   <Link to="/roopam"
+                   >
+                       <button className={Styles.proBtn} >Profile</button>
+                   </Link>
+               </center>
+           </Card>
+   </div>
+
+               <div className={Styles.card2}>    
+                          <Card className={Styles.stdCard} >
+                                 <img src="./data/images/posters/rohit.jpeg" alt="student" />
+                                 <p className={Styles.stdDetail1} >Rohit Ghanta</p>
+                                 <p className={Styles.stdDetail3} >14 yrs</p>
+                                <p className={Styles.stdDetail2} ><b> Result: 59%</b><br /></p>
+                                <p className={Styles.stdDetail2} ><b>Location:</b> Kota<br /></p>
+                                <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.16,000<br />
+                                          
+                                </p>
+                            <center>
+                                <Link to="/rohit">                                          
+                                 <button className={Styles.proBtn} >Profile</button>
+                                </Link>
+                            </center>
+                         </Card>
+                            </div>
+
+                                    <div className={Styles.card2}>    
+                          <Card className={Styles.stdCard} >
+                                 <img src="./data/images/posters/aradhay.jpeg" alt="student" />
+                                 <p className={Styles.stdDetail1} >Aradhay Sharma</p>
+                                 <p className={Styles.stdDetail3} >12 yrs</p>
+                                <p className={Styles.stdDetail2} ><b> Result: 57.7%</b><br /></p>
+                                <p className={Styles.stdDetail2} ><b>Location:</b> Kota<br /></p>
+                                <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.16,000<br />
+                                          
+                                </p>
+                            <center>
+                                <Link to="/aradhay">                                          
+                                 <button className={Styles.proBtn} >Profile</button>
+                                </Link>
+                            </center>
+                         </Card>
+                            </div>
+               
                 </div>
-            </div>
+            
         </Layout>
     )
 }

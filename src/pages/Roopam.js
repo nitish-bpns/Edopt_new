@@ -3,7 +3,7 @@ import Layout from '../components/Layout';
 import Styles from '../styles/profile.module.css';
 import { Link } from 'react-router-dom';
 import Modal from 'react-modal';
-import photo from "./../certi/anshu-mark.jpg";
+import photo from "./../certi/roopam-mark.jpg";
 
 var reactModal = require("react-modal");
 
@@ -23,7 +23,7 @@ const customStyles = {
 
 
 
-function Anshu() {
+function Roopam() {
     let subtitle;
     const [modalIsOpen, setIsOpen] = React.useState(false);
 
@@ -82,7 +82,7 @@ function Anshu() {
 
                         <center>
                             <div className="iframeContainer">
-                                <iframe className={Styles.yt} style={{ marginTop: "-4%", borderRadius: "8px", marginBottom: "-3%" }} src="https://www.youtube.com/embed/LdgeHKS7s64?playlist=LdgeHKS7s64&loop=1" title="YouTube video player" rel="0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <img className={Styles.pic2} style={{ marginTop: "-4%", borderRadius: "8px", marginBottom: "-3%" }} src="./data/images/posters/roopam.jpeg"></img>
                             </div>
                         </center>
 
@@ -90,19 +90,19 @@ function Anshu() {
                             <p className={Styles.para3}>Credentials</p>
                             <hr />
                             <p className={Styles.para4}>Name:
-                                <span className={Styles.credt} > Anshu</span>
+                                <span className={Styles.credt} > Roopam Ghanta</span>
                             </p>
                             <p className={Styles.para4}>Age:
-                                <span className={Styles.credt} > 14</span>
+                                <span className={Styles.credt} > 11</span>
                             </p>
                             <p className={Styles.para4}>Location:
-                                <span className={Styles.credt} > Sonipat</span>
+                                <span className={Styles.credt} > Kota</span>
                             </p>
                             <p className={Styles.para4}>School:
                                 <span className={Styles.credt} >Saraswati Vidya mandir Sr. Sec. School</span>
                             </p>
                             <p className={Styles.para4}>Achievement:
-                                <span className={Styles.credt} >98% Overall, School topper</span>
+                                <span className={Styles.credt} >62%</span>
                             </p>
                             <p className={Styles.para4}>Certificates:
                                 <span className={Styles.credt} onClick={openModal} className={Styles.modalcerti} > Click to Open</span>
@@ -123,13 +123,13 @@ function Anshu() {
                             <div className={Styles.about}>
                                 <p className={Styles.para2}>About the fundraiser</p>
                                 <br />
-                                I am Anshu. I am a student of class 10th. I am a topper of my school. I want to become a doctor so one day I can save millions of lifes and treat my father. My father suffers from kidney damage, hence we are facing financial issues.
+                                I am Roopam Ghanta. I am a student in class 6th. I am excellent in my studies and want to study and get quality education. I lost my father a few months back.
                                 <br />
                                 <br />
-                                I hereby bring to your notice that My father is suffering from kidney damage and is on dialysis. My mother is a housewife but in these adverse situation she has started some basic work to earn daily needs.
+                                I hereby want to bring your notice that I lost my father a few months back. He is the only earning member of my family. Due to this, we are facing lots of financial issues. My mother is not able to afford our education. We are two siblings and my mother is facing a hard time fostering us. 
                                 <br />
                                 <br />
-                                This condition of my family is affecting my studies so much. I want to study further. I request you to provide my sponsarship. I assure you to work very hard on my goals and never let you all down.
+                                I want to study hard to help my mother in future but these financial constraints are causing lots of hindrances in my studies. I request you to please provide me with a scholarship for my education. I will be grateful forever.
                                 <br />
                                 <br />
 
@@ -160,4 +160,4 @@ function Anshu() {
     )
 }
 
-export default Anshu;
+export default Roopam;

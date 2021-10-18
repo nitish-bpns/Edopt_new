@@ -3,7 +3,7 @@ import Layout from '../components/Layout';
 import Styles from '../styles/profile.module.css';
 import { Link } from 'react-router-dom';
 import Modal from 'react-modal';
-import photo from "./../certi/anshu-mark.jpg";
+import photo from "./../certi/bhavya-mark.jpg";
 
 var reactModal = require("react-modal");
 
@@ -23,7 +23,7 @@ const customStyles = {
 
 
 
-function Anshu() {
+function Bhavya() {
     let subtitle;
     const [modalIsOpen, setIsOpen] = React.useState(false);
 
@@ -73,7 +73,7 @@ function Anshu() {
 
 
             <div className={Styles.main2}>
-                <p className={Styles.para1} id="anshu1" >Anshu</p>
+                <p className={Styles.para1} id="anshu1" >Bhavya Jain</p>
 
                 <div className={Styles.scols}>
 
@@ -82,7 +82,8 @@ function Anshu() {
 
                         <center>
                             <div className="iframeContainer">
-                                <iframe className={Styles.yt} style={{ marginTop: "-4%", borderRadius: "8px", marginBottom: "-3%" }} src="https://www.youtube.com/embed/LdgeHKS7s64?playlist=LdgeHKS7s64&loop=1" title="YouTube video player" rel="0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <img className={Styles.pic2} style={{ marginTop: "-4%", borderRadius: "8px", marginBottom: "-3%" }} src="./data/images/posters/bhavya.jpg"></img>
+                            
                             </div>
                         </center>
 
@@ -90,19 +91,19 @@ function Anshu() {
                             <p className={Styles.para3}>Credentials</p>
                             <hr />
                             <p className={Styles.para4}>Name:
-                                <span className={Styles.credt} > Anshu</span>
+                                <span className={Styles.credt} > Bhavya Jain</span>
                             </p>
                             <p className={Styles.para4}>Age:
-                                <span className={Styles.credt} > 14</span>
+                                <span className={Styles.credt} > 11</span>
                             </p>
                             <p className={Styles.para4}>Location:
-                                <span className={Styles.credt} > Sonipat</span>
+                                <span className={Styles.credt} > Kota</span>
                             </p>
                             <p className={Styles.para4}>School:
-                                <span className={Styles.credt} >Saraswati Vidya mandir Sr. Sec. School</span>
+                                <span className={Styles.credt} >D.A.V. Public School</span>
                             </p>
                             <p className={Styles.para4}>Achievement:
-                                <span className={Styles.credt} >98% Overall, School topper</span>
+                                <span className={Styles.credt} >84.5% Overall, School topper</span>
                             </p>
                             <p className={Styles.para4}>Certificates:
                                 <span className={Styles.credt} onClick={openModal} className={Styles.modalcerti} > Click to Open</span>
@@ -123,13 +124,13 @@ function Anshu() {
                             <div className={Styles.about}>
                                 <p className={Styles.para2}>About the fundraiser</p>
                                 <br />
-                                I am Anshu. I am a student of class 10th. I am a topper of my school. I want to become a doctor so one day I can save millions of lifes and treat my father. My father suffers from kidney damage, hence we are facing financial issues.
+                                My name is Bhavya Jain. I am a student of class 6th. I am excellent in my studies. My father is a teacher.
                                 <br />
                                 <br />
-                                I hereby bring to your notice that My father is suffering from kidney damage and is on dialysis. My mother is a housewife but in these adverse situation she has started some basic work to earn daily needs.
+                                I hereby bring to your notice that my father works as a teacher in a school. He faces a sudden decrement in his income during the pandemic as schools are the most affected profession during crises and it is not normal till now. Because of these unchangeable conditions, our family is facing problems financially. We are not able to afford my school expenses.
                                 <br />
                                 <br />
-                                This condition of my family is affecting my studies so much. I want to study further. I request you to provide my sponsarship. I assure you to work very hard on my goals and never let you all down.
+                                I want to become a teacher and serve the country. Due to a lack of support financially, I am facing a problem. I request you to please provide sponsorship for my education. I promise you to leave no stones unturned and work very hard.
                                 <br />
                                 <br />
 
@@ -160,4 +161,4 @@ function Anshu() {
     )
 }
 
-export default Anshu;
+export default Bhavya;

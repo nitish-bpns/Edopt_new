@@ -255,24 +255,43 @@ export default function Home() {
                                     </Card>
                             </div>
 
+
                          <div className={Styles.cscard}>
-                               
+                               <Card className={Styles.stdCard} >
+                                              <img src="./data/images/posters/bhavya.jpg" alt="student" />
+                                              <p className={Styles.stdDetail1} >Bhavya Jain</p>
+                                              <p className={Styles.stdDetail3} >11 yrs</p>
+                                              <p className={Styles.stdDetail2} ><b> Result: 84.5%</b><br /></p>
+                                              <p className={Styles.stdDetail2} ><b>Location:</b> Kota<br /></p>
+                                              <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.40,000<br />
+                                               
+                                              </p>
+                                              <center>
+                                                  <Link to="/bhavya"
+                                                  >
+                                                      <button className={Styles.proBtn} >Profile</button>
+                                                  </Link>
+                                              </center>
+                                          </Card>
+                                  </div>
+
+
+                               <div className={Styles.cscard}>    
                           <Card className={Styles.stdCard} >
-                                        <img src="./data/images/posters/syed.png" alt="student" />
-                                        <p className={Styles.stdDetail1} >Syed Ameen</p>
-                                        <p className={Styles.stdDetail3} >10 yrs</p>
-                                        <p className={Styles.stdDetail2} ><b> Result: 82%</b><br /></p>
-                                        <p className={Styles.stdDetail2} ><b>Location:</b> Banglore<br /></p>
-                                        <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.16,000<br />
+                                 <img src="./data/images/posters/syed.png" alt="student" />
+                                 <p className={Styles.stdDetail1} >Syed Ameen</p>
+                                 <p className={Styles.stdDetail3} >10 yrs</p>
+                                <p className={Styles.stdDetail2} ><b> Result: 82%</b><br /></p>
+                                <p className={Styles.stdDetail2} ><b>Location:</b> Banglore<br /></p>
+                                <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.16,000<br />
                                           
-                                        </p>
-                                        <center>
-                                            <Link to="/syed"
-                                            >
-                                                <button className={Styles.proBtn} >Profile</button>
-                                            </Link>
-                                        </center>
-                                    </Card>
+                                </p>
+                            <center>
+                                <Link to="/syed">                                          
+                                 <button className={Styles.proBtn} >Profile</button>
+                                </Link>
+                            </center>
+                         </Card>
                             </div>
 
                        <div className={Styles.cscard}>
@@ -333,6 +352,66 @@ export default function Home() {
                                         </center>
                                     </Card>
                             </div>
+
+                            <div className={Styles.cscard}>
+
+<Card className={Styles.stdCard} >
+               <img src="./data/images/posters/roopam.jpeg" alt="student" />
+               <p className={Styles.stdDetail1} >Roopam Ghanta</p>
+               <p className={Styles.stdDetail3} >11 yrs</p>
+               <p className={Styles.stdDetail2} ><b> Result: 62%</b><br /></p>
+               <p className={Styles.stdDetail2} ><b>Location:</b> Kota<br /></p>
+               <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.16,000<br />
+                  
+               </p>
+               <center>
+                   <Link to="/roopam"
+                   >
+                       <button className={Styles.proBtn} >Profile</button>
+                   </Link>
+               </center>
+           </Card>
+   </div>
+
+
+                            <div className={Styles.cscard}>    
+                          <Card className={Styles.stdCard} >
+                                 <img src="./data/images/posters/rohit.jpeg" alt="student" />
+                                 <p className={Styles.stdDetail1} >Rohit Ghanta</p>
+                                 <p className={Styles.stdDetail3} >14 yrs</p>
+                                <p className={Styles.stdDetail2} ><b> Result: 59%</b><br /></p>
+                                <p className={Styles.stdDetail2} ><b>Location:</b> Kota<br /></p>
+                                <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.16,000<br />
+                                          
+                                </p>
+                            <center>
+                                <Link to="/rohit">                                          
+                                 <button className={Styles.proBtn} >Profile</button>
+                                </Link>
+                            </center>
+                         </Card>
+                            </div>
+
+                            <div className={Styles.cscard}>    
+                          <Card className={Styles.stdCard} >
+                                 <img src="./data/images/posters/aradhay.jpeg" alt="student" />
+                                 <p className={Styles.stdDetail1} >Aradhay Sharma</p>
+                                 <p className={Styles.stdDetail3} >12 yrs</p>
+                                <p className={Styles.stdDetail2} ><b> Result: 57.7%</b><br /></p>
+                                <p className={Styles.stdDetail2} ><b>Location:</b> Kota<br /></p>
+                                <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.16,000<br />
+                                          
+                                </p>
+                            <center>
+                                <Link to="/aradhay">                                          
+                                 <button className={Styles.proBtn} >Profile</button>
+                                </Link>
+                            </center>
+                         </Card>
+                            </div>
+
+                            
+                   
 
 
                         </Carousel>
