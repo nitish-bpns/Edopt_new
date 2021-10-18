@@ -123,7 +123,7 @@ export default function Home() {
                                         <img src="./data/images/posters/sakshi.jpg" alt="student" />
                                         <p className={Styles.stdDetail1} >Sakshi </p>
                                         <p className={Styles.stdDetail3} >6 yrs</p>
-                                        <p className={Styles.stdDetail2} ><b> Result: 98.6%</b><br /></p>
+                                        <p className={Styles.stdDetail2} ><b> Result: 98.6% (Class 1st)</b><br /></p>
                                         <p className={Styles.stdDetail2} ><b>Location:</b> Delhi<br /></p>
                                         <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.13,000<br />
                                            
@@ -143,7 +143,7 @@ export default function Home() {
                                         <img src="./data/images/posters/anshu.jpg" alt="student" />
                                         <p className={Styles.stdDetail1} >Anshu</p>
                                         <p className={Styles.stdDetail3} >14 yrs</p>
-                                        <p className={Styles.stdDetail2} ><b> Result: 98%</b><br /></p>
+                                        <p className={Styles.stdDetail2} ><b> Result: 98% (Class 9th)</b><br /></p>
                                         <p className={Styles.stdDetail2} ><b>Location:</b> Sonipat<br /></p>
                                         <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.20,000<br />
                                           
@@ -163,7 +163,7 @@ export default function Home() {
                                         <img src="./data/images/posters/owiz.png" alt="student" />
                                         <p className={Styles.stdDetail1} >Owaiz Ahmed</p>
                                         <p className={Styles.stdDetail3} >14 yrs</p>
-                                        <p className={Styles.stdDetail2} ><b> Result: 98%</b><br /></p>
+                                        <p className={Styles.stdDetail2} ><b> Result: 98% (Class 9th)</b><br /></p>
                                         <p className={Styles.stdDetail2} ><b>Location:</b> Banglore<br /></p>
                                         <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.21,000<br />
                                        
@@ -183,7 +183,7 @@ export default function Home() {
                                         <img src="./data/images/posters/jatin.jpg" alt="student" />
                                         <p className={Styles.stdDetail1} >Jatin Arora</p>
                                         <p className={Styles.stdDetail3} >15 yrs</p>
-                                        <p className={Styles.stdDetail2} ><b> Result: 96%</b><br /></p>
+                                        <p className={Styles.stdDetail2} ><b> Result: 96% (Class 10th)</b><br /></p>
                                         <p className={Styles.stdDetail2} ><b>Location:</b> Karnal<br /></p>
                                         <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.20,000<br />
                                          
@@ -202,7 +202,7 @@ export default function Home() {
                                 <img src="./data/images/posters/ranjith.png" alt="student" />
                                 <p className={Styles.stdDetail1} >Ranjith AV</p>
                                 <p className={Styles.stdDetail3} >20 yrs</p>
-                                <p className={Styles.stdDetail2} ><b> Result: 95.68%</b><br /></p>
+                                <p className={Styles.stdDetail2} ><b> Result: 95.68% (1st year, College)</b><br /></p>
                                 <p className={Styles.stdDetail2} ><b>Location:</b> Banglore<br /></p>
                                 <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.20,000<br />
                                 
@@ -221,7 +221,7 @@ export default function Home() {
                                 <img src="./data/images/posters/prf.png" alt="student" />
                                 <p className={Styles.stdDetail1} >Ritesh Darda</p>
                                 <p className={Styles.stdDetail3} >12 yrs</p>
-                                <p className={Styles.stdDetail2} ><b> Result: 93%</b><br /></p>
+                                <p className={Styles.stdDetail2} ><b> Result: 93%(Class 5th) </b><br /></p>
                                 <p className={Styles.stdDetail2} ><b>Location:</b> Kota<br /></p>
                                 <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.20,000<br />
                                 
@@ -241,7 +241,7 @@ export default function Home() {
                                         <img src="./data/images/posters/priyanshu.png" alt="student" />
                                         <p className={Styles.stdDetail1} >Priyanshu Pandey</p>
                                         <p className={Styles.stdDetail3} >16 yrs</p>
-                                        <p className={Styles.stdDetail2} ><b> Result: 85%</b><br /></p>
+                                        <p className={Styles.stdDetail2} ><b> Result: 85% (Class 10th ) </b><br /></p>
                                         <p className={Styles.stdDetail2} ><b>Location:</b> Delhi<br /></p>
                                         <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.40,000<br />
                                          
@@ -261,7 +261,7 @@ export default function Home() {
                                               <img src="./data/images/posters/bhavya.jpg" alt="student" />
                                               <p className={Styles.stdDetail1} >Bhavya Jain</p>
                                               <p className={Styles.stdDetail3} >11 yrs</p>
-                                              <p className={Styles.stdDetail2} ><b> Result: 84.5%</b><br /></p>
+                                              <p className={Styles.stdDetail2} ><b> Result: 84.5% (Class 6th)</b><br /></p>
                                               <p className={Styles.stdDetail2} ><b>Location:</b> Kota<br /></p>
                                               <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.40,000<br />
                                                
@@ -281,7 +281,7 @@ export default function Home() {
                                  <img src="./data/images/posters/syed.png" alt="student" />
                                  <p className={Styles.stdDetail1} >Syed Ameen</p>
                                  <p className={Styles.stdDetail3} >10 yrs</p>
-                                <p className={Styles.stdDetail2} ><b> Result: 82%</b><br /></p>
+                                <p className={Styles.stdDetail2} ><b> Result: 82% (Class 5th ) </b><br /></p>
                                 <p className={Styles.stdDetail2} ><b>Location:</b> Banglore<br /></p>
                                 <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.16,000<br />
                                           
@@ -300,7 +300,7 @@ export default function Home() {
                                         <img src="./data/images/posters/diya.jpg" alt="student" />
                                         <p className={Styles.stdDetail1} >Diya Gosain</p>
                                         <p className={Styles.stdDetail3} >15 yrs</p>
-                                        <p className={Styles.stdDetail2} ><b> Result: 77.6%</b><br /></p>
+                                        <p className={Styles.stdDetail2} ><b> Result: 77.6% (Class 9th)</b><br /></p>
                                         <p className={Styles.stdDetail2} ><b>Location:</b> Sonipat<br /></p>
                                         <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.50,880<br />                                      
                                          
@@ -320,7 +320,7 @@ export default function Home() {
                                         <img src="./data/images/posters/divyanshu.png" alt="student" />
                                         <p className={Styles.stdDetail1} >Divyanshu Pandey</p>
                                         <p className={Styles.stdDetail3} >11 yrs</p>
-                                        <p className={Styles.stdDetail2} ><b> Result: 77.4%</b><br /></p>
+                                        <p className={Styles.stdDetail2} ><b> Result: 77.4% (Class 4th)</b><br /></p>
                                         <p className={Styles.stdDetail2} ><b>Location:</b> Delhi<br /></p>
                                         <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.40,000<br />
                                            
@@ -339,7 +339,7 @@ export default function Home() {
                                         <img src="./data/images/posters/awas.png" alt="student" />
                                         <p className={Styles.stdDetail1} >Awaiz Pasha</p>
                                         <p className={Styles.stdDetail3} >10 yrs</p>
-                                        <p className={Styles.stdDetail2} ><b> Result: 74%</b><br /></p>
+                                        <p className={Styles.stdDetail2} ><b> Result: 74% (Class 5th)</b><br /></p>
                                         <p className={Styles.stdDetail2} ><b>Location:</b> Banglore<br /></p>
                                         <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.16,000<br />
                                            
