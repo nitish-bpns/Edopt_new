@@ -4,7 +4,7 @@ import Styles from '../styles/profile.module.css';
 import { Link } from 'react-router-dom';
 import Modal from 'react-modal';
 import photo from "./../certi/ranjith-mark.jpg";
-// import photo2 from "./data/images/posters/ranjith.jpeg";
+
 
 var reactModal = require("react-modal");
 
@@ -83,7 +83,7 @@ function Ranjith() {
 
                         <center>
                         <div className="iframeContainer">
-                                <img className={Styles.pic2} style={{ marginTop: "-4%", borderRadius: "8px", marginBottom: "-3%" }} src="./data/images/posters/ranjith.jpeg"></img>
+                                <img className={Styles.pic2} style={{ marginTop: "-4%", borderRadius: "8px", marginBottom: "-3%" }} src="./data/images/posters/ranjith.png"></img>
                             </div>
                         </center>
 

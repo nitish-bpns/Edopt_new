@@ -199,7 +199,7 @@ export default function Home() {
 
                         <div className={Styles.cscard}>
                             <Card className={Styles.stdCard} >
-                                <img src="./data/images/posters/ranjith.jpeg" alt="student" />
+                                <img src="./data/images/posters/ranjith.png" alt="student" />
                                 <p className={Styles.stdDetail1} >Ranjith AV</p>
                                 <p className={Styles.stdDetail3} >20 yrs</p>
                                 <p className={Styles.stdDetail2} ><b> Result: 95.68%</b><br /></p>
@@ -352,7 +352,7 @@ export default function Home() {
                                         </center>
                                     </Card>
                             </div>
-
+{/* 
                             <div className={Styles.cscard}>
 
 <Card className={Styles.stdCard} >
@@ -408,7 +408,7 @@ export default function Home() {
                                 </Link>
                             </center>
                          </Card>
-                            </div>
+                            </div> */}
 
                             
                    
