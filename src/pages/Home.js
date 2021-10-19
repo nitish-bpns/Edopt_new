@@ -104,18 +104,15 @@ export default function Home() {
                         </HashLink>
                         </center>
     </div>
-
 <br/>
 <br/>
             <div >
-
                 <div className={Styles.heading1} ><b>
                     Top Fundraisers</b></div>
                     <br/>
                 <div style={{ position: "relative" }}>
                     <center>
                         <Carousel responsive={responsive}>
-                         
                          
                              <div className={Styles.cscard}>
 
@@ -146,7 +143,7 @@ export default function Home() {
                                         <p className={Styles.stdDetail2} ><b> Result: 98% (Class 9th)</b><br /></p>
                                         <p className={Styles.stdDetail2} ><b>Location:</b> Sonipat<br /></p>
                                         <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.20,000<br />
-                                          
+                            
                                         </p>
                                         <center>
                                             <Link to="/anshu"
@@ -156,7 +153,6 @@ export default function Home() {
                                         </center>
                                     </Card>
                             </div>
-
                          <div className={Styles.cscard}>
                              
                                 <Card className={Styles.stdCard} >
@@ -164,7 +160,7 @@ export default function Home() {
                                         <p className={Styles.stdDetail1} >Owaiz Ahmed</p>
                                         <p className={Styles.stdDetail3} >14 yrs</p>
                                         <p className={Styles.stdDetail2} ><b> Result: 98% (Class 9th)</b><br /></p>
-                                        <p className={Styles.stdDetail2} ><b>Location:</b> Banglore<br /></p>
+                                        <p className={Styles.stdDetail2} ><b>Location:</b> Bangalore<br /></p>
                                         <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.21,000<br />
                                        
                                         </p>
@@ -203,7 +199,7 @@ export default function Home() {
                                 <p className={Styles.stdDetail1} >Ranjith AV</p>
                                 <p className={Styles.stdDetail3} >20 yrs</p>
                                 <p className={Styles.stdDetail2} ><b> Result: 95.68% (1st year, College)</b><br /></p>
-                                <p className={Styles.stdDetail2} ><b>Location:</b> Banglore<br /></p>
+                                <p className={Styles.stdDetail2} ><b>Location:</b> Bangalore<br /></p>
                                 <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.20,000<br />
                                 
                                 </p>
@@ -282,7 +278,7 @@ export default function Home() {
                                  <p className={Styles.stdDetail1} >Syed Ameen</p>
                                  <p className={Styles.stdDetail3} >10 yrs</p>
                                 <p className={Styles.stdDetail2} ><b> Result: 82% (Class 5th ) </b><br /></p>
-                                <p className={Styles.stdDetail2} ><b>Location:</b> Banglore<br /></p>
+                                <p className={Styles.stdDetail2} ><b>Location:</b> Bangalore<br /></p>
                                 <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.16,000<br />
                                           
                                 </p>
@@ -340,7 +336,7 @@ export default function Home() {
                                         <p className={Styles.stdDetail1} >Awaiz Pasha</p>
                                         <p className={Styles.stdDetail3} >10 yrs</p>
                                         <p className={Styles.stdDetail2} ><b> Result: 74% (Class 5th)</b><br /></p>
-                                        <p className={Styles.stdDetail2} ><b>Location:</b> Banglore<br /></p>
+                                        <p className={Styles.stdDetail2} ><b>Location:</b> Bangalore<br /></p>
                                         <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.16,000<br />
                                            
                                         </p>
@@ -538,9 +534,9 @@ export default function Home() {
                                 <CardFooter className={Styles.donorFooter} style={{ border: "none" }} >
                                     <center> Kush Taneja<br />Forbes 30, CEO Fampay
                                     
-                                            <Link to="/">
+                                            {/* <Link to="/">
                                                 <button className={Styles.proBtn} >Book a Slot</button>
-                                            </Link>
+                                            </Link> */}
                                         </center>
                                 </CardFooter>
                                
@@ -561,9 +557,10 @@ export default function Home() {
 
                                 <CardFooter className={Styles.donorFooter} style={{ border: "none" }} >
                                     <center> Harshveer Jain<br />IIT B, CAT 100%ile, IIM C
-                                    <Link to="/">
+                                    {/* <Link to="/">
                                                 <button className={Styles.proBtn} >Book a Slot</button>
-                                            </Link></center>
+                                            </Link> */}
+                                            </center>
                                 </CardFooter>
                             </Card>
                         </a>
@@ -581,9 +578,10 @@ export default function Home() {
 
                             <CardFooter className={Styles.donorFooter} style={{ border: "none" }} >
                                 <center> Anant Mehrotra<br />Google, MIT(Executive Education)
-                                <Link to="/">
+                                {/* <Link to="/">
                                                 <button className={Styles.proBtn} >Book a Slot</button>
-                                            </Link></center>
+                                            </Link> */}
+                                            </center>
                             </CardFooter>
                         </Card>
                     </a>
@@ -604,9 +602,10 @@ export default function Home() {
 
                                 <CardFooter className={Styles.donorFooter} style={{ border: "none", textDecoration: "none" }} >
                                     <center> Rahul Khanna<br />Founder Thunderpod, YC Backed 
-                                    <Link to="/">
+                                    {/* <Link to="/">
                                                 <button className={Styles.proBtn} >Book a Slot</button>
-                                            </Link></center>
+                                            </Link> */}
+                                            </center>
                                 </CardFooter>
                             </Card>
                         </a>
@@ -624,9 +623,10 @@ export default function Home() {
                             </a>
                             <CardFooter className={Styles.donorFooter} style={{ border: "none" }} >
                                 <center> Ayush Agrawal<br />IIT Kharagpur, Flipkart 
-                                <Link to="/">
+                                {/* <Link to="/">
                                                 <button className={Styles.proBtn} >Book a Slot</button>
-                                            </Link></center>
+                                            </Link> */}
+                                            </center>
                             </CardFooter>
                         </Card>
                     </div>
@@ -643,9 +643,10 @@ export default function Home() {
                             </a>
                             <CardFooter className={Styles.donorFooter} style={{ border: "none" }} >
                                 <center> Shomby Goswami<br />NIFT topper, President Gold Medalist
-                                <Link to="/">
+                                {/* <Link to="/">
                                                 <button className={Styles.proBtn} >Book a Slot</button>
-                                            </Link></center>
+                                            </Link> */}
+                                            </center>
                             </CardFooter>
                         </Card>
                     </div>

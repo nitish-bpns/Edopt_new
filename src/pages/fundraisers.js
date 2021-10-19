@@ -59,7 +59,7 @@ function fundraisers() {
                                         <p className={Styles.stdDetail1} >Owaiz Ahmed</p>
                                         <p className={Styles.stdDetail3} >14 yrs</p>
                                         <p className={Styles.stdDetail2} ><b> Result: 98%</b><br /></p>
-                                        <p className={Styles.stdDetail2} ><b>Location:</b> Banglore<br /></p>
+                                        <p className={Styles.stdDetail2} ><b>Location:</b> Bangalore<br /></p>
                                         <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.21,000<br />
                                        
                                         </p>
@@ -100,7 +100,7 @@ function fundraisers() {
         <p className={Styles.stdDetail1} >Ranjith AV</p>
         <p className={Styles.stdDetail3} >20 yrs</p>
         <p className={Styles.stdDetail2} ><b> Result: 95.68%</b><br /></p>
-        <p className={Styles.stdDetail2} ><b>Location:</b> Banglore<br /></p>
+        <p className={Styles.stdDetail2} ><b>Location:</b> Bangalore<br /></p>
         <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.20,000<br />
          
         </p>
@@ -178,7 +178,7 @@ function fundraisers() {
                                         <p className={Styles.stdDetail1} >Syed Ameen</p>
                                         <p className={Styles.stdDetail3} >10 yrs</p>
                                         <p className={Styles.stdDetail2} ><b> Result: 82%</b><br /></p>
-                                        <p className={Styles.stdDetail2} ><b>Location:</b> Banglore<br /></p>
+                                        <p className={Styles.stdDetail2} ><b>Location:</b> Bangalore<br /></p>
                                         <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.16,000<br />
                                           
                                         </p>
@@ -238,7 +238,7 @@ function fundraisers() {
                                         <p className={Styles.stdDetail1} >Awaiz Pasha</p>
                                         <p className={Styles.stdDetail3} >10 yrs</p>
                                         <p className={Styles.stdDetail2} ><b> Result: 74%</b><br /></p>
-                                        <p className={Styles.stdDetail2} ><b>Location:</b> Banglore<br /></p>
+                                        <p className={Styles.stdDetail2} ><b>Location:</b> Bangalore<br /></p>
                                         <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.16,000<br />
                                            
                                         </p>

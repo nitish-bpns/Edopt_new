@@ -97,7 +97,7 @@ function Ranjith() {
                                 <span className={Styles.credt} > 20</span>
                             </p>
                             <p className={Styles.para4}>Location:
-                                <span className={Styles.credt} > Banglore</span>
+                                <span className={Styles.credt} > Bangalore</span>
                             </p>
                             <p className={Styles.para4}>School:
                                 <span className={Styles.credt} >B. M. S. College of Engineering</span>
@@ -109,7 +109,7 @@ function Ranjith() {
                                 <span className={Styles.credt} onClick={openModal} className={Styles.modalcerti} > Click to Open</span>
                             </p>
                             <p className={Styles.amount}>Amount:
-                                <span className={Styles.amt} > Rs.16,200/ per year</span>
+                                <span className={Styles.amt} > Rs.20,000/ per year</span>
                             </p>
 
 

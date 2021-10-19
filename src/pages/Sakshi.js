@@ -59,30 +59,19 @@ function Sakshi() {
                         <img
                             src={photo}
                             alt="certi"
-
-
                         />
-
                     </div>
-
                 </Modal>
             </div>
-
-
             <div className={Styles.main2}  id="sakshi2" >
                 <p className={Styles.para1}id="sakshi1" >Sakshi</p>
-
                 <div className={Styles.scols}>
-
                     <div className={Styles.col1}>
-
-
                         <center>
                             <div className="iframeContainer">
                                 <iframe className={Styles.yt} style={{ marginTop: "-4%", borderRadius: "8px", marginBottom: "-3%" }} src="https://www.youtube.com/embed/b8oiN36cA4o?playlist=b8oiN36cA4o&loop=1" title="YouTube video player" rel="0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                         </center>
-
                         <div className={Styles.about2}>
                             <p className={Styles.para3}>Credentials</p>
                             <hr />
@@ -107,14 +96,8 @@ function Sakshi() {
                             <p className={Styles.amount}>Amount:
                                 <span className={Styles.amt} > Rs.13,000/ per year</span>
                             </p>
-
-
-
                         </div>
-
-
                     </div>
-
                     <div className={Styles.col1}>
                         <center>
                             <div className={Styles.about}>

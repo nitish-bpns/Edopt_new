@@ -95,10 +95,10 @@ function Syed() {
                                 <span className={Styles.credt} > 10</span>
                             </p>
                             <p className={Styles.para4}>Location:
-                                <span className={Styles.credt} > Banglore</span>
+                                <span className={Styles.credt} > Bangalore</span>
                             </p>
                             <p className={Styles.para4}>School:
-                                <span className={Styles.credt} >Amity Banglore School</span>
+                                <span className={Styles.credt} >Amity Bangalore School</span>
                             </p>
                             <p className={Styles.para4}>Achievement:
                                 <span className={Styles.credt} > 82% in Standard 5th </span>
