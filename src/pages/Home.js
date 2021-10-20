@@ -493,18 +493,22 @@ export default function Home() {
                 </div>
             </div> */}
                <br />
+               <br/>
+               <br/>
             <div className={Styles.heading1} >
               <b>Students Onboarded</b>
             </div>
 
+<br/>
             <div>
                 <Carousel responsive={responsiveNews} className={Styles.onboard} >
-                    <img src="./data/images/posters/onboard1.png" alt="onboard" />
-                    <img src="./data/images/posters/onboard2.png" alt="onboard" />
-                    <img src="./data/images/posters/onboard3.png" alt="onboard" />
+                    <img src="./data/images/posters/onboard01.png" alt="onboard" />
+                    <img src="./data/images/posters/onboard02.png" alt="onboard" />
+                    <img src="./data/images/posters/onboard03.png" alt="onboard" />
                 </Carousel>
             </div>
-
+<br/>
+<br/>
             <div>
                 <center>
                 <div className={Styles.heading1} ><b>What we do?</b></div>
