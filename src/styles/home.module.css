@@ -223,6 +223,16 @@
 .news {
   margin-bottom: 3%;
 }
+.onboard img {
+  width: 63%;
+  height: 93%;
+  border-radius: 20px;
+  margin: 0 0 0 18%;
+}
+.onboard {
+  margin-bottom: 0%;
+  padding: 0%;
+}
 .iframeContainer {
   position: relative;
   width: 95%;
@@ -522,5 +532,11 @@
     font-weight: 600;
     font-size: 14px;
     font-family: sans-serif;
+  }
+  .onboard img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    margin: 0 0 0 0%;
   }
 }
