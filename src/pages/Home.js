@@ -114,7 +114,7 @@ export default function Home() {
                     <center>
                         <Carousel responsive={responsive}>
                          
-                             <div className={Styles.cscard}>
+                             {/* <div className={Styles.cscard}>
 
                                 <Card className={Styles.stdCard} >
                                         <img src="./data/images/posters/sakshi.jpg" alt="student" />
@@ -132,7 +132,7 @@ export default function Home() {
                                             </HashLink>
                                         </center>
                                     </Card>
-                                </div>
+                                </div> */}
                      
                        <div className={Styles.cscard}>
                             
@@ -173,7 +173,7 @@ export default function Home() {
                                     </Card>
                             </div>
 
-                       <div className={Styles.cscard}>
+                       {/* <div className={Styles.cscard}>
 
                                 <Card className={Styles.stdCard} >
                                         <img src="./data/images/posters/jatin.jpg" alt="student" />
@@ -191,7 +191,7 @@ export default function Home() {
                                             </Link>
                                         </center>
                                     </Card>
-                            </div>
+                            </div> */}
 
                         <div className={Styles.cscard}>
                             <Card className={Styles.stdCard} >
@@ -677,6 +677,7 @@ export default function Home() {
             <div className={Styles.heading1} >
               <b>In the News!</b>
             </div>
+<br/>
 <br/>
 
             <div>

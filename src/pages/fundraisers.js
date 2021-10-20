@@ -15,7 +15,7 @@ function fundraisers() {
             <p className={Styles.para1} id="feed1" >Browse Fundraisers</p>
             <div className={Styles.allCards}>
 
-                <div className={Styles.card2}>
+                {/* <div className={Styles.card2}>
                 <Card className={Styles.stdCard} >
                                         <img src="./data/images/posters/sakshi.jpg" alt="student" />
                                         <p className={Styles.stdDetail1} >Sakshi </p>
@@ -32,7 +32,7 @@ function fundraisers() {
                                             </Link>
                                         </center>
                                     </Card>
-                </div>
+                </div> */}
 
                 <div className={Styles.card2}>
                 <Card className={Styles.stdCard} >
@@ -74,7 +74,7 @@ function fundraisers() {
 
 
 
-                <div className={Styles.card2}>
+                {/* <div className={Styles.card2}>
                 <Card className={Styles.stdCard} >
                                         <img src="./data/images/posters/jatin.jpg" alt="student" />
                                         <p className={Styles.stdDetail1} >Jatin Arora</p>
@@ -91,7 +91,7 @@ function fundraisers() {
                                             </Link>
                                         </center>
                                     </Card>
-                </div>
+                </div> */}
 
                 <div className={Styles.card2}>
 
