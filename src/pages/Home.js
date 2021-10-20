@@ -569,7 +569,7 @@ export default function Home() {
                                 </CardBody>
 
                                 <CardFooter className={Styles.donorFooter} style={{ border: "none" }} >
-                                    <center> Harshveer Jain<br />IIT B, CAT 100%ile, IIM C
+                                    <center> Harshveer Jain<br />IIT Bombay, IIM C
                                     {/* <Link to="/">
                                                 <button className={Styles.proBtn} >Book a Slot</button>
                                             </Link> */}
