@@ -664,6 +664,26 @@ export default function Home() {
                         </Card>
                     </div>
 
+                    <div>
+                        <Card className={Styles.donorBody}>
+                            <a href="https://www.linkedin.com/in/mitali-malav-174011222/" className={Styles.menLink} target="blank" Styles={{ textDecoration: "none", cursor: "pointer" }}>
+                                <CardBody className={Styles.donorCard} style={{ padding: "0px", border: "none" }} >
+                                    <img src="./data/images/posters/mitali.png" alt="img" />
+
+
+                                </CardBody>
+                            </a>
+                            <CardFooter className={Styles.donorFooter} style={{ border: "none" }} >
+                                <center> Mitali Malav<br />MBBS Student, AIIMS Jodhpur
+                                {/* <Link to="/">
+                                                <button className={Styles.proBtn} >Book a Slot</button>
+                                            </Link> */}
+                                            </center>
+                            </CardFooter>
+                        </Card>
+                    </div>
+
+
 
 
 
