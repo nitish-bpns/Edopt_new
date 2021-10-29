@@ -155,7 +155,7 @@ function fundraisers() {
 
                         <div className={Styles.card2}>
                             <Card className={Styles.stdCard} >
-                                <img src="./data/images/posters/prf.png" alt="student" />
+                                <img src="./data/images/posters/ritesh.jpg" alt="student" />
                                 <p className={Styles.stdDetail1} >Ritesh Darda</p>
                                 <p className={Styles.stdDetail3} >12 yrs</p>
                                 <p className={Styles.stdDetail2} ><b> Result: 93%(Class 5th)</b><br /></p>
