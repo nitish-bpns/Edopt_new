@@ -173,6 +173,28 @@ export default function Home() {
                                     </Card>
                             </div>
 
+
+
+                            <div className={Styles.cscard}>
+                <Card className={Styles.stdCard} >
+                                        <img src="./data/images/posters/manoj.png" alt="student" />
+                                        <p className={Styles.stdDetail1} >Manoj Kumar Lodha</p>
+                                        <p className={Styles.stdDetail3} >10 yrs</p>
+                                        <p className={Styles.stdDetail2} ><b> Result: 96% (Class 4th)</b><br /></p>
+                                        <p className={Styles.stdDetail2} ><b>Location:</b> Kota<br /></p>
+                                        <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.19,200<br />
+                                       
+                                        </p>
+                                        <center>
+                                            <Link to="/manoj"
+                                            >
+                                                <button className={Styles.proBtn} >Profile</button>
+                                            </Link>
+                                        </center>
+                                    </Card>
+                </div>
+
+
                        {/* <div className={Styles.cscard}>
 
                                 <Card className={Styles.stdCard} >
@@ -296,6 +318,26 @@ export default function Home() {
 
                         <div className={Styles.cscard}>
                             <Card className={Styles.stdCard} >
+                                <img src="./data/images/posters/meenu.jpg" alt="student" />
+                                <p className={Styles.stdDetail1} >Meenu</p>
+                                <p className={Styles.stdDetail3} >17 yrs</p>
+                                <p className={Styles.stdDetail2} ><b> Result: 88.5% (Class 2nd)</b><br /></p>
+                                <p className={Styles.stdDetail2} ><b>Location:</b> Sonipat<br /></p>
+                                <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.24,000<br />
+                                
+                                </p>
+                                <center>
+                                    <Link to="/meenu"
+                                    >
+                                        <button className={Styles.proBtn} >Profile</button>
+                                    </Link>
+                                </center>
+                            </Card>
+                        </div>
+
+
+                        <div className={Styles.cscard}>
+                            <Card className={Styles.stdCard} >
                                 <img src="./data/images/posters/naksh.png" alt="student" />
                                 <p className={Styles.stdDetail1} >Naksh Shringi</p>
                                 <p className={Styles.stdDetail3} >11 yrs</p>
@@ -391,6 +433,27 @@ export default function Home() {
                             </center>
                          </Card>
                             </div>
+
+                            <div className={Styles.cscard}>
+                <Card className={Styles.stdCard} >
+                                        <img src="./data/images/posters/chetanay.jpg" alt="student" />
+                                        <p className={Styles.stdDetail1} >Chetanay</p>
+                                        <p className={Styles.stdDetail3} >7 yrs</p>
+                                        <p className={Styles.stdDetail2} ><b> 80.25% (Class 3rd )</b><br /></p>
+                                        <p className={Styles.stdDetail2} ><b>Location:</b> Sonipat<br /></p>
+                                        <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.14,400<br />
+                                          
+                                        </p>
+                                        <center>
+                                            <Link to="/chetanay"
+                                            >
+                                                <button className={Styles.proBtn} >Profile</button>
+                                            </Link>
+                                        </center>
+                                    </Card>
+                </div>
+
+
 
                        <div className={Styles.cscard}>
                                

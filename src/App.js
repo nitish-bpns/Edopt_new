@@ -38,6 +38,9 @@ import Kavita from './pages/Kavita';
 import Naksh from './pages/Naksh';
 import Yachi from './pages/Yachi';
 import Chavi from './pages/Chavi';
+import Manoj from './pages/Manoj';
+import Chetanay from './pages/Chetanay';
+import Meenu from './pages/Meenu';
 
 
 
@@ -81,6 +84,10 @@ function App() {
         <Route exact path="/Naksh" component={Naksh} />
         <Route exact path="/Chavi" component={Chavi} />
         <Route exact path="/Yachi" component={Yachi} />
+        <Route exact path="/Meenu" component={Meenu} />
+        <Route exact path="/Chetanay" component={Chetanay} />
+        <Route exact path="/Manoj" component={Manoj} />
+
 
         <Route component={NotFound} />
       </Switch>
