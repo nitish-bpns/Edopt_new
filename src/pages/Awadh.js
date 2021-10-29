@@ -3,8 +3,7 @@ import Layout from '../components/Layout';
 import Styles from '../styles/profile.module.css';
 import { Link } from 'react-router-dom';
 import Modal from 'react-modal';
-import photo from "./../certi/ranjith-mark.jpg";
-
+import photo from "./../certi/awadh-mark.png";
 
 var reactModal = require("react-modal");
 
@@ -19,9 +18,12 @@ const customStyles = {
     },
 };
 
+
 // Modal.setAppElement('#yourAppElement');
 
-function Ranjith() {
+
+
+function Awadh() {
     let subtitle;
     const [modalIsOpen, setIsOpen] = React.useState(false);
 
@@ -71,7 +73,7 @@ function Ranjith() {
 
 
             <div className={Styles.main2}>
-                <p className={Styles.para1} id="ranjith" >Ranjith AV</p>
+                <p className={Styles.para1} id="anshu1" >Awadh Khandelwal</p>
 
                 <div className={Styles.scols}>
 
@@ -79,8 +81,9 @@ function Ranjith() {
 
 
                         <center>
-                        <div className="iframeContainer">
-                                <img className={Styles.pic2} style={{ marginTop: "-4%", borderRadius: "8px", marginBottom: "-3%" }} src="./data/images/posters/ranjith.png"></img>
+                            <div className="iframeContainer">
+                            <img className={Styles.pic2} style={{ marginTop: "-4%", borderRadius: "8px", marginBottom: "-3%" }} src="./data/images/posters/awadh.png"></img>
+                            
                             </div>
                         </center>
 
@@ -88,25 +91,25 @@ function Ranjith() {
                             <p className={Styles.para3}>Credentials</p>
                             <hr />
                             <p className={Styles.para4}>Name:
-                                <span className={Styles.credt} > Ranjith AV</span>
+                                <span className={Styles.credt} > Awadh Khandelwal</span>
                             </p>
                             <p className={Styles.para4}>Age:
-                                <span className={Styles.credt} > 20</span>
+                                <span className={Styles.credt} > 11</span>
                             </p>
                             <p className={Styles.para4}>Location:
-                                <span className={Styles.credt} > Bangalore</span>
+                                <span className={Styles.credt} > Kota</span>
                             </p>
                             <p className={Styles.para4}>School:
-                                <span className={Styles.credt} >B. M. S. College of Engineering</span>
+                                <span className={Styles.credt} >D.A.V. Public School</span>
                             </p>
                             <p className={Styles.para4}>Achievement:
-                                <span className={Styles.credt} >95.68% </span>
+                                <span className={Styles.credt} >98.8%</span>
                             </p>
                             <p className={Styles.para4}>Certificates:
                                 <span className={Styles.credt} onClick={openModal} className={Styles.modalcerti} > Click to Open</span>
                             </p>
                             <p className={Styles.amount}>Amount:
-                                <span className={Styles.amt} > Rs.72,000/ per year</span>
+                                <span className={Styles.amt} > Rs.40,000/ per year</span>
                             </p>
 
 
@@ -121,13 +124,13 @@ function Ranjith() {
                             <div className={Styles.about}>
                                 <p className={Styles.para2}>About the fundraiser</p>
                                 <br />
-                                I am Ranjith. I am a student of Aerospace Engineering. I am excellent in my studies and want to become a scientist in future. My mother is a daily wage worker.
+                                I am Awadh Khandelwal. I am a student of class 5th. I am very bright in studies and scored good percentage in my previous class. My father has a mobile repair shop.
                                 <br />
                                 <br />
-                                I hereby want to bring your notice that My father is a drunkard and my mother works as a daily wage worker due to which our family income is not stable. My father does not contribute to our finances. This pandemic hits hard on us and we are affected financially
+                                COVID-19 makes our life miserable. My father runs a mobile repairing shop. As Covid hits hard on every business,My father work also suffers alot during pandemic. As the shop is rented we are facing problem to manage our daily living and in all this chaos my studies suffered alot. 
                                 <br />
                                 <br />
-                                I want to study hard and fulfil my goal to become a scientist. But due to a lack of resources, I am not able to afford my studies. I assure you to work very hard and leave no stones unturned to achieve my goal. I request you to provide  sponsarship for my education to help me in my studies.
+                                I want to study hard and become an engineer but my father is not able to afford my education. I request you to provide education sponsorship to me so that i can work hard and fulfill my dreams.
                                 <br />
                                 <br />
 
@@ -158,4 +161,4 @@ function Ranjith() {
     )
 }
 
-export default Ranjith;
+export default Awadh;

@@ -32,6 +32,13 @@ import Aradhay from './pages/Aradhay';
 import Bhavya from './pages/Bhavya';
 import Rohit from './pages/Rohit';
 import Roopam from './pages/Roopam';
+import Awadh from './pages/Awadh';
+import Pranjal from './pages/Pranjal';
+import Kavita from './pages/Kavita';
+import Naksh from './pages/Naksh';
+import Yachi from './pages/Yachi';
+import Chavi from './pages/Chavi';
+
 
 
 
@@ -68,6 +75,12 @@ function App() {
         <Route exact path="/Bhavya" component={Bhavya} />
         <Route exact path="/Rohit" component={Rohit} />
         <Route exact path="/Roopam" component={Roopam} />
+        <Route exact path="/Awadh" component={Awadh} />
+        <Route exact path="/Pranjal" component={Pranjal} />
+        <Route exact path="/Kavita" component={Kavita} />
+        <Route exact path="/Naksh" component={Naksh} />
+        <Route exact path="/Chavi" component={Chavi} />
+        <Route exact path="/Yachi" component={Yachi} />
 
         <Route component={NotFound} />
       </Switch>

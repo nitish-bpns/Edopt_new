@@ -113,26 +113,26 @@ export default function Home() {
                 <div style={{ position: "relative" }}>
                     <center>
                         <Carousel responsive={responsive}>
-                         
-                             {/* <div className={Styles.cscard}>
 
-                                <Card className={Styles.stdCard} >
-                                        <img src="./data/images/posters/sakshi.jpg" alt="student" />
-                                        <p className={Styles.stdDetail1} >Sakshi </p>
-                                        <p className={Styles.stdDetail3} >6 yrs</p>
-                                        <p className={Styles.stdDetail2} ><b> Result: 98.6% (Class 1st)</b><br /></p>
-                                        <p className={Styles.stdDetail2} ><b>Location:</b> Delhi<br /></p>
+
+                        <div className={Styles.cscard}>
+                <Card className={Styles.stdCard} >
+                                        <img src="./data/images/posters/awadh.png" alt="student" />
+                                        <p className={Styles.stdDetail1} >Awadh Khandelwal </p>
+                                        <p className={Styles.stdDetail3} >11 yrs</p>
+                                        <p className={Styles.stdDetail2} ><b> Result: 98.8% (Class 1st)</b><br /></p>
+                                        <p className={Styles.stdDetail2} ><b>Location:</b> Kota<br /></p>
                                         <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.13,000<br />
                                            
                                         </p>
                                         <center>
-                                            <HashLink to="/sakshi"
+                                            <Link to="/awadh"
                                             >
                                                 <button className={Styles.proBtn} >Profile</button>
-                                            </HashLink>
+                                            </Link>
                                         </center>
                                     </Card>
-                                </div> */}
+                </div> 
                      
                        <div className={Styles.cscard}>
                             
@@ -193,6 +193,27 @@ export default function Home() {
                                     </Card>
                             </div> */}
 
+                            
+
+                        <div className={Styles.cscard}>
+                            <Card className={Styles.stdCard} >
+                                <img src="./data/images/posters/chavi.png" alt="student" />
+                                <p className={Styles.stdDetail1} >Chavi</p>
+                                <p className={Styles.stdDetail3} >11 yrs</p>
+                                <p className={Styles.stdDetail2} ><b> Result: 95.7% (Class 5th)</b><br /></p>
+                                <p className={Styles.stdDetail2} ><b>Location:</b> Sonipat<br /></p>
+                                <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.20,000<br />
+                                
+                                </p>
+                                <center>
+                                    <Link to="/chavi"
+                                    >
+                                        <button className={Styles.proBtn} >Profile</button>
+                                    </Link>
+                                </center>
+                            </Card>
+                        </div>
+
                         <div className={Styles.cscard}>
                             <Card className={Styles.stdCard} >
                                 <img src="./data/images/posters/ranjith.png" alt="student" />
@@ -200,7 +221,7 @@ export default function Home() {
                                 <p className={Styles.stdDetail3} >20 yrs</p>
                                 <p className={Styles.stdDetail2} ><b> Result: 95.68% (1st year, College)</b><br /></p>
                                 <p className={Styles.stdDetail2} ><b>Location:</b> Bangalore<br /></p>
-                                <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.20,000<br />
+                                <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.72,000<br />
                                 
                                 </p>
                                 <center>
@@ -211,6 +232,8 @@ export default function Home() {
                                 </center>
                             </Card>
                         </div>
+
+
 
                         <div className={Styles.cscard}>
                             <Card className={Styles.stdCard} >
@@ -224,6 +247,65 @@ export default function Home() {
                                 </p>
                                 <center>
                                     <Link to="/ritesh"
+                                    >
+                                        <button className={Styles.proBtn} >Profile</button>
+                                    </Link>
+                                </center>
+                            </Card>
+                        </div>
+
+                        <div className={Styles.cscard}>
+                        <Card className={Styles.stdCard} >
+                                <img src="./data/images/posters/kavita.png" alt="student" />
+                                <p className={Styles.stdDetail1} >Kavita</p>
+                                <p className={Styles.stdDetail3} >11 yrs</p>
+                                <p className={Styles.stdDetail2} ><b> Result: 92% (Class 5th)</b><br /></p>
+                                <p className={Styles.stdDetail2} ><b>Location:</b> Kota<br /></p>
+                                <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.20,000<br />
+                                
+                                </p>
+                                <center>
+                                    <Link to="/kavita"
+                                    >
+                                        <button className={Styles.proBtn} >Profile</button>
+                                    </Link>
+                                </center>
+                            </Card>
+                        </div>
+
+
+                        <div className={Styles.cscard}>
+                            <Card className={Styles.stdCard} >
+                                <img src="./data/images/posters/yachi.jpg" alt="student" />
+                                <p className={Styles.stdDetail1} >Yachi Ashwani</p>
+                                <p className={Styles.stdDetail3} >9 yrs</p>
+                                <p className={Styles.stdDetail2} ><b> Result: 89% (Class 2nd)</b><br /></p>
+                                <p className={Styles.stdDetail2} ><b>Location:</b> Kota<br /></p>
+                                <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.20,000<br />
+                                
+                                </p>
+                                <center>
+                                    <Link to="/kavita"
+                                    >
+                                        <button className={Styles.proBtn} >Profile</button>
+                                    </Link>
+                                </center>
+                            </Card>
+                        </div>
+
+
+                        <div className={Styles.cscard}>
+                            <Card className={Styles.stdCard} >
+                                <img src="./data/images/posters/naksh.png" alt="student" />
+                                <p className={Styles.stdDetail1} >Naksh Shringi</p>
+                                <p className={Styles.stdDetail3} >11 yrs</p>
+                                <p className={Styles.stdDetail2} ><b> Result: 88% (Class 5th)</b><br /></p>
+                                <p className={Styles.stdDetail2} ><b>Location:</b> Kota<br /></p>
+                                <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.20,000<br />
+                                
+                                </p>
+                                <center>
+                                    <Link to="/naksh"
                                     >
                                         <button className={Styles.proBtn} >Profile</button>
                                     </Link>
@@ -264,6 +346,26 @@ export default function Home() {
                                               </p>
                                               <center>
                                                   <Link to="/bhavya"
+                                                  >
+                                                      <button className={Styles.proBtn} >Profile</button>
+                                                  </Link>
+                                              </center>
+                                          </Card>
+                                  </div>
+
+
+                                  <div className={Styles.cscard}>
+                               <Card className={Styles.stdCard} >
+                                              <img src="./data/images/posters/pranjal.jpg" alt="student" />
+                                              <p className={Styles.stdDetail1} >Pranjal Janin</p>
+                                              <p className={Styles.stdDetail3} >13 yrs</p>
+                                              <p className={Styles.stdDetail2} ><b>Result: 83% (Class 7th)</b><br /></p>
+                                              <p className={Styles.stdDetail2} ><b>Location:</b> Kota<br /></p>
+                                              <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.40,000<br />
+                                               
+                                              </p>
+                                              <center>
+                                                  <Link to="/pranjal"
                                                   >
                                                       <button className={Styles.proBtn} >Profile</button>
                                                   </Link>

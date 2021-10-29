@@ -3,8 +3,7 @@ import Layout from '../components/Layout';
 import Styles from '../styles/profile.module.css';
 import { Link } from 'react-router-dom';
 import Modal from 'react-modal';
-import photo from "./../certi/ranjith-mark.jpg";
-
+import photo from "./../certi/chavi-mark.jpg";
 
 var reactModal = require("react-modal");
 
@@ -19,9 +18,12 @@ const customStyles = {
     },
 };
 
+
 // Modal.setAppElement('#yourAppElement');
 
-function Ranjith() {
+
+
+function Chavi() {
     let subtitle;
     const [modalIsOpen, setIsOpen] = React.useState(false);
 
@@ -71,7 +73,7 @@ function Ranjith() {
 
 
             <div className={Styles.main2}>
-                <p className={Styles.para1} id="ranjith" >Ranjith AV</p>
+                <p className={Styles.para1} id="anshu1" >Chavi</p>
 
                 <div className={Styles.scols}>
 
@@ -79,8 +81,9 @@ function Ranjith() {
 
 
                         <center>
-                        <div className="iframeContainer">
-                                <img className={Styles.pic2} style={{ marginTop: "-4%", borderRadius: "8px", marginBottom: "-3%" }} src="./data/images/posters/ranjith.png"></img>
+                            <div className="iframeContainer">
+                            <img className={Styles.pic2} style={{ marginTop: "-4%", borderRadius: "8px", marginBottom: "-3%" }} src="./data/images/posters/chavi.png"></img>
+                            
                             </div>
                         </center>
 
@@ -88,25 +91,25 @@ function Ranjith() {
                             <p className={Styles.para3}>Credentials</p>
                             <hr />
                             <p className={Styles.para4}>Name:
-                                <span className={Styles.credt} > Ranjith AV</span>
+                                <span className={Styles.credt} > Chavi</span>
                             </p>
                             <p className={Styles.para4}>Age:
-                                <span className={Styles.credt} > 20</span>
+                                <span className={Styles.credt} > 11</span>
                             </p>
                             <p className={Styles.para4}>Location:
-                                <span className={Styles.credt} > Bangalore</span>
+                                <span className={Styles.credt} > Sonipat</span>
                             </p>
                             <p className={Styles.para4}>School:
-                                <span className={Styles.credt} >B. M. S. College of Engineering</span>
+                                <span className={Styles.credt} >Saraswati Vidya Mandir</span>
                             </p>
                             <p className={Styles.para4}>Achievement:
-                                <span className={Styles.credt} >95.68% </span>
+                                <span className={Styles.credt} >95.7%</span>
                             </p>
                             <p className={Styles.para4}>Certificates:
                                 <span className={Styles.credt} onClick={openModal} className={Styles.modalcerti} > Click to Open</span>
                             </p>
                             <p className={Styles.amount}>Amount:
-                                <span className={Styles.amt} > Rs.72,000/ per year</span>
+                                <span className={Styles.amt} > Rs.19,200/ per year</span>
                             </p>
 
 
@@ -121,13 +124,13 @@ function Ranjith() {
                             <div className={Styles.about}>
                                 <p className={Styles.para2}>About the fundraiser</p>
                                 <br />
-                                I am Ranjith. I am a student of Aerospace Engineering. I am excellent in my studies and want to become a scientist in future. My mother is a daily wage worker.
+                                I am Chavi. I am a student of class 6th. I am a very bright student of my class and very much interested in quality education. I want to become an IPS officer. 
                                 <br />
                                 <br />
-                                I hereby want to bring your notice that My father is a drunkard and my mother works as a daily wage worker due to which our family income is not stable. My father does not contribute to our finances. This pandemic hits hard on us and we are affected financially
+                                I hereby bring to your notice that my father is a helper in a small shop. The income of my father is already low but this corona phase worsen our financial conditions. We are three sisters, managing studies of all of us is difficult for my father.
                                 <br />
                                 <br />
-                                I want to study hard and fulfil my goal to become a scientist. But due to a lack of resources, I am not able to afford my studies. I assure you to work very hard and leave no stones unturned to achieve my goal. I request you to provide  sponsarship for my education to help me in my studies.
+                                I want to become IPS officer in future. As i don't have enough resources to achieve my goals, I need your support and help. I will be very thankful to you for helping me achieve my goals.
                                 <br />
                                 <br />
 
@@ -158,4 +161,4 @@ function Ranjith() {
     )
 }
 
-export default Ranjith;
+export default Chavi;
