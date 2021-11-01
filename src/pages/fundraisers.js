@@ -20,7 +20,7 @@ function fundraisers() {
                                         <img src="./data/images/posters/awadh.png" alt="student" />
                                         <p className={Styles.stdDetail1} >Awadh Khandelwal </p>
                                         <p className={Styles.stdDetail3} >11 yrs</p>
-                                        <p className={Styles.stdDetail2} ><b> Result: 98.8% (Class 1st)</b><br /></p>
+                                        <p className={Styles.stdDetail2} ><b> Result: 98.8% (Class 4th)</b><br /></p>
                                         <p className={Styles.stdDetail2} ><b>Location:</b> Kota<br /></p>
                                         <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.13,000<br />
                                            
@@ -216,7 +216,7 @@ function fundraisers() {
                                 <img src="./data/images/posters/meenu.jpg" alt="student" />
                                 <p className={Styles.stdDetail1} >Meenu</p>
                                 <p className={Styles.stdDetail3} >17 yrs</p>
-                                <p className={Styles.stdDetail2} ><b> Result: 88.5% (Class 2nd)</b><br /></p>
+                                <p className={Styles.stdDetail2} ><b> Result: 88.5% (Class 11th)</b><br /></p>
                                 <p className={Styles.stdDetail2} ><b>Location:</b> Sonipat<br /></p>
                                 <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.24,000<br />
                                 
