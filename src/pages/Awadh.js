@@ -103,7 +103,7 @@ function Awadh() {
                                 <span className={Styles.credt} >D.A.V. Public School</span>
                             </p>
                             <p className={Styles.para4}>Achievement:
-                                <span className={Styles.credt} >98.8%</span>
+                                <span className={Styles.credt} >98.8% (Class 6th)</span>
                             </p>
                             <p className={Styles.para4}>Certificates:
                                 <span className={Styles.credt} onClick={openModal} className={Styles.modalcerti} > Click to Open</span>
@@ -124,7 +124,7 @@ function Awadh() {
                             <div className={Styles.about}>
                                 <p className={Styles.para2}>About the fundraiser</p>
                                 <br />
-                                I am Awadh Khandelwal. I am a student of class 5th. I am very bright in studies and scored good percentage in my previous class. My father has a mobile repair shop.
+                                I am Awadh Khandelwal. I am a student of class 6th. I am very bright in studies and scored good percentage in my previous class. My father has a mobile repair shop.
                                 <br />
                                 <br />
                                 COVID-19 makes our life miserable. My father runs a mobile repairing shop. As Covid hits hard on every business,My father work also suffers alot during pandemic. As the shop is rented we are facing problem to manage our daily living and in all this chaos my studies suffered alot. 

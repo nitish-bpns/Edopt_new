@@ -103,7 +103,7 @@ function Chavi() {
                                 <span className={Styles.credt} >Saraswati Vidya Mandir</span>
                             </p>
                             <p className={Styles.para4}>Achievement:
-                                <span className={Styles.credt} >95.7%</span>
+                                <span className={Styles.credt} >95.7% (Class 6th)</span>
                             </p>
                             <p className={Styles.para4}>Certificates:
                                 <span className={Styles.credt} onClick={openModal} className={Styles.modalcerti} > Click to Open</span>

@@ -102,7 +102,7 @@ function Ritesh() {
                                 <span className={Styles.credt} >D.A.V. Public School</span>
                             </p>
                             <p className={Styles.para4}>Achievement:
-                                <span className={Styles.credt} >93% </span>
+                                <span className={Styles.credt} >93% (Class 6th) </span>
                             </p>
                             <p className={Styles.para4}>Certificates:
                                 <span className={Styles.credt} onClick={openModal} className={Styles.modalcerti} > Click to Open</span>
@@ -123,7 +123,7 @@ function Ritesh() {
                             <div className={Styles.about}>
                                 <p className={Styles.para2}>About the fundraiser</p>
                                 <br />
-                                I am Ritesh Darda. I am a student of class 5th. I am brilliant in studies and want to get a quality education but I lost my father during the pandemic.
+                                I am Ritesh Darda. I am a student of class 6th. I am brilliant in studies and want to get a quality education but I lost my father during the pandemic.
                                 <br />
                                 <br />
                                 COVID-19 makes our life miserable, I lost my father in this pandemic. He is the only earning member of my family. Due to this we are struggling a lot and facing lots of financial issues. 

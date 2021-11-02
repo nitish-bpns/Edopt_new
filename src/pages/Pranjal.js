@@ -92,7 +92,7 @@ function Pranjal() {
                                 <span className={Styles.credt} >Shiv Jyoti School</span>
                             </p>
                             <p className={Styles.para4}>Achievement:
-                                <span className={Styles.credt} >83% (Class 7th)</span>
+                                <span className={Styles.credt} >83% (Class 8th)</span>
                             </p>
                             <p className={Styles.para4}>Certificates:
                                 <span className={Styles.credt} onClick={openModal} className={Styles.modalcerti} > Click to Open</span>

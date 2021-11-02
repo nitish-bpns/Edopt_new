@@ -82,7 +82,7 @@ function Manoj() {
 
                         <center>
                             <div className="iframeContainer">
-                            <img className={Styles.pic2} style={{ marginTop: "-4%", borderRadius: "8px", marginBottom: "-3%" }} src="./data/images/posters/chavi.png"></img>
+                            <img className={Styles.pic2} style={{ marginTop: "-4%", borderRadius: "8px", marginBottom: "-3%" }} src="./data/images/posters/manoj.png"></img>
                             
                             </div>
                         </center>
@@ -103,7 +103,7 @@ function Manoj() {
                                 <span className={Styles.credt} >Shiv Jyoti School</span>
                             </p>
                             <p className={Styles.para4}>Achievement:
-                                <span className={Styles.credt} >96% (Class 4th)</span>
+                                <span className={Styles.credt} >96% (Class 5th)</span>
                             </p>
                             <p className={Styles.para4}>Certificates:
                                 <span className={Styles.credt} onClick={openModal} className={Styles.modalcerti} > Click to Open</span>
@@ -124,7 +124,7 @@ function Manoj() {
                             <div className={Styles.about}>
                                 <p className={Styles.para2}>About the fundraiser</p>
                                 <br />
-                                I am Manoj. I am a student of class 5th. I am a meritorious student in my class and brilliant in my studies. I want to work hard and learn more. I father works as a watchman.
+                                I am Manoj. I am a student of class 5th. I am a meritorious student in my class and brilliant in my studies. I want to work hard and learn more. My father works as a watchman.
                                 <br />
                                 <br />
                                 I hereby want to bring to your attention that my father works as a watchman in Allen, Kota.The income of my father from his occupation is low and he is not able to afford my education. I am bright in my studies and my father wants to provide me with the best education but our financial conditions are causing hindrance in my studies.

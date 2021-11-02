@@ -130,7 +130,7 @@ function Naksh() {
                                 I hereby want to bring to your notice that My father  has a small rented grocery shop in our lane and he is the only working member in our family, due to this pandemic we are facing problems to met our daily needs. I want to study hard and fulfill my goals but due to this condition of my family, I am not able to complete my studies.
                                 <br />
                                 <br />
-                                I assure you to work very hard and leaves no stones unturned. So I request you to give me sponsorship for my studies and I will be gratefyl to the one who help me in completing my studies in this difficult phase.
+                                I assure you to work very hard and leaves no stones unturned. So I request you to give me sponsorship for my studies and I will be grateful to the one who help me in completing my studies in this difficult phase.
                                 <br />
                                 <br />
 
