@@ -41,7 +41,7 @@ function Awadh() {
     }
     React.useEffect(() => {
         window.scrollTo(0, 0);
-      }, []);
+    }, []);
     return (
         <Layout className={Styles.main1}>
 
@@ -82,8 +82,8 @@ function Awadh() {
 
                         <center>
                             <div className="iframeContainer">
-                            <img className={Styles.pic2} style={{ marginTop: "-4%", borderRadius: "8px", marginBottom: "-3%" }} src="./data/images/posters/awadh.png"></img>
-                            
+                                <img className={Styles.pic2} style={{ marginTop: "-4%", borderRadius: "8px", marginBottom: "-3%" }} src="./data/images/posters/awadh.png"></img>
+
                             </div>
                         </center>
 
@@ -122,12 +122,12 @@ function Awadh() {
                     <div className={Styles.col1}>
                         <center>
                             <div className={Styles.about}>
-                                <p className={Styles.para2}>About the fundraiser</p>
+                                <p className={Styles.para2}>About the Student</p>
                                 <br />
                                 I am Awadh Khandelwal. I am a student of class 6th. I am very bright in studies and scored good percentage in my previous class. My father has a mobile repair shop.
                                 <br />
                                 <br />
-                                COVID-19 makes our life miserable. My father runs a mobile repairing shop. As Covid hits hard on every business,My father work also suffers alot during pandemic. As the shop is rented we are facing problem to manage our daily living and in all this chaos my studies suffered alot. 
+                                COVID-19 makes our life miserable. My father runs a mobile repairing shop. As Covid hits hard on every business,My father work also suffers alot during pandemic. As the shop is rented we are facing problem to manage our daily living and in all this chaos my studies suffered alot.
                                 <br />
                                 <br />
                                 I want to study hard and become an engineer but my father is not able to afford my education. I request you to provide education sponsorship to me so that i can work hard and fulfill my dreams.
@@ -145,7 +145,7 @@ function Awadh() {
                 </div>
                 <Link to="/donor">
 
-                    <button className={Styles.proBtn} >eDOPT NOW</button>
+                    <button className={Styles.proBtn} >Donate Now</button>
                 </Link>
 
 

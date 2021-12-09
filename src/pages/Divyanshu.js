@@ -37,7 +37,7 @@ function Divyanshu() {
     }
     React.useEffect(() => {
         window.scrollTo(0, 0);
-      }, []);
+    }, []);
 
     return (
         <Layout className={Styles.main1}>
@@ -114,7 +114,7 @@ function Divyanshu() {
                     <div className={Styles.col1}>
                         <center>
                             <div className={Styles.about}>
-                                <p className={Styles.para2}>About the fundraiser</p>
+                                <p className={Styles.para2}>About the Student</p>
                                 <br />
                                 I am Divyanshu. I am students of clasth. I am very bright in studies. I want to become Police officer. My father works as a labourer in a factory.
                                 <br />
@@ -133,7 +133,7 @@ function Divyanshu() {
                 </div>
                 <Link to="/donor">
 
-                    <button className={Styles.proBtn} >eDOPT NOW</button>
+                    <button className={Styles.proBtn} >Donate Now</button>
                 </Link>
 
 

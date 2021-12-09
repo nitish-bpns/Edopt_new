@@ -41,7 +41,7 @@ function Kavita() {
     }
     React.useEffect(() => {
         window.scrollTo(0, 0);
-      }, []);
+    }, []);
     return (
         <Layout className={Styles.main1}>
 
@@ -82,8 +82,8 @@ function Kavita() {
 
                         <center>
                             <div className="iframeContainer">
-                            <img className={Styles.pic2} style={{ marginTop: "-4%", borderRadius: "8px", marginBottom: "-3%" }} src="./data/images/posters/kavita.png"></img>
-                            
+                                <img className={Styles.pic2} style={{ marginTop: "-4%", borderRadius: "8px", marginBottom: "-3%" }} src="./data/images/posters/kavita.png"></img>
+
                             </div>
                         </center>
 
@@ -122,12 +122,12 @@ function Kavita() {
                     <div className={Styles.col1}>
                         <center>
                             <div className={Styles.about}>
-                                <p className={Styles.para2}>About the fundraiser</p>
+                                <p className={Styles.para2}>About the Student</p>
                                 <br />
                                 I am Kavita . I am a student of class 5th. I am brilliant in studies and working hard to achieve my goals. My father is a milkman
                                 <br />
                                 <br />
-                                I hereby want to bring to your notice that my father is a milkman and the income from this works is very low. We are not able to meet our daily needs with this dimunitive income. I am very bright in studies and want to work hard but my father is not able to afford my costly education. 
+                                I hereby want to bring to your notice that my father is a milkman and the income from this works is very low. We are not able to meet our daily needs with this dimunitive income. I am very bright in studies and want to work hard but my father is not able to afford my costly education.
                                 <br />
                                 <br />
                                 Due our financial conditions, I am facing problems in getting basic education. I want to work hard and assure you to give my full efforts to my study. I request you to please provide me with the sponsarship for my studies. I will be grateful to the one who helps me and supports me in my studies
@@ -145,7 +145,7 @@ function Kavita() {
                 </div>
                 <Link to="/donor">
 
-                    <button className={Styles.proBtn} >eDOPT NOW</button>
+                    <button className={Styles.proBtn} >Donate Now</button>
                 </Link>
 
 

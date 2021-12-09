@@ -82,7 +82,7 @@ export default function Home() {
                         <br />
                         <br />
                         <br />
-                   
+
                         <Link to="/fundraisers" className={Styles.btn1}
                         >
                             edopt now!
@@ -95,107 +95,107 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-<div className={Styles.ss2}>
-<img src="./data/images/posters/ss2.png" alt="img" />
-<center>
-<HashLink to="/fundraisers#feed1" className={Styles.btn1}
-                        >
-                            eDOPT Now
-                        </HashLink>
-                        </center>
-    </div>
-<br/>
-<br/>
+            <div className={Styles.ss2}>
+                <img src="./data/images/posters/ss2.png" alt="img" />
+                <center>
+                    <HashLink to="/fundraisers#feed1" className={Styles.btn1}
+                    >
+                        eDOPT Now
+                    </HashLink>
+                </center>
+            </div>
+            <br />
+            <br />
             <div >
                 <div className={Styles.heading1} ><b>
-                    Top Fundraisers</b></div>
-                    <br/>
+                    Top Students</b></div>
+                <br />
                 <div style={{ position: "relative" }}>
                     <center>
                         <Carousel responsive={responsive}>
 
 
-                        <div className={Styles.cscard}>
-                <Card className={Styles.stdCard} >
-                                        <img src="./data/images/posters/awadh.png" alt="student" />
-                                        <p className={Styles.stdDetail1} >Awadh Khandelwal </p>
-                                        <p className={Styles.stdDetail3} >11 yrs</p>
-                                        <p className={Styles.stdDetail2} ><b> Result: 98.8% (Class 6th)</b><br /></p>
-                                        <p className={Styles.stdDetail2} ><b>Location:</b> Kota<br /></p>
-                                        <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.13,000<br />
-                                           
-                                        </p>
-                                        <center>
-                                            <Link to="/awadh"
-                                            >
-                                                <button className={Styles.proBtn} >Profile</button>
-                                            </Link>
-                                        </center>
-                                    </Card>
-                </div> 
-                     
-                       <div className={Styles.cscard}>
-                            
+                            <div className={Styles.cscard}>
                                 <Card className={Styles.stdCard} >
-                                        <img src="./data/images/posters/anshu.jpg" alt="student" />
-                                        <p className={Styles.stdDetail1} >Anshu</p>
-                                        <p className={Styles.stdDetail3} >14 yrs</p>
-                                        <p className={Styles.stdDetail2} ><b> Result: 98% (Class 9th)</b><br /></p>
-                                        <p className={Styles.stdDetail2} ><b>Location:</b> Sonipat<br /></p>
-                                        <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.20,000<br />
-                            
-                                        </p>
-                                        <center>
-                                            <Link to="/anshu"
-                                            >
-                                                <button className={Styles.proBtn} >Profile</button>
-                                            </Link>
-                                        </center>
-                                    </Card>
+                                    <img src="./data/images/posters/awadh.png" alt="student" />
+                                    <p className={Styles.stdDetail1} >Awadh Khandelwal </p>
+                                    <p className={Styles.stdDetail3} >11 yrs</p>
+                                    <p className={Styles.stdDetail2} ><b> Result: 98.8% (Class 6th)</b><br /></p>
+                                    <p className={Styles.stdDetail2} ><b>Location:</b> Kota<br /></p>
+                                    <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.13,000<br />
+
+                                    </p>
+                                    <center>
+                                        <Link to="/awadh"
+                                        >
+                                            <button className={Styles.proBtn} >Profile</button>
+                                        </Link>
+                                    </center>
+                                </Card>
                             </div>
-                         <div className={Styles.cscard}>
-                             
+
+                            <div className={Styles.cscard}>
+
                                 <Card className={Styles.stdCard} >
-                                        <img src="./data/images/posters/owiz.png" alt="student" />
-                                        <p className={Styles.stdDetail1} >Owaiz Ahmed</p>
-                                        <p className={Styles.stdDetail3} >14 yrs</p>
-                                        <p className={Styles.stdDetail2} ><b> Result: 98% (Class 9th)</b><br /></p>
-                                        <p className={Styles.stdDetail2} ><b>Location:</b> Bangalore<br /></p>
-                                        <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.21,000<br />
-                                       
-                                        </p>
-                                        <center>
-                                            <Link to="/owiz"
-                                            >
-                                                <button className={Styles.proBtn} >Profile</button>
-                                            </Link>
-                                        </center>
-                                    </Card>
+                                    <img src="./data/images/posters/anshu.jpg" alt="student" />
+                                    <p className={Styles.stdDetail1} >Anshu</p>
+                                    <p className={Styles.stdDetail3} >14 yrs</p>
+                                    <p className={Styles.stdDetail2} ><b> Result: 98% (Class 9th)</b><br /></p>
+                                    <p className={Styles.stdDetail2} ><b>Location:</b> Sonipat<br /></p>
+                                    <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.20,000<br />
+
+                                    </p>
+                                    <center>
+                                        <Link to="/anshu"
+                                        >
+                                            <button className={Styles.proBtn} >Profile</button>
+                                        </Link>
+                                    </center>
+                                </Card>
+                            </div>
+                            <div className={Styles.cscard}>
+
+                                <Card className={Styles.stdCard} >
+                                    <img src="./data/images/posters/owiz.png" alt="student" />
+                                    <p className={Styles.stdDetail1} >Owaiz Ahmed</p>
+                                    <p className={Styles.stdDetail3} >14 yrs</p>
+                                    <p className={Styles.stdDetail2} ><b> Result: 98% (Class 9th)</b><br /></p>
+                                    <p className={Styles.stdDetail2} ><b>Location:</b> Bangalore<br /></p>
+                                    <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.21,000<br />
+
+                                    </p>
+                                    <center>
+                                        <Link to="/owiz"
+                                        >
+                                            <button className={Styles.proBtn} >Profile</button>
+                                        </Link>
+                                    </center>
+                                </Card>
                             </div>
 
 
 
                             <div className={Styles.cscard}>
-                <Card className={Styles.stdCard} >
-                                        <img src="./data/images/posters/manoj.png" alt="student" />
-                                        <p className={Styles.stdDetail1} >Manoj Kumar Lodha</p>
-                                        <p className={Styles.stdDetail3} >10 yrs</p>
-                                        <p className={Styles.stdDetail2} ><b> Result: 96% (Class 5th)</b><br /></p>
-                                        <p className={Styles.stdDetail2} ><b>Location:</b> Kota<br /></p>
-                                        <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.19,200<br />
-                                       
-                                        </p>
-                                        <center>
-                                            <Link to="/manoj"
-                                            >
-                                                <button className={Styles.proBtn} >Profile</button>
-                                            </Link>
-                                        </center>
-                                    </Card>
-                </div>
+                                <Card className={Styles.stdCard} >
+                                    <img src="./data/images/posters/manoj.png" alt="student" />
+                                    <p className={Styles.stdDetail1} >Manoj Kumar Lodha</p>
+                                    <p className={Styles.stdDetail3} >10 yrs</p>
+                                    <p className={Styles.stdDetail2} ><b> Result: 96% (Class 5th)</b><br /></p>
+                                    <p className={Styles.stdDetail2} ><b>Location:</b> Kota<br /></p>
+                                    <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.19,200<br />
+
+                                    </p>
+                                    <center>
+                                        <Link to="/manoj"
+                                        >
+                                            <button className={Styles.proBtn} >Profile</button>
+                                        </Link>
+                                    </center>
+                                </Card>
+                            </div>
 
 
-                       {/* <div className={Styles.cscard}>
+                            {/* <div className={Styles.cscard}>
 
                                 <Card className={Styles.stdCard} >
                                         <img src="./data/images/posters/jatin.jpg" alt="student" />
@@ -215,305 +215,305 @@ export default function Home() {
                                     </Card>
                             </div> */}
 
-                            
-
-                        <div className={Styles.cscard}>
-                            <Card className={Styles.stdCard} >
-                                <img src="./data/images/posters/chavi.png" alt="student" />
-                                <p className={Styles.stdDetail1} >Chavi</p>
-                                <p className={Styles.stdDetail3} >11 yrs</p>
-                                <p className={Styles.stdDetail2} ><b> Result: 95.7% (Class 6th)</b><br /></p>
-                                <p className={Styles.stdDetail2} ><b>Location:</b> Sonipat<br /></p>
-                                <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.20,000<br />
-                                
-                                </p>
-                                <center>
-                                    <Link to="/chavi"
-                                    >
-                                        <button className={Styles.proBtn} >Profile</button>
-                                    </Link>
-                                </center>
-                            </Card>
-                        </div>
-
-                        <div className={Styles.cscard}>
-                            <Card className={Styles.stdCard} >
-                                <img src="./data/images/posters/ranjith.png" alt="student" />
-                                <p className={Styles.stdDetail1} >Ranjith AV</p>
-                                <p className={Styles.stdDetail3} >20 yrs</p>
-                                <p className={Styles.stdDetail2} ><b> Result: 95.68% (1st year, College)</b><br /></p>
-                                <p className={Styles.stdDetail2} ><b>Location:</b> Bangalore<br /></p>
-                                <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.72,000<br />
-                                
-                                </p>
-                                <center>
-                                    <Link to="/ranjith"
-                                    >
-                                        <button className={Styles.proBtn} >Profile</button>
-                                    </Link>
-                                </center>
-                            </Card>
-                        </div>
 
 
+                            <div className={Styles.cscard}>
+                                <Card className={Styles.stdCard} >
+                                    <img src="./data/images/posters/chavi.png" alt="student" />
+                                    <p className={Styles.stdDetail1} >Chavi</p>
+                                    <p className={Styles.stdDetail3} >11 yrs</p>
+                                    <p className={Styles.stdDetail2} ><b> Result: 95.7% (Class 6th)</b><br /></p>
+                                    <p className={Styles.stdDetail2} ><b>Location:</b> Sonipat<br /></p>
+                                    <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.20,000<br />
 
-                        <div className={Styles.cscard}>
-                            <Card className={Styles.stdCard} >
-                                <img src="./data/images/posters/ritesh.jpg" alt="student" />
-                                <p className={Styles.stdDetail1} >Ritesh Darda</p>
-                                <p className={Styles.stdDetail3} >12 yrs</p>
-                                <p className={Styles.stdDetail2} ><b> Result: 93%(Class 6th) </b><br /></p>
-                                <p className={Styles.stdDetail2} ><b>Location:</b> Kota<br /></p>
-                                <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.20,000<br />
-                                
-                                </p>
-                                <center>
-                                    <Link to="/ritesh"
-                                    >
-                                        <button className={Styles.proBtn} >Profile</button>
-                                    </Link>
-                                </center>
-                            </Card>
-                        </div>
-
-                        <div className={Styles.cscard}>
-                        <Card className={Styles.stdCard} >
-                                <img src="./data/images/posters/kavita.png" alt="student" />
-                                <p className={Styles.stdDetail1} >Kavita</p>
-                                <p className={Styles.stdDetail3} >11 yrs</p>
-                                <p className={Styles.stdDetail2} ><b> Result: 92% (Class 5th)</b><br /></p>
-                                <p className={Styles.stdDetail2} ><b>Location:</b> Kota<br /></p>
-                                <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.20,000<br />
-                                
-                                </p>
-                                <center>
-                                    <Link to="/kavita"
-                                    >
-                                        <button className={Styles.proBtn} >Profile</button>
-                                    </Link>
-                                </center>
-                            </Card>
-                        </div>
-
-
-                        <div className={Styles.cscard}>
-                            <Card className={Styles.stdCard} >
-                                <img src="./data/images/posters/yachi.jpg" alt="student" />
-                                <p className={Styles.stdDetail1} >Yachi Ashwani</p>
-                                <p className={Styles.stdDetail3} >9 yrs</p>
-                                <p className={Styles.stdDetail2} ><b> Result: 89% (Class 2nd)</b><br /></p>
-                                <p className={Styles.stdDetail2} ><b>Location:</b> Kota<br /></p>
-                                <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.20,000<br />
-                                
-                                </p>
-                                <center>
-                                    <Link to="/yachi"
-                                    >
-                                        <button className={Styles.proBtn} >Profile</button>
-                                    </Link>
-                                </center>
-                            </Card>
-                        </div>
-
-
-                        <div className={Styles.cscard}>
-                            <Card className={Styles.stdCard} >
-                                <img src="./data/images/posters/meenu.jpg" alt="student" />
-                                <p className={Styles.stdDetail1} >Meenu</p>
-                                <p className={Styles.stdDetail3} >17 yrs</p>
-                                <p className={Styles.stdDetail2} ><b> Result: 88.5% (Class 11th)</b><br /></p>
-                                <p className={Styles.stdDetail2} ><b>Location:</b> Sonipat<br /></p>
-                                <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.24,000<br />
-                                
-                                </p>
-                                <center>
-                                    <Link to="/meenu"
-                                    >
-                                        <button className={Styles.proBtn} >Profile</button>
-                                    </Link>
-                                </center>
-                            </Card>
-                        </div>
-
-
-                        <div className={Styles.cscard}>
-                            <Card className={Styles.stdCard} >
-                                <img src="./data/images/posters/naksh.png" alt="student" />
-                                <p className={Styles.stdDetail1} >Naksh Shringi</p>
-                                <p className={Styles.stdDetail3} >11 yrs</p>
-                                <p className={Styles.stdDetail2} ><b> Result: 88% (Class 6th)</b><br /></p>
-                                <p className={Styles.stdDetail2} ><b>Location:</b> Kota<br /></p>
-                                <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.20,000<br />
-                                
-                                </p>
-                                <center>
-                                    <Link to="/naksh"
-                                    >
-                                        <button className={Styles.proBtn} >Profile</button>
-                                    </Link>
-                                </center>
-                            </Card>
-                        </div>
-
-                       <div className={Styles.cscard}>
-                               
-                         <Card className={Styles.stdCard} >
-                                        <img src="./data/images/posters/priyanshu.png" alt="student" />
-                                        <p className={Styles.stdDetail1} >Priyanshu Pandey</p>
-                                        <p className={Styles.stdDetail3} >16 yrs</p>
-                                        <p className={Styles.stdDetail2} ><b> Result: 85% (Class 10th ) </b><br /></p>
-                                        <p className={Styles.stdDetail2} ><b>Location:</b> Delhi<br /></p>
-                                        <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.40,000<br />
-                                         
-                                        </p>
-                                        <center>
-                                            <Link to="/priyanshu"
-                                            >
-                                                <button className={Styles.proBtn} >Profile</button>
-                                            </Link>
-                                        </center>
-                                    </Card>
-                            </div>
-
-
-                         <div className={Styles.cscard}>
-                               <Card className={Styles.stdCard} >
-                                              <img src="./data/images/posters/bhavya.jpg" alt="student" />
-                                              <p className={Styles.stdDetail1} >Bhavya Jain</p>
-                                              <p className={Styles.stdDetail3} >11 yrs</p>
-                                              <p className={Styles.stdDetail2} ><b> Result: 84.5% (Class 6th)</b><br /></p>
-                                              <p className={Styles.stdDetail2} ><b>Location:</b> Kota<br /></p>
-                                              <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.40,000<br />
-                                               
-                                              </p>
-                                              <center>
-                                                  <Link to="/bhavya"
-                                                  >
-                                                      <button className={Styles.proBtn} >Profile</button>
-                                                  </Link>
-                                              </center>
-                                          </Card>
-                                  </div>
-
-
-                                  <div className={Styles.cscard}>
-                               <Card className={Styles.stdCard} >
-                                              <img src="./data/images/posters/pranjal.jpg" alt="student" />
-                                              <p className={Styles.stdDetail1} >Pranjal Janin</p>
-                                              <p className={Styles.stdDetail3} >13 yrs</p>
-                                              <p className={Styles.stdDetail2} ><b>Result: 83% (Class 8th)</b><br /></p>
-                                              <p className={Styles.stdDetail2} ><b>Location:</b> Kota<br /></p>
-                                              <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.40,000<br />
-                                               
-                                              </p>
-                                              <center>
-                                                  <Link to="/pranjal"
-                                                  >
-                                                      <button className={Styles.proBtn} >Profile</button>
-                                                  </Link>
-                                              </center>
-                                          </Card>
-                                  </div>
-
-
-                               <div className={Styles.cscard}>    
-                          <Card className={Styles.stdCard} >
-                                 <img src="./data/images/posters/syed.png" alt="student" />
-                                 <p className={Styles.stdDetail1} >Syed Ameen</p>
-                                 <p className={Styles.stdDetail3} >10 yrs</p>
-                                <p className={Styles.stdDetail2} ><b> Result: 82% (Class 5th ) </b><br /></p>
-                                <p className={Styles.stdDetail2} ><b>Location:</b> Bangalore<br /></p>
-                                <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.16,000<br />
-                                          
-                                </p>
-                            <center>
-                                <Link to="/syed">                                          
-                                 <button className={Styles.proBtn} >Profile</button>
-                                </Link>
-                            </center>
-                         </Card>
+                                    </p>
+                                    <center>
+                                        <Link to="/chavi"
+                                        >
+                                            <button className={Styles.proBtn} >Profile</button>
+                                        </Link>
+                                    </center>
+                                </Card>
                             </div>
 
                             <div className={Styles.cscard}>
-                <Card className={Styles.stdCard} >
-                                        <img src="./data/images/posters/chetanay.jpg" alt="student" />
-                                        <p className={Styles.stdDetail1} >Chetanay</p>
-                                        <p className={Styles.stdDetail3} >7 yrs</p>
-                                        <p className={Styles.stdDetail2} ><b> 80.25% (Class 3rd )</b><br /></p>
-                                        <p className={Styles.stdDetail2} ><b>Location:</b> Sonipat<br /></p>
-                                        <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.14,400<br />
-                                          
-                                        </p>
-                                        <center>
-                                            <Link to="/chetanay"
-                                            >
-                                                <button className={Styles.proBtn} >Profile</button>
-                                            </Link>
-                                        </center>
-                                    </Card>
-                </div>
-
-
-
-                       <div className={Styles.cscard}>
-                               
-                         <Card className={Styles.stdCard} >
-                                        <img src="./data/images/posters/diya.jpg" alt="student" />
-                                        <p className={Styles.stdDetail1} >Diya Gosain</p>
-                                        <p className={Styles.stdDetail3} >15 yrs</p>
-                                        <p className={Styles.stdDetail2} ><b> Result: 77.6% (Class 9th)</b><br /></p>
-                                        <p className={Styles.stdDetail2} ><b>Location:</b> Sonipat<br /></p>
-                                        <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.50,880<br />                                      
-                                         
-                                        </p>
-                                        <center>
-                                            <Link to="/diya"
-                                            >
-                                                <button className={Styles.proBtn} >Profile</button>
-                                            </Link>
-                                        </center>
-                                    </Card>
-                            </div>
-
-                           <div className={Styles.cscard}>
-                           
                                 <Card className={Styles.stdCard} >
-                                        <img src="./data/images/posters/divyanshu.png" alt="student" />
-                                        <p className={Styles.stdDetail1} >Divyanshu Pandey</p>
-                                        <p className={Styles.stdDetail3} >11 yrs</p>
-                                        <p className={Styles.stdDetail2} ><b> Result: 77.4% (Class 4th)</b><br /></p>
-                                        <p className={Styles.stdDetail2} ><b>Location:</b> Delhi<br /></p>
-                                        <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.40,000<br />
-                                           
-                                        </p>
-                                        <center>
-                                            <Link to="/divyanshu">
-                                                <button className={Styles.proBtn} >Profile</button>
-                                            </Link>
-                                        </center>
-                                    </Card>                                                          
+                                    <img src="./data/images/posters/ranjith.png" alt="student" />
+                                    <p className={Styles.stdDetail1} >Ranjith AV</p>
+                                    <p className={Styles.stdDetail3} >20 yrs</p>
+                                    <p className={Styles.stdDetail2} ><b> Result: 95.68% (1st year, College)</b><br /></p>
+                                    <p className={Styles.stdDetail2} ><b>Location:</b> Bangalore<br /></p>
+                                    <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.72,000<br />
+
+                                    </p>
+                                    <center>
+                                        <Link to="/ranjith"
+                                        >
+                                            <button className={Styles.proBtn} >Profile</button>
+                                        </Link>
+                                    </center>
+                                </Card>
                             </div>
 
-                 <div className={Styles.cscard}>
 
-                         <Card className={Styles.stdCard} >
-                                        <img src="./data/images/posters/awas.png" alt="student" />
-                                        <p className={Styles.stdDetail1} >Awaiz Pasha</p>
-                                        <p className={Styles.stdDetail3} >10 yrs</p>
-                                        <p className={Styles.stdDetail2} ><b> Result: 74% (Class 5th)</b><br /></p>
-                                        <p className={Styles.stdDetail2} ><b>Location:</b> Bangalore<br /></p>
-                                        <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.16,000<br />
-                                           
-                                        </p>
-                                        <center>
-                                            <Link to="/awaiz"
-                                            >
-                                                <button className={Styles.proBtn} >Profile</button>
-                                            </Link>
-                                        </center>
-                                    </Card>
+
+                            <div className={Styles.cscard}>
+                                <Card className={Styles.stdCard} >
+                                    <img src="./data/images/posters/ritesh.jpg" alt="student" />
+                                    <p className={Styles.stdDetail1} >Ritesh Darda</p>
+                                    <p className={Styles.stdDetail3} >12 yrs</p>
+                                    <p className={Styles.stdDetail2} ><b> Result: 93%(Class 6th) </b><br /></p>
+                                    <p className={Styles.stdDetail2} ><b>Location:</b> Kota<br /></p>
+                                    <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.20,000<br />
+
+                                    </p>
+                                    <center>
+                                        <Link to="/ritesh"
+                                        >
+                                            <button className={Styles.proBtn} >Profile</button>
+                                        </Link>
+                                    </center>
+                                </Card>
                             </div>
-{/* 
+
+                            <div className={Styles.cscard}>
+                                <Card className={Styles.stdCard} >
+                                    <img src="./data/images/posters/kavita.png" alt="student" />
+                                    <p className={Styles.stdDetail1} >Kavita</p>
+                                    <p className={Styles.stdDetail3} >11 yrs</p>
+                                    <p className={Styles.stdDetail2} ><b> Result: 92% (Class 5th)</b><br /></p>
+                                    <p className={Styles.stdDetail2} ><b>Location:</b> Kota<br /></p>
+                                    <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.20,000<br />
+
+                                    </p>
+                                    <center>
+                                        <Link to="/kavita"
+                                        >
+                                            <button className={Styles.proBtn} >Profile</button>
+                                        </Link>
+                                    </center>
+                                </Card>
+                            </div>
+
+
+                            <div className={Styles.cscard}>
+                                <Card className={Styles.stdCard} >
+                                    <img src="./data/images/posters/yachi.jpg" alt="student" />
+                                    <p className={Styles.stdDetail1} >Yachi Ashwani</p>
+                                    <p className={Styles.stdDetail3} >9 yrs</p>
+                                    <p className={Styles.stdDetail2} ><b> Result: 89% (Class 2nd)</b><br /></p>
+                                    <p className={Styles.stdDetail2} ><b>Location:</b> Kota<br /></p>
+                                    <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.20,000<br />
+
+                                    </p>
+                                    <center>
+                                        <Link to="/yachi"
+                                        >
+                                            <button className={Styles.proBtn} >Profile</button>
+                                        </Link>
+                                    </center>
+                                </Card>
+                            </div>
+
+
+                            <div className={Styles.cscard}>
+                                <Card className={Styles.stdCard} >
+                                    <img src="./data/images/posters/meenu.jpg" alt="student" />
+                                    <p className={Styles.stdDetail1} >Meenu</p>
+                                    <p className={Styles.stdDetail3} >17 yrs</p>
+                                    <p className={Styles.stdDetail2} ><b> Result: 88.5% (Class 11th)</b><br /></p>
+                                    <p className={Styles.stdDetail2} ><b>Location:</b> Sonipat<br /></p>
+                                    <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.24,000<br />
+
+                                    </p>
+                                    <center>
+                                        <Link to="/meenu"
+                                        >
+                                            <button className={Styles.proBtn} >Profile</button>
+                                        </Link>
+                                    </center>
+                                </Card>
+                            </div>
+
+
+                            <div className={Styles.cscard}>
+                                <Card className={Styles.stdCard} >
+                                    <img src="./data/images/posters/naksh.png" alt="student" />
+                                    <p className={Styles.stdDetail1} >Naksh Shringi</p>
+                                    <p className={Styles.stdDetail3} >11 yrs</p>
+                                    <p className={Styles.stdDetail2} ><b> Result: 88% (Class 6th)</b><br /></p>
+                                    <p className={Styles.stdDetail2} ><b>Location:</b> Kota<br /></p>
+                                    <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.20,000<br />
+
+                                    </p>
+                                    <center>
+                                        <Link to="/naksh"
+                                        >
+                                            <button className={Styles.proBtn} >Profile</button>
+                                        </Link>
+                                    </center>
+                                </Card>
+                            </div>
+
+                            <div className={Styles.cscard}>
+
+                                <Card className={Styles.stdCard} >
+                                    <img src="./data/images/posters/priyanshu.png" alt="student" />
+                                    <p className={Styles.stdDetail1} >Priyanshu Pandey</p>
+                                    <p className={Styles.stdDetail3} >16 yrs</p>
+                                    <p className={Styles.stdDetail2} ><b> Result: 85% (Class 10th ) </b><br /></p>
+                                    <p className={Styles.stdDetail2} ><b>Location:</b> Delhi<br /></p>
+                                    <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.40,000<br />
+
+                                    </p>
+                                    <center>
+                                        <Link to="/priyanshu"
+                                        >
+                                            <button className={Styles.proBtn} >Profile</button>
+                                        </Link>
+                                    </center>
+                                </Card>
+                            </div>
+
+
+                            <div className={Styles.cscard}>
+                                <Card className={Styles.stdCard} >
+                                    <img src="./data/images/posters/bhavya.jpg" alt="student" />
+                                    <p className={Styles.stdDetail1} >Bhavya Jain</p>
+                                    <p className={Styles.stdDetail3} >11 yrs</p>
+                                    <p className={Styles.stdDetail2} ><b> Result: 84.5% (Class 6th)</b><br /></p>
+                                    <p className={Styles.stdDetail2} ><b>Location:</b> Kota<br /></p>
+                                    <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.40,000<br />
+
+                                    </p>
+                                    <center>
+                                        <Link to="/bhavya"
+                                        >
+                                            <button className={Styles.proBtn} >Profile</button>
+                                        </Link>
+                                    </center>
+                                </Card>
+                            </div>
+
+
+                            <div className={Styles.cscard}>
+                                <Card className={Styles.stdCard} >
+                                    <img src="./data/images/posters/pranjal.jpg" alt="student" />
+                                    <p className={Styles.stdDetail1} >Pranjal Janin</p>
+                                    <p className={Styles.stdDetail3} >13 yrs</p>
+                                    <p className={Styles.stdDetail2} ><b>Result: 83% (Class 8th)</b><br /></p>
+                                    <p className={Styles.stdDetail2} ><b>Location:</b> Kota<br /></p>
+                                    <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.40,000<br />
+
+                                    </p>
+                                    <center>
+                                        <Link to="/pranjal"
+                                        >
+                                            <button className={Styles.proBtn} >Profile</button>
+                                        </Link>
+                                    </center>
+                                </Card>
+                            </div>
+
+
+                            <div className={Styles.cscard}>
+                                <Card className={Styles.stdCard} >
+                                    <img src="./data/images/posters/syed.png" alt="student" />
+                                    <p className={Styles.stdDetail1} >Syed Ameen</p>
+                                    <p className={Styles.stdDetail3} >10 yrs</p>
+                                    <p className={Styles.stdDetail2} ><b> Result: 82% (Class 5th ) </b><br /></p>
+                                    <p className={Styles.stdDetail2} ><b>Location:</b> Bangalore<br /></p>
+                                    <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.16,000<br />
+
+                                    </p>
+                                    <center>
+                                        <Link to="/syed">
+                                            <button className={Styles.proBtn} >Profile</button>
+                                        </Link>
+                                    </center>
+                                </Card>
+                            </div>
+
+                            <div className={Styles.cscard}>
+                                <Card className={Styles.stdCard} >
+                                    <img src="./data/images/posters/chetanay.jpg" alt="student" />
+                                    <p className={Styles.stdDetail1} >Chetanay</p>
+                                    <p className={Styles.stdDetail3} >7 yrs</p>
+                                    <p className={Styles.stdDetail2} ><b> 80.25% (Class 3rd )</b><br /></p>
+                                    <p className={Styles.stdDetail2} ><b>Location:</b> Sonipat<br /></p>
+                                    <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.14,400<br />
+
+                                    </p>
+                                    <center>
+                                        <Link to="/chetanay"
+                                        >
+                                            <button className={Styles.proBtn} >Profile</button>
+                                        </Link>
+                                    </center>
+                                </Card>
+                            </div>
+
+
+
+                            <div className={Styles.cscard}>
+
+                                <Card className={Styles.stdCard} >
+                                    <img src="./data/images/posters/diya.jpg" alt="student" />
+                                    <p className={Styles.stdDetail1} >Diya Gosain</p>
+                                    <p className={Styles.stdDetail3} >15 yrs</p>
+                                    <p className={Styles.stdDetail2} ><b> Result: 77.6% (Class 9th)</b><br /></p>
+                                    <p className={Styles.stdDetail2} ><b>Location:</b> Sonipat<br /></p>
+                                    <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.50,880<br />
+
+                                    </p>
+                                    <center>
+                                        <Link to="/diya"
+                                        >
+                                            <button className={Styles.proBtn} >Profile</button>
+                                        </Link>
+                                    </center>
+                                </Card>
+                            </div>
+
+                            <div className={Styles.cscard}>
+
+                                <Card className={Styles.stdCard} >
+                                    <img src="./data/images/posters/divyanshu.png" alt="student" />
+                                    <p className={Styles.stdDetail1} >Divyanshu Pandey</p>
+                                    <p className={Styles.stdDetail3} >11 yrs</p>
+                                    <p className={Styles.stdDetail2} ><b> Result: 77.4% (Class 4th)</b><br /></p>
+                                    <p className={Styles.stdDetail2} ><b>Location:</b> Delhi<br /></p>
+                                    <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.40,000<br />
+
+                                    </p>
+                                    <center>
+                                        <Link to="/divyanshu">
+                                            <button className={Styles.proBtn} >Profile</button>
+                                        </Link>
+                                    </center>
+                                </Card>
+                            </div>
+
+                            <div className={Styles.cscard}>
+
+                                <Card className={Styles.stdCard} >
+                                    <img src="./data/images/posters/awas.png" alt="student" />
+                                    <p className={Styles.stdDetail1} >Awaiz Pasha</p>
+                                    <p className={Styles.stdDetail3} >10 yrs</p>
+                                    <p className={Styles.stdDetail2} ><b> Result: 74% (Class 5th)</b><br /></p>
+                                    <p className={Styles.stdDetail2} ><b>Location:</b> Bangalore<br /></p>
+                                    <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.16,000<br />
+
+                                    </p>
+                                    <center>
+                                        <Link to="/awaiz"
+                                        >
+                                            <button className={Styles.proBtn} >Profile</button>
+                                        </Link>
+                                    </center>
+                                </Card>
+                            </div>
+                            {/* 
                             <div className={Styles.cscard}>
 
 <Card className={Styles.stdCard} >
@@ -571,8 +571,8 @@ export default function Home() {
                          </Card>
                             </div> */}
 
-                            
-                   
+
+
 
 
                         </Carousel>
@@ -588,22 +588,22 @@ export default function Home() {
                 </HashLink>
             </div >
             <br />
-            <br/>
-            <br/>
+            <br />
+            <br />
 
             <div className={Styles.heading1} >
                 <b >How it works</b>
             </div>
             <br />
-            <br/>
-     
+            <br />
 
-<div className={Styles.info}>
 
-    <img src={how} alt="img"/>
+            <div className={Styles.info}>
 
-    </div>
-<br/>
+                <img src={how} alt="img" />
+
+            </div>
+            <br />
 
 
             {/* <div className={Styles.irow}>
@@ -657,14 +657,14 @@ export default function Home() {
                     </center>
                 </div>
             </div> */}
-               <br />
-               <br/>
-               <br/>
+            <br />
+            <br />
+            <br />
             <div className={Styles.heading1} >
-              <b>Students Onboarded</b>
+                <b>Students Onboarded</b>
             </div>
 
-<br/>
+            <br />
             <div>
                 <Carousel responsive={responsiveNews} className={Styles.onboard} >
                     <img src="./data/images/posters/onboard01.png" alt="onboard" />
@@ -672,14 +672,14 @@ export default function Home() {
                     <img src="./data/images/posters/onboard03.png" alt="onboard" />
                 </Carousel>
             </div>
-<br/>
-<br/>
+            <br />
+            <br />
             <div>
                 <center>
-                <div className={Styles.heading1} ><b>What we do?</b></div>
+                    <div className={Styles.heading1} ><b>What we do?</b></div>
                     <br />
-                    <br/>
-                  
+                    <br />
+
                     <regular> <div className={Styles.para4}>eDOPT is an Indian online peer-to-peer funding platform, where any individual organ across the country can fund a meritorious underprivileged student and can see the impact that he/she has made by getting reports of student achievement monthly. </div></regular>
                     <br /><br />
                     <div className={Styles.iframewContainer}>
@@ -690,10 +690,10 @@ export default function Home() {
             <br />
             <br />
             <div>
-            <div className={Styles.heading1} ><b>
+                <div className={Styles.heading1} ><b>
                     Our Super Mentors</b></div>
                 {/* <center> <b className={Styles.donor} >Our Super Mentors</b> </center> */}
-                <br/>
+                <br />
                 <regular> <div className={Styles.para4}>Donor can book a slot with super mentor for it's adopted children. </div></regular>
 
 
@@ -711,13 +711,13 @@ export default function Home() {
 
                                 <CardFooter className={Styles.donorFooter} style={{ border: "none" }} >
                                     <center> Kush Taneja<br />Forbes 30, CEO Fampay
-                                    
-                                            {/* <Link to="/">
+
+                                        {/* <Link to="/">
                                                 <button className={Styles.proBtn} >Book a Slot</button>
                                             </Link> */}
-                                        </center>
+                                    </center>
                                 </CardFooter>
-                               
+
                             </Card>
                         </a>
                     </div>
@@ -735,10 +735,10 @@ export default function Home() {
 
                                 <CardFooter className={Styles.donorFooter} style={{ border: "none" }} >
                                     <center> Harshveer Jain<br />IIT Bombay, IIM C
-                                    {/* <Link to="/">
+                                        {/* <Link to="/">
                                                 <button className={Styles.proBtn} >Book a Slot</button>
                                             </Link> */}
-                                            </center>
+                                    </center>
                                 </CardFooter>
                             </Card>
                         </a>
@@ -756,10 +756,10 @@ export default function Home() {
 
                             <CardFooter className={Styles.donorFooter} style={{ border: "none" }} >
                                 <center> Anant Mehrotra<br />Google, MIT(Executive Education)
-                                {/* <Link to="/">
+                                    {/* <Link to="/">
                                                 <button className={Styles.proBtn} >Book a Slot</button>
                                             </Link> */}
-                                            </center>
+                                </center>
                             </CardFooter>
                         </Card>
                     </a>
@@ -779,11 +779,11 @@ export default function Home() {
 
 
                                 <CardFooter className={Styles.donorFooter} style={{ border: "none", textDecoration: "none" }} >
-                                    <center> Rahul Khanna<br />Founder Thunderpod, YC Backed 
-                                    {/* <Link to="/">
+                                    <center> Rahul Khanna<br />Founder Thunderpod, YC Backed
+                                        {/* <Link to="/">
                                                 <button className={Styles.proBtn} >Book a Slot</button>
                                             </Link> */}
-                                            </center>
+                                    </center>
                                 </CardFooter>
                             </Card>
                         </a>
@@ -800,11 +800,11 @@ export default function Home() {
                                 </CardBody>
                             </a>
                             <CardFooter className={Styles.donorFooter} style={{ border: "none" }} >
-                                <center> Ayush Agrawal<br />IIT Kharagpur, Flipkart 
-                                {/* <Link to="/">
+                                <center> Ayush Agrawal<br />IIT Kharagpur, Flipkart
+                                    {/* <Link to="/">
                                                 <button className={Styles.proBtn} >Book a Slot</button>
                                             </Link> */}
-                                            </center>
+                                </center>
                             </CardFooter>
                         </Card>
                     </div>
@@ -821,10 +821,10 @@ export default function Home() {
                             </a>
                             <CardFooter className={Styles.donorFooter} style={{ border: "none" }} >
                                 <center> Shomby Goswami<br />NIFT topper, President Gold Medalist
-                                {/* <Link to="/">
+                                    {/* <Link to="/">
                                                 <button className={Styles.proBtn} >Book a Slot</button>
                                             </Link> */}
-                                            </center>
+                                </center>
                             </CardFooter>
                         </Card>
                     </div>
@@ -840,10 +840,10 @@ export default function Home() {
                             </a>
                             <CardFooter className={Styles.donorFooter} style={{ border: "none" }} >
                                 <center> Mitali Malav<br />MBBS Student, AIIMS Jodhpur
-                                {/* <Link to="/">
+                                    {/* <Link to="/">
                                                 <button className={Styles.proBtn} >Book a Slot</button>
                                             </Link> */}
-                                            </center>
+                                </center>
                             </CardFooter>
                         </Card>
                     </div>
@@ -860,21 +860,21 @@ export default function Home() {
 
             <br />
             <div className={Styles.heading1} >
-              <b>In the News!</b>
+                <b>In the News!</b>
             </div>
-<br/>
-<br/>
+            <br />
+            <br />
 
             <div>
                 <Carousel responsive={responsiveNews} className={Styles.news} >
                     <img src="./data/images/posters/news01.jpg" alt="news" />
-                   
+
                     <img src="./data/images/posters/news02.png" alt="news" />
                 </Carousel>
             </div>
-<br/>
-<br/>
-<br/>
+            <br />
+            <br />
+            <br />
 
         </Layout >
     );

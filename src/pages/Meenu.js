@@ -41,7 +41,7 @@ function Meenu() {
     }
     React.useEffect(() => {
         window.scrollTo(0, 0);
-      }, []);
+    }, []);
     return (
         <Layout className={Styles.main1}>
 
@@ -82,8 +82,8 @@ function Meenu() {
 
                         <center>
                             <div className="iframeContainer">
-                            <img className={Styles.pic2} style={{ marginTop: "-4%", borderRadius: "8px", marginBottom: "-3%" }} src="./data/images/posters/meenu.jpg"></img>
-                            
+                                <img className={Styles.pic2} style={{ marginTop: "-4%", borderRadius: "8px", marginBottom: "-3%" }} src="./data/images/posters/meenu.jpg"></img>
+
                             </div>
                         </center>
 
@@ -122,12 +122,12 @@ function Meenu() {
                     <div className={Styles.col1}>
                         <center>
                             <div className={Styles.about}>
-                                <p className={Styles.para2}>About the fundraiser</p>
+                                <p className={Styles.para2}>About the Student</p>
                                 <br />
-                                I am meenu. I am a student of class 11. I want to become a Doctor but due to our financial condition my parents suggested me to take non-medical instead of medical. I really want to do something related to medical. My father is a helper in a small local shop. 
+                                I am meenu. I am a student of class 11. I want to become a Doctor but due to our financial condition my parents suggested me to take non-medical instead of medical. I really want to do something related to medical. My father is a helper in a small local shop.
                                 <br />
                                 <br />
-                                I hereby bring to your notice that my father is a helper in a small shop. The income of my father is already low but this corona phase worsen our financial conditions. We are three sisters, managing studies of all of us is difficult for my father. 
+                                I hereby bring to your notice that my father is a helper in a small shop. The income of my father is already low but this corona phase worsen our financial conditions. We are three sisters, managing studies of all of us is difficult for my father.
                                 <br />
                                 I want to become a doctor in future but due to our financial conditions my parents suggested me to drop the idea. As i don't have enough resources to achieve my goals,, I have to quit my dreams. I need your support and help to get closer to my dream. I will be very thankful to you for helping me achieve my goals.
                                 <br />
@@ -145,7 +145,7 @@ function Meenu() {
                 </div>
                 <Link to="/donor">
 
-                    <button className={Styles.proBtn} >eDOPT NOW</button>
+                    <button className={Styles.proBtn} >Donate Now</button>
                 </Link>
 
 

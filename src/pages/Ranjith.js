@@ -39,7 +39,7 @@ function Ranjith() {
     }
     React.useEffect(() => {
         window.scrollTo(0, 0);
-      }, []);
+    }, []);
     return (
         <Layout className={Styles.main1}>
 
@@ -79,7 +79,7 @@ function Ranjith() {
 
 
                         <center>
-                        <div className="iframeContainer">
+                            <div className="iframeContainer">
                                 <img className={Styles.pic2} style={{ marginTop: "-4%", borderRadius: "8px", marginBottom: "-3%" }} src="./data/images/posters/ranjith.png"></img>
                             </div>
                         </center>
@@ -119,7 +119,7 @@ function Ranjith() {
                     <div className={Styles.col1}>
                         <center>
                             <div className={Styles.about}>
-                                <p className={Styles.para2}>About the fundraiser</p>
+                                <p className={Styles.para2}>About the Student</p>
                                 <br />
                                 I am Ranjith. I am a student of Aerospace Engineering. I am excellent in my studies and want to become a scientist in future. My mother is a daily wage worker.
                                 <br />
@@ -142,7 +142,7 @@ function Ranjith() {
                 </div>
                 <Link to="/donor">
 
-                    <button className={Styles.proBtn} >eDOPT NOW</button>
+                    <button className={Styles.proBtn} >Donate Now</button>
                 </Link>
 
 

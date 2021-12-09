@@ -41,7 +41,7 @@ function Yachi() {
     }
     React.useEffect(() => {
         window.scrollTo(0, 0);
-      }, []);
+    }, []);
     return (
         <Layout className={Styles.main1}>
 
@@ -82,8 +82,8 @@ function Yachi() {
 
                         <center>
                             <div className="iframeContainer">
-                            <img className={Styles.pic2} style={{ marginTop: "-4%", borderRadius: "8px", marginBottom: "-3%" }} src="./data/images/posters/yachi.jpg"></img>
-                            
+                                <img className={Styles.pic2} style={{ marginTop: "-4%", borderRadius: "8px", marginBottom: "-3%" }} src="./data/images/posters/yachi.jpg"></img>
+
                             </div>
                         </center>
 
@@ -122,12 +122,12 @@ function Yachi() {
                     <div className={Styles.col1}>
                         <center>
                             <div className={Styles.about}>
-                                <p className={Styles.para2}>About the fundraiser</p>
+                                <p className={Styles.para2}>About the Student</p>
                                 <br />
                                 I an Yachi I am a student of class 3rd. I am very bright in studies I have some issues in my eyes inspite of defect in my eyes, I am scoring well in studies.
                                 <br />
                                 <br />
-                                I hereby want to bring to your notice that I lost my father few months back, and my mother is not working due to my eye defects. I had previously undergone 2 surgury and 2 more surgery are left but due to our financial conditions and this sudden loss we are facing lots of problem. 
+                                I hereby want to bring to your notice that I lost my father few months back, and my mother is not working due to my eye defects. I had previously undergone 2 surgury and 2 more surgery are left but due to our financial conditions and this sudden loss we are facing lots of problem.
                                 <br />
                                 <br />
                                 I want to study and become a successfull person i my life but due to lack of resources and financial support,me and my mother are facing problem completing my studies. I request you to please sponsor my edcation so that i can able to complete my studies. I will be forever grateful to the person who help me incessantly.
@@ -145,7 +145,7 @@ function Yachi() {
                 </div>
                 <Link to="/donor">
 
-                    <button className={Styles.proBtn} >eDOPT NOW</button>
+                    <button className={Styles.proBtn} >Donate Now</button>
                 </Link>
 
 

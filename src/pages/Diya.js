@@ -41,7 +41,7 @@ function Diya() {
     }
     React.useEffect(() => {
         window.scrollTo(0, 0);
-      }, []);
+    }, []);
     return (
         <Layout className={Styles.main1}>
 
@@ -122,7 +122,7 @@ function Diya() {
                     <div className={Styles.col1}>
                         <center>
                             <div className={Styles.about}>
-                                <p className={Styles.para2}>About the fundraiser</p>
+                                <p className={Styles.para2}>About the Student</p>
                                 <br />
                                 I am Diya Gosain. I am a student of class 11th. My father runs a small business. COVID-19 makes our life miserable as one of our family member got infected to COVID and later to black fungus.
                                 <br />
@@ -144,7 +144,7 @@ function Diya() {
 
                 <Link to="/donor">
 
-                    <button className={Styles.proBtn} >eDOPT NOW</button>
+                    <button className={Styles.proBtn} >Donate Now</button>
                 </Link>
 
 

@@ -37,7 +37,7 @@ function Owiz() {
     }
     React.useEffect(() => {
         window.scrollTo(0, 0);
-      }, []);
+    }, []);
     return (
         <Layout className={Styles.main1}>
 
@@ -115,7 +115,7 @@ function Owiz() {
                     <div className={Styles.col1}>
                         <center>
                             <div className={Styles.about}>
-                                <p className={Styles.para2}>About the fundraiser</p>
+                                <p className={Styles.para2}>About the Student</p>
                                 <br />
                                 Owaiz Ahmed, resident of bangalore is a bright student who lost his father 5 years back. From that time his only aim is to become an IAS officer because his father wishes the same. He scored brilliant in his subjects and also got achievements and medals in competitions.
                                 His mother is a primary school teacher and does not earn enough to provide Owaiz high quality education he deserves. Owaiz’s mother cannot fulfil his dream alone.
@@ -134,7 +134,7 @@ function Owiz() {
                     </div>
                 </div>
                 <Link to="/donor">
-                    <button className={Styles.proBtn} >eDOPT NOW</button>
+                    <button className={Styles.proBtn} >Donate Now</button>
                 </Link>
             </div>
         </Layout >

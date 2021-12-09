@@ -41,7 +41,7 @@ function Chavi() {
     }
     React.useEffect(() => {
         window.scrollTo(0, 0);
-      }, []);
+    }, []);
     return (
         <Layout className={Styles.main1}>
 
@@ -82,8 +82,8 @@ function Chavi() {
 
                         <center>
                             <div className="iframeContainer">
-                            <img className={Styles.pic2} style={{ marginTop: "-4%", borderRadius: "8px", marginBottom: "-3%" }} src="./data/images/posters/chavi.png"></img>
-                            
+                                <img className={Styles.pic2} style={{ marginTop: "-4%", borderRadius: "8px", marginBottom: "-3%" }} src="./data/images/posters/chavi.png"></img>
+
                             </div>
                         </center>
 
@@ -122,9 +122,9 @@ function Chavi() {
                     <div className={Styles.col1}>
                         <center>
                             <div className={Styles.about}>
-                                <p className={Styles.para2}>About the fundraiser</p>
+                                <p className={Styles.para2}>About the Student</p>
                                 <br />
-                                I am Chavi. I am a student of class 6th. I am a very bright student of my class and very much interested in quality education. I want to become an IPS officer. 
+                                I am Chavi. I am a student of class 6th. I am a very bright student of my class and very much interested in quality education. I want to become an IPS officer.
                                 <br />
                                 <br />
                                 I hereby bring to your notice that my father is a helper in a small shop. The income of my father is already low but this corona phase worsen our financial conditions. We are three sisters, managing studies of all of us is difficult for my father.
@@ -145,7 +145,7 @@ function Chavi() {
                 </div>
                 <Link to="/donor">
 
-                    <button className={Styles.proBtn} >eDOPT NOW</button>
+                    <button className={Styles.proBtn} >Donate Now</button>
                 </Link>
 
 

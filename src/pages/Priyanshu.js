@@ -39,7 +39,7 @@ function Priyanshu() {
 
     React.useEffect(() => {
         window.scrollTo(0, 0);
-      }, []);
+    }, []);
 
     return (
         <Layout className={Styles.main1}>
@@ -118,7 +118,7 @@ function Priyanshu() {
                     <div className={Styles.col1}>
                         <center>
                             <div className={Styles.about}>
-                                <p className={Styles.para2}>About the fundraiser</p>
+                                <p className={Styles.para2}>About the Student</p>
                                 <br />
                                 I am Priyanshu. I am students of class 12th. I am very bright in my studies and topper of my class. I want to become Software developer. My father is a newspaper seller.
                                 <br />
@@ -141,7 +141,7 @@ function Priyanshu() {
 
                 <Link to="/donor">
 
-                    <button className={Styles.proBtn} >eDOPT NOW</button>
+                    <button className={Styles.proBtn} >Donate Now</button>
                 </Link>
 
 

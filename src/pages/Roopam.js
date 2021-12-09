@@ -41,7 +41,7 @@ function Roopam() {
     }
     React.useEffect(() => {
         window.scrollTo(0, 0);
-      }, []);
+    }, []);
     return (
         <Layout className={Styles.main1}>
 
@@ -82,7 +82,7 @@ function Roopam() {
 
                         <center>
                             <div className="iframeContainer">
-                            <img className={Styles.pic2} style={{ marginTop: "-4%", borderRadius: "8px", marginBottom: "-3%" }} src="./data/images/posters/roopam.jpeg"></img>
+                                <img className={Styles.pic2} style={{ marginTop: "-4%", borderRadius: "8px", marginBottom: "-3%" }} src="./data/images/posters/roopam.jpeg"></img>
                             </div>
                         </center>
 
@@ -121,12 +121,12 @@ function Roopam() {
                     <div className={Styles.col1}>
                         <center>
                             <div className={Styles.about}>
-                                <p className={Styles.para2}>About the fundraiser</p>
+                                <p className={Styles.para2}>About the Student</p>
                                 <br />
                                 I am Roopam Ghanta. I am a student in class 6th. I am excellent in my studies and want to study and get quality education. I lost my father a few months back.
                                 <br />
                                 <br />
-                                I hereby want to bring your notice that I lost my father a few months back. He is the only earning member of my family. Due to this, we are facing lots of financial issues. My mother is not able to afford our education. We are two siblings and my mother is facing a hard time fostering us. 
+                                I hereby want to bring your notice that I lost my father a few months back. He is the only earning member of my family. Due to this, we are facing lots of financial issues. My mother is not able to afford our education. We are two siblings and my mother is facing a hard time fostering us.
                                 <br />
                                 <br />
                                 I want to study hard to help my mother in future but these financial constraints are causing lots of hindrances in my studies. I request you to please provide me with a scholarship for my education. I will be grateful forever.
@@ -144,7 +144,7 @@ function Roopam() {
                 </div>
                 <Link to="/donor">
 
-                    <button className={Styles.proBtn} >eDOPT NOW</button>
+                    <button className={Styles.proBtn} >Donate Now</button>
                 </Link>
 
 

@@ -41,7 +41,7 @@ function Chetanay() {
     }
     React.useEffect(() => {
         window.scrollTo(0, 0);
-      }, []);
+    }, []);
     return (
         <Layout className={Styles.main1}>
 
@@ -75,8 +75,8 @@ function Chetanay() {
 
                         <center>
                             <div className="iframeContainer">
-                            <img className={Styles.pic2} style={{ marginTop: "-4%", borderRadius: "8px", marginBottom: "-3%" }} src="./data/images/posters/chetanay.jpg"></img>
-                            
+                                <img className={Styles.pic2} style={{ marginTop: "-4%", borderRadius: "8px", marginBottom: "-3%" }} src="./data/images/posters/chetanay.jpg"></img>
+
                             </div>
                         </center>
 
@@ -112,12 +112,12 @@ function Chetanay() {
                     <div className={Styles.col1}>
                         <center>
                             <div className={Styles.about}>
-                                <p className={Styles.para2}>About the fundraiser</p>
+                                <p className={Styles.para2}>About the Student</p>
                                 <br />
                                 My name is Chetanay. I am a student of class 3rd. My father is a daily-wage worker and this COVID-19 period make our life miserable, it affects our lives so bad especially my studies. My parents can't afford my educational expenses due to financial crises in our family and he is the only earning member in our family.
                                 <br />
                                 <br />
-                                I hereby bring to your notice that Earlier he was a vegetable vendor and later switch to auto driving but It also don't help in improving our financial condition. Later this COVID-19 crises hits us hard and it directly affects my studies. 
+                                I hereby bring to your notice that Earlier he was a vegetable vendor and later switch to auto driving but It also don't help in improving our financial condition. Later this COVID-19 crises hits us hard and it directly affects my studies.
                                 <br />
                                 <br />
                                 I want to become a Police office in future. To fulfil my dream, i need support and financial assistance to continue my studies and go a step closer to my dreams. I am very grateful to one who help me in this difficult phase.
@@ -135,7 +135,7 @@ function Chetanay() {
                 </div>
                 <Link to="/donor">
 
-                    <button className={Styles.proBtn} >eDOPT NOW</button>
+                    <button className={Styles.proBtn} >Donate Now</button>
                 </Link>
 
 

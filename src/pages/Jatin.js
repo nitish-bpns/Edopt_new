@@ -39,7 +39,7 @@ function Jatin() {
 
     React.useEffect(() => {
         window.scrollTo(0, 0);
-      }, []);
+    }, []);
     return (
         <Layout className={Styles.main1}>
 
@@ -112,7 +112,7 @@ function Jatin() {
                     <div className={Styles.col1}>
                         <center>
                             <div className={Styles.about}>
-                                <p className={Styles.para2}>About the fundraiser</p>
+                                <p className={Styles.para2}>About the Student</p>
                                 <br />
                                 My name is Jatin Arora. I am a student of class 9th. I am very bright in studies and very much interested in studies. My mother is a single parent.
                                 <br />
@@ -123,7 +123,7 @@ function Jatin() {
                                 Financial condition of my family is not good as there is no source of income because of this it is difficult for me to complete my education and achieve my goals. I have no resources for my studies. I need guidance and financial support to complete my studies. I assure you to work very hard for my goals. I am grateful to one who will help me to reach my goals. Kindly sponsor me, I will be forever grateful to you.
                                 <br />
                                 <br />
-                            
+
 
                             </div>
                         </center>
@@ -137,7 +137,7 @@ function Jatin() {
 
                 <Link to="/donor">
 
-                    <button className={Styles.proBtn} >eDOPT NOW</button>
+                    <button className={Styles.proBtn} >Donate Now</button>
                 </Link>
 
 

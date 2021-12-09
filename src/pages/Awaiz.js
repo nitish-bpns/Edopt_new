@@ -41,7 +41,7 @@ function Awaiz() {
     }
     React.useEffect(() => {
         window.scrollTo(0, 0);
-      }, []);
+    }, []);
     return (
         <Layout className={Styles.main1}>
 
@@ -122,7 +122,7 @@ function Awaiz() {
                     <div className={Styles.col1}>
                         <center>
                             <div className={Styles.about}>
-                                <p className={Styles.para2}>About the fundraiser</p>
+                                <p className={Styles.para2}>About the Student</p>
                                 <br />
                                 Awaiz Pasha, resident of Bangalore is a bright student from Amity Bangalore School. His mother is a school teacher and working tirelessly to make Awaiz’s future bright. He wants to be a doctor but his mother doesn't earn enough to give him a proper education. After his father’s death, the family is not able to support itself.
 
@@ -144,7 +144,7 @@ function Awaiz() {
 
                 <Link to="/donor">
 
-                    <button className={Styles.proBtn} >eDOPT NOW</button>
+                    <button className={Styles.proBtn} >Donate Now</button>
                 </Link>
 
 

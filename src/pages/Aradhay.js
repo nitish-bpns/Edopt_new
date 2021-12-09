@@ -41,7 +41,7 @@ function Aradhya() {
     }
     React.useEffect(() => {
         window.scrollTo(0, 0);
-      }, []);
+    }, []);
     return (
         <Layout className={Styles.main1}>
 
@@ -82,7 +82,7 @@ function Aradhya() {
 
                         <center>
                             <div className="iframeContainer">
-                            <img className={Styles.pic2} style={{ marginTop: "-4%", borderRadius: "8px", marginBottom: "-3%" }} src="./data/images/posters/aradhay.jpeg"></img>
+                                <img className={Styles.pic2} style={{ marginTop: "-4%", borderRadius: "8px", marginBottom: "-3%" }} src="./data/images/posters/aradhay.jpeg"></img>
                             </div>
                         </center>
 
@@ -121,12 +121,12 @@ function Aradhya() {
                     <div className={Styles.col1}>
                         <center>
                             <div className={Styles.about}>
-                                <p className={Styles.para2}>About the fundraiser</p>
+                                <p className={Styles.para2}>About the Student</p>
                                 <br />
                                 I am Aradhay Sharma. I am a student in class 6th. I am a single-parent child. I am very bright in my studies and want to study hard to achieve my goals.
                                 <br />
                                 <br />
-                                I hereby bring to your notice that recently my mother passed away. She was a government teacher and offers a major contribution to our family earnings. Her sudden loss has affected us both emotionally as well as financially. We are facing problem in my education. 
+                                I hereby bring to your notice that recently my mother passed away. She was a government teacher and offers a major contribution to our family earnings. Her sudden loss has affected us both emotionally as well as financially. We are facing problem in my education.
                                 <br />
                                 <br />
                                 I want to study hard to fulfil my mother's dream. She wants me to become an engineer. I request you to help me fulfil her dream by providing sponsarship for my education. I assure you to work very hard. I will be grateful to the one who help me incessantly.
@@ -144,7 +144,7 @@ function Aradhya() {
                 </div>
                 <Link to="/donor">
 
-                    <button className={Styles.proBtn} >eDOPT NOW</button>
+                    <button className={Styles.proBtn} >Donate Now</button>
                 </Link>
 
 

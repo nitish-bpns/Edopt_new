@@ -41,8 +41,8 @@ function Syed() {
     }
     React.useEffect(() => {
         window.scrollTo(0, 0);
-      }, []);
-      
+    }, []);
+
     return (
         <Layout className={Styles.main1}>
             <div>
@@ -120,7 +120,7 @@ function Syed() {
                     <div className={Styles.col1}>
                         <center>
                             <div className={Styles.about}>
-                                <p className={Styles.para2}>About the fundraiser</p>
+                                <p className={Styles.para2}>About the Student</p>
                                 <br />
                                 Syed Ameen is a meritorious boy studying in 5th class in Bangalore. In his small age he lost his father and so only the person his family depend on. He wants to become an engineer but due to poverty he is not able to pay his school fees.
                                 Here he is asking for help to support him so he can study and fulfill his dream.
@@ -140,7 +140,7 @@ function Syed() {
 
                 <Link to="/donor">
 
-                    <button className={Styles.proBtn} >eDOPT NOW</button>
+                    <button className={Styles.proBtn} >Donate Now</button>
                 </Link>
 
 

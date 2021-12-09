@@ -21,7 +21,7 @@ const customStyles = {
 
 
 function Sakshi() {
-  
+
     let subtitle;
     const [modalIsOpen, setIsOpen] = React.useState(false);
 
@@ -39,9 +39,9 @@ function Sakshi() {
     }
     React.useEffect(() => {
         window.scrollTo(0, 0);
-      }, []);
+    }, []);
     return (
-        
+
         <Layout className={Styles.main1} >
 
             <div>
@@ -63,8 +63,8 @@ function Sakshi() {
                     </div>
                 </Modal>
             </div>
-            <div className={Styles.main2}  id="sakshi2" >
-                <p className={Styles.para1}id="sakshi1" >Sakshi</p>
+            <div className={Styles.main2} id="sakshi2" >
+                <p className={Styles.para1} id="sakshi1" >Sakshi</p>
                 <div className={Styles.scols}>
                     <div className={Styles.col1}>
                         <center>
@@ -101,7 +101,7 @@ function Sakshi() {
                     <div className={Styles.col1}>
                         <center>
                             <div className={Styles.about}>
-                                <p className={Styles.para2}>About the fundraiser</p>
+                                <p className={Styles.para2}>About the Student</p>
                                 <br />
                                 I am Sakshi Sharma. I am a student of class 1st. My father lost his job due to COVID and I have to hold back my studies. Now he is working as a salesman in the Sadar market of Delhi and earns only INR 7000.
                                 <br />
@@ -124,7 +124,7 @@ function Sakshi() {
 
                 <Link to="/donor">
 
-                    <button className={Styles.proBtn} >eDOPT NOW</button>
+                    <button className={Styles.proBtn} >Donate Now</button>
                 </Link>
 
 
