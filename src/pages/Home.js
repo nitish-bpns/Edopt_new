@@ -122,7 +122,9 @@ export default function Home() {
                                     <p className={Styles.stdDetail3} >11 yrs</p>
                                     <p className={Styles.stdDetail2} ><b> Result: 98.8% (Class 6th)</b><br /></p>
                                     <p className={Styles.stdDetail2} ><b>Location:</b> Kota<br /></p>
-                                    <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.13,000<br />
+                                    <p className={Styles.stdDetail2}>
+
+                                        <b>Amount: </b> Rs.13,000<br />
 
                                     </p>
                                     <center>
