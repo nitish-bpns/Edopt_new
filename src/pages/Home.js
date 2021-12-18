@@ -96,7 +96,7 @@ export default function Home() {
                 </div>
             </div>
             <div className={Styles.ss2}>
-                <img src="./data/images/posters/ss2.png" alt="img" />
+                <img src="./data/images/posters/ss2.jpg" alt="img" />
                 <center>
                     <HashLink to="/fundraisers#feed1" className={Styles.btn1}
                     >
