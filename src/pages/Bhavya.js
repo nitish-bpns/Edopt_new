@@ -109,7 +109,7 @@ function Bhavya() {
                                 <span className={Styles.credt} onClick={openModal} className={Styles.modalcerti} > Click to Open</span>
                             </p>
                             <p className={Styles.amount}>Amount:
-                                <span className={Styles.amt} > Rs.40,000/ per year</span>
+                                <span className={Styles.amt} > Rs.32,820/ per year</span>
                             </p>
 
 

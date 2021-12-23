@@ -124,7 +124,7 @@ export default function Home() {
                                     <p className={Styles.stdDetail2} ><b>Location:</b> Kota<br /></p>
                                     <p className={Styles.stdDetail2}>
 
-                                        <b>Amount: </b> Rs.13,000<br />
+                                        <b>Amount: </b> Rs.32,820<br />
 
                                     </p>
                                     <center>
@@ -136,7 +136,7 @@ export default function Home() {
                                 </Card>
                             </div>
 
-                            <div className={Styles.cscard}>
+                            {/* <div className={Styles.cscard}>
 
                                 <Card className={Styles.stdCard} >
                                     <img src="./data/images/posters/anshu.jpg" alt="student" />
@@ -154,7 +154,7 @@ export default function Home() {
                                         </Link>
                                     </center>
                                 </Card>
-                            </div>
+                            </div> */}
                             <div className={Styles.cscard}>
 
                                 <Card className={Styles.stdCard} >
@@ -226,7 +226,7 @@ export default function Home() {
                                     <p className={Styles.stdDetail3} >11 yrs</p>
                                     <p className={Styles.stdDetail2} ><b> Result: 95.7% (Class 6th)</b><br /></p>
                                     <p className={Styles.stdDetail2} ><b>Location:</b> Sonipat<br /></p>
-                                    <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.20,000<br />
+                                    <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.19,200<br />
 
                                     </p>
                                     <center>
@@ -238,7 +238,7 @@ export default function Home() {
                                 </Card>
                             </div>
 
-                            <div className={Styles.cscard}>
+                            {/* <div className={Styles.cscard}>
                                 <Card className={Styles.stdCard} >
                                     <img src="./data/images/posters/ranjith.png" alt="student" />
                                     <p className={Styles.stdDetail1} >Ranjith AV</p>
@@ -255,7 +255,7 @@ export default function Home() {
                                         </Link>
                                     </center>
                                 </Card>
-                            </div>
+                            </div> */}
 
 
 
@@ -266,7 +266,7 @@ export default function Home() {
                                     <p className={Styles.stdDetail3} >12 yrs</p>
                                     <p className={Styles.stdDetail2} ><b> Result: 93%(Class 6th) </b><br /></p>
                                     <p className={Styles.stdDetail2} ><b>Location:</b> Kota<br /></p>
-                                    <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.20,000<br />
+                                    <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.32,820<br />
 
                                     </p>
                                     <center>
@@ -305,7 +305,7 @@ export default function Home() {
                                     <p className={Styles.stdDetail3} >9 yrs</p>
                                     <p className={Styles.stdDetail2} ><b> Result: 89% (Class 2nd)</b><br /></p>
                                     <p className={Styles.stdDetail2} ><b>Location:</b> Kota<br /></p>
-                                    <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.20,000<br />
+                                    <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.31,020<br />
 
                                     </p>
                                     <center>
@@ -345,7 +345,7 @@ export default function Home() {
                                     <p className={Styles.stdDetail3} >11 yrs</p>
                                     <p className={Styles.stdDetail2} ><b> Result: 88% (Class 6th)</b><br /></p>
                                     <p className={Styles.stdDetail2} ><b>Location:</b> Kota<br /></p>
-                                    <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.20,000<br />
+                                    <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.32,820<br />
 
                                     </p>
                                     <center>
@@ -385,7 +385,7 @@ export default function Home() {
                                     <p className={Styles.stdDetail3} >11 yrs</p>
                                     <p className={Styles.stdDetail2} ><b> Result: 84.5% (Class 6th)</b><br /></p>
                                     <p className={Styles.stdDetail2} ><b>Location:</b> Kota<br /></p>
-                                    <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.40,000<br />
+                                    <p className={Styles.stdDetail2}> <b>Amount: </b> Rs.32,820<br />
 
                                     </p>
                                     <center>
