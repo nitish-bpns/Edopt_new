@@ -79,12 +79,12 @@ export default function Layout({ children }) {
                             <br />
 
                             <br />
-                            <a className={FooterStyles.quickLinkOne} href="/">
+                            <a className={FooterStyles.quickLinkOne} style={{ fontSize: "12px" }} href="/">
                                 Email: edoptofficial@gmail.com
                             </a>
 
                             <br />
-                            <a className={FooterStyles.quickLinkOne} href="/">
+                            <a className={FooterStyles.quickLinkOne} style={{ fontSize: "12px" }} href="/">
                                 Contact No :+91 7557023104
 
                             </a>
@@ -92,7 +92,7 @@ export default function Layout({ children }) {
                     </div>
 
                 </div>
-            </footer>
-        </div>
+            </footer >
+        </div >
     );
 }
