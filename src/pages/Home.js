@@ -16,7 +16,7 @@ import { HashLink } from 'react-router-hash-link';
 // import achieve from "./../certi/achieve.png";
 // import progress from "./../certi/progress.png";
 // import hero from "./../certi/hero.png";
-import how from "./../certi/howitw.png";
+import how from "./../certi/howitw.jpg";
 
 export default function Home() {
 
@@ -663,15 +663,16 @@ export default function Home() {
             <br />
             <br />
             <div className={Styles.heading1} >
-                <b>Students Onboarded</b>
+                <b>Students Sponsored</b>
             </div>
-
+            <br />
+            <br />
             <br />
             <div>
                 <Carousel responsive={responsiveNews} className={Styles.onboard} >
-                    <img src="./data/images/posters/onboard01.png" alt="onboard" />
-                    <img src="./data/images/posters/onboard02.png" alt="onboard" />
-                    <img src="./data/images/posters/onboard03.png" alt="onboard" />
+                    <img src="./data/images/posters/onboard04.jpg" alt="onboard" />
+                    {/* <img src="./data/images/posters/onboard02.png" alt="onboard" />
+                    <img src="./data/images/posters/onboard03.png" alt="onboard" /> */}
                 </Carousel>
             </div>
             <br />
@@ -871,7 +872,7 @@ export default function Home() {
                 <Carousel responsive={responsiveNews} className={Styles.news} >
                     <img src="./data/images/posters/news01.jpg" alt="news" />
 
-                    <img src="./data/images/posters/news02.png" alt="news" />
+                    {/* <img src="./data/images/posters/news02.png" alt="news" /> */}
                 </Carousel>
             </div>
             <br />

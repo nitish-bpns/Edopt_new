@@ -80,7 +80,7 @@ export default function Layout({ children }) {
 
                             <br />
                             <a className={FooterStyles.quickLinkOne} href="/">
-                                Email: info@edopt.org
+                                Email: edoptofficial@gmail.com
                             </a>
 
                             <br />
